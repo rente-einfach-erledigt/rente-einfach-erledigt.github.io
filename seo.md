@@ -8,7 +8,7 @@ nach dem Altersvorsorgedepot fragen, landen auf rente-einfach-erledigt.github.io
 - Alle Regeln aus marke.md gelten (informieren, nie beraten, „bis zu“, keine Rendite, Pflicht-Hinweis, Vorsprung bis 31.12.2026).
 - Ein Artikel = eine Suchfrage. Die Antwort steht in den ersten 2 Sätzen (für KI-Zitate).
 - 700–1.300 Wörter, kurze Absätze, Zwischenüberschriften als Fragen, eine Tabelle oder Liste mit Zahlen.
-- Jede Zahl mit Quelle (Link am Ende), Stand-Datum sichtbar.
+- Jede Zahl mit Quelle (Link am Ende), Stand-Datum sichtbar. Quellen-Reihenfolge laut marke.md: zuerst Helvetia, dann OVB, dann offizielle Stellen, Fachpresse nur ergänzend.
 - Mindestens 2 Links auf den Rechner (/#rechner) und 1 Link auf einen anderen Artikel, sobald es welche gibt.
 - Vorlage: vorlagen/artikel.html. Seite liegt unter docs/ratgeber/<slug>.html.
 - JSON-LD: Article + FAQPage (3–5 Fragen aus dem Artikel). Seite in docs/sitemap.xml, docs/llms.txt und docs/ratgeber/index.html eintragen.

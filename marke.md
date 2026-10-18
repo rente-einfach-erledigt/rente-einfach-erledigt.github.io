@@ -26,7 +26,18 @@ In DMs und Bio verlinken wir die Rechner-Seite: https://rente-einfach-erledigt.g
 2. Familien – Kinderzulage bis zu 300 € pro Kind und Jahr
 3. Selbstständige – ab 2027 erstmals förderberechtigt
 
-## Fakten (vor jeder Woche per Websuche prüfen)
+## Quellen für Inhalte (in dieser Reihenfolge)
+1. **Helvetia** – mit ihr läuft die Abschlussstrecke. Immer zuerst prüfen: helvetia.com/de (Altersvorsorge, Altersvorsorgedepot,
+   Investmentplattform mit Oddo BHF und Xaver), Helvetia-Pressemitteilungen, die Startseite der Strecke ovb-vp-portal.helvetia-altersvorsorge.de
+   (nur ansehen, nie Formulare ausfüllen). Was die Strecke wirklich bietet (Schritte, Fonds, Kosten, Ablauf), hat Vorrang vor allem anderen.
+2. **OVB** – ovb.de und OVB-Pressemitteilungen zum Altersvorsorgedepot (Positionierung, Aussagen, Aktionen).
+3. Offizielle Stellen: Bundesfinanzministerium, Bundestag/Gesetzestext (Altersvorsorgereformgesetz), Deutsche Rentenversicherung/Zulagenstelle.
+4. Erst danach Fachpresse und Vergleichsportale (cash-online, finanzfluss, etf.capital …) – nur ergänzend.
+Widerspricht eine Fachseite Helvetia/OVB oder dem Gesetz, gilt Helvetia/OVB bzw. das Gesetz. Nie Inhalte von Helvetia/OVB wörtlich kopieren,
+keine Logos oder Markennamen als eigene Marke verwenden; die Seite tritt als „rente.einfach.erledigt“ auf.
+Neue Erkenntnisse aus Helvetia/OVB-Quellen (z. B. Produktdetails der Strecke) in lernen.md unter „## Erkenntnisse“ notieren.
+
+## Fakten (vor jeder Woche per Websuche prüfen – Quellen siehe oben)
 - Grundzulage bis zu 540 € pro Jahr
 - Kinderzulage bis zu 300 € pro Kind und Jahr
 - Berufseinsteigerbonus einmalig 200 € (Altersgrenze vor Nutzung prüfen)
