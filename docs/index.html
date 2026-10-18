@@ -1,0 +1,443 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Rente einfach erledigt</title>
+<meta name="description" content="Altersvorsorgedepot schon jetzt eröffnen – vor dem offiziellen Start am 01.01.2027. Mit Förderrechner für Grundzulage, Kinderzulage und Einsteiger-Bonus.">
+<meta property="og:title" content="Alle warten auf 2027. Du startest jetzt.">
+<meta property="og:description" content="Rechne aus, wie viel Förderung dir beim Altersvorsorgedepot zusteht – und sichere dir den Vorsprung.">
+<meta name="theme-color" content="#0F3B2E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230F3B2E'/%3E%3Cpath d='M8 16.5l5.5 5.5L24.5 10' fill='none' stroke='%23F2B33D' stroke-width='3.6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<style>
+@font-face{font-family:"Archivo";src:url(fonts/archivo.woff2) format("woff2");font-weight:100 900;font-stretch:62% 125%;font-display:swap}
+@font-face{font-family:"Figtree";src:url(fonts/figtree-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Figtree";src:url(fonts/figtree-500.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Figtree";src:url(fonts/figtree-600.woff2) format("woff2");font-weight:600;font-display:swap}
+@font-face{font-family:"Figtree";src:url(fonts/figtree-700.woff2) format("woff2");font-weight:700;font-display:swap}
+@font-face{font-family:"Plex Mono";src:url(fonts/plexmono-400.woff2) format("woff2");font-weight:400;font-display:swap}
+@font-face{font-family:"Plex Mono";src:url(fonts/plexmono-500.woff2) format("woff2");font-weight:500;font-display:swap}
+@font-face{font-family:"Plex Mono";src:url(fonts/plexmono-600.woff2) format("woff2");font-weight:600;font-display:swap}
+
+/* Layout: dunkelgrüne Vorsprung-Bühne oben, darunter ein "Förderbescheid" als Papier-Beleg neben den Reglern, dann das Whitepaper als ruhige Lesespalte */
+:root{
+  --pine:#0F3B2E; --pine-2:#16503F; --gold:#F2B33D; --gold-deep:#C98A12;
+  --paper:#FBFAF5; --ground:#EEF2EC; --ink:#11231B; --muted:#4E6158; --rule:#D3DCD5; --on-pine:#EEF4EF; --on-pine-muted:#A9C2B5;
+  --ok:#2E7D4F; --warn-bg:#FBEFD2;
+  --display:"Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --body:"Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --mono:"Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
+  --wrap:1120px;
+}
+@media (prefers-color-scheme: dark){:root{
+  --paper:#16241E; --ground:#0D1814; --ink:#E8F0EB; --muted:#9FB3A9; --rule:#2A3F36; --warn-bg:#352B12; color-scheme:dark}}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--ground);color:var(--ink);font:400 17px/1.6 var(--body);-webkit-font-smoothing:antialiased}
+img{max-width:100%}
+a{color:inherit}
+.gut{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.wrap{max-width:var(--wrap);margin:0 auto}
+.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
+h1,h2,h3{font-family:var(--display);text-wrap:balance;margin:0}
+.eyebrow{font:600 12px/1 var(--body);letter-spacing:.14em;text-transform:uppercase}
+:focus-visible{outline:3px solid var(--gold);outline-offset:3px;border-radius:6px}
+
+/* Kopf */
+.top{background:var(--pine);color:var(--on-pine)}
+.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-block:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:10px;font:600 15px var(--body);text-decoration:none;color:var(--on-pine)}
+.brand svg{width:26px;height:26px;flex:none}
+.chip{font:500 13px var(--mono);color:var(--on-pine-muted);border:1px solid #2C5B4B;border-radius:999px;padding:6px 12px;white-space:nowrap}
+.chip b{color:var(--gold);font-weight:600}
+
+/* Bühne */
+.stage{background:var(--pine);color:var(--on-pine);padding-block:clamp(40px,7vw,88px) clamp(48px,7vw,96px);position:relative;overflow:hidden}
+.stage::after{content:"";position:absolute;inset:auto -10% -1px -10%;height:40%;background:radial-gradient(60% 100% at 70% 100%,rgba(242,179,61,.10),transparent 70%);pointer-events:none}
+.stage .wrap{display:grid;gap:clamp(32px,5vw,56px);position:relative;z-index:1}
+.stage .eyebrow{color:var(--gold)}
+.stage h1{font-size:clamp(40px,6.6vw,88px);line-height:.92;font-weight:850;font-stretch:112%;letter-spacing:-.02em;max-width:17ch;margin-top:16px}
+.stage h1 em{font-style:normal;color:var(--gold)}
+.stage p.sub{font-size:clamp(18px,2.2vw,22px);max-width:40ch;color:var(--on-pine);margin:20px 0 0}
+.ctas{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;font:700 17px var(--body);text-decoration:none;border-radius:14px;padding:16px 22px;border:2px solid transparent;cursor:pointer;transition:transform .15s ease, background .15s}
+.btn:hover{transform:translateY(-1px)}
+.btn-gold{background:var(--gold);color:#2A1E03}
+.btn-gold:hover{background:#F6C25E}
+.btn-line{border-color:#3C6D5C;color:var(--on-pine);background:transparent}
+.btn svg{width:18px;height:18px}
+
+/* Vorsprung-Strecke */
+.track{background:var(--pine-2);border:1px solid #2C5B4B;border-radius:20px;padding:22px clamp(18px,3vw,28px) 26px}
+.track-head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.track-head>span{font:500 14px var(--body);color:var(--on-pine-muted)}
+.track-head strong{font:800 clamp(28px,4.5vw,44px)/1 var(--display);font-stretch:118%;color:var(--gold)}
+.rail{position:relative;height:56px;margin-top:22px}
+.rail .line{position:absolute;left:0;right:0;top:27px;height:2px;background:repeating-linear-gradient(90deg,#3C6D5C 0 6px,transparent 6px 12px)}
+.rail .lead{position:absolute;left:0;top:25px;height:6px;border-radius:6px;background:var(--gold);width:0;transition:width 1.2s cubic-bezier(.2,.8,.2,1)}
+.mark{position:absolute;top:0;transform:translateX(-50%);display:grid;justify-items:center;gap:6px;font:600 12px var(--body);white-space:nowrap}
+.mark i{width:16px;height:16px;border-radius:50%;display:block;margin-top:19px}
+.mark.you{left:0;transform:none;justify-items:start}
+.mark.you i{background:var(--gold);box-shadow:0 0 0 6px rgba(242,179,61,.2)}
+.mark.all{left:100%;transform:translateX(-100%);justify-items:end}
+.mark.all i{background:var(--on-pine-muted)}
+.marks-lbl{display:flex;justify-content:space-between;gap:12px;margin-top:6px;font:500 13px var(--body);color:var(--on-pine-muted)}
+.marks-lbl b{display:block;color:var(--on-pine);font-weight:600;font-size:15px}
+@media (min-width:900px){.stage .wrap{grid-template-columns:1.25fr .9fr;align-items:end}}
+
+/* Rechner */
+.calc{padding-block:clamp(48px,7vw,88px)}
+.sec-head{display:grid;gap:10px;max-width:60ch;margin-bottom:28px}
+.sec-head .eyebrow{color:var(--gold-deep)}
+.sec-head h2{font-size:clamp(30px,4.6vw,52px);line-height:1;font-weight:800;font-stretch:108%;letter-spacing:-.01em}
+.sec-head p{margin:0;color:var(--muted)}
+.calc-grid{display:grid;gap:24px}
+.calc-grid>*{min-width:0}
+@media (min-width:880px){.calc-grid{grid-template-columns:1fr 1.05fr;align-items:start}}
+.controls{display:grid;gap:26px;background:var(--paper);border:1px solid var(--rule);border-radius:20px;padding:clamp(20px,3vw,30px)}
+.field{display:grid;gap:10px}
+.field label,.field .lbl{font:600 15px var(--body)}
+.field .hint{font-size:14px;color:var(--muted);margin:0}
+.big-val{font:600 30px var(--mono);font-variant-numeric:tabular-nums}
+.big-val small{font:500 15px var(--body);color:var(--muted);margin-left:6px}
+input[type=range]{width:100%;accent-color:var(--pine);height:28px}
+@media (prefers-color-scheme: dark){input[type=range]{accent-color:var(--gold)}}
+.steps{display:flex;gap:8px;flex-wrap:wrap}
+.steps button{font:600 16px var(--mono);min-width:48px;padding:10px 14px;border-radius:12px;border:1.5px solid var(--rule);background:transparent;color:var(--ink);cursor:pointer}
+.steps button[aria-pressed="true"]{background:var(--pine);border-color:var(--pine);color:#fff}
+@media (prefers-color-scheme: dark){.steps button[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#2A1E03}}
+.toggle{display:flex;align-items:center;gap:12px;font-size:16px;cursor:pointer}
+.toggle input{width:22px;height:22px;accent-color:var(--pine);flex:none}
+
+/* Bescheid */
+.slip{position:relative;background:var(--paper);color:var(--ink);border-radius:6px 6px 0 0;padding:clamp(22px,3vw,32px) clamp(20px,3vw,32px) 26px;box-shadow:0 1px 0 var(--rule),0 18px 40px -24px rgba(15,59,46,.45);
+  -webkit-mask:radial-gradient(9px at 50% 100%,#0000 98%,#000) 50% 0/22px 100% repeat-x;mask:radial-gradient(9px at 50% 100%,#0000 98%,#000) 50% 0/22px 100% repeat-x;padding-bottom:40px}
+.slip-head{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;border-bottom:2px solid var(--ink);padding-bottom:14px}
+.slip-head h3{font-size:22px;font-weight:800;font-stretch:115%;letter-spacing:.01em;text-transform:uppercase}
+.slip-head .num{font-size:12px;color:var(--muted);text-align:right;line-height:1.5}
+.rows{margin:6px 0 0;display:grid}
+.row{display:flex;justify-content:space-between;gap:16px;padding:11px 0;border-bottom:1px dashed var(--rule);font-size:15px}
+.row dt{color:var(--muted)}
+.row dd{margin:0;font:500 16px var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
+.row.plus dd{color:var(--ok)}
+@media (prefers-color-scheme: dark){.row.plus dd{color:#7BD39E}}
+.total{display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding-top:16px;flex-wrap:wrap}
+.total span{font:700 15px var(--body);text-transform:uppercase;letter-spacing:.08em}
+.total strong{font:600 clamp(34px,5vw,48px)/1 var(--mono);font-variant-numeric:tabular-nums}
+.quote{margin-top:16px;background:var(--warn-bg);border-radius:12px;padding:12px 14px;font-size:15px}
+.quote b{font-family:var(--mono)}
+.stamp{position:absolute;right:22px;top:132px;transform:rotate(-11deg);border:3px solid var(--gold-deep);color:var(--gold-deep);border-radius:10px;padding:6px 12px;font:800 18px var(--display);font-stretch:120%;letter-spacing:.06em;opacity:.0;transition:opacity .3s, transform .3s}
+.stamp.on{opacity:.9;transform:rotate(-11deg) scale(1)}
+.slip-cta{display:grid;gap:10px;margin-top:22px}
+@media (max-width:560px){.slip-head{flex-direction:column;gap:6px}.slip-head .num{text-align:left}.stamp{top:16px;right:14px;font-size:14px;padding:4px 8px}}
+.slip-cta .btn{width:100%}
+.fine{font-size:13px;color:var(--muted);margin:0}
+
+/* Whitepaper */
+.paper{background:var(--paper);border-top:1px solid var(--rule);padding-block:clamp(48px,7vw,96px)}
+.chapters{display:grid;gap:clamp(48px,6vw,72px)}
+.chapter{display:grid;gap:16px}
+@media (min-width:880px){.chapter{grid-template-columns:220px 1fr;gap:40px}}
+.ch-label{font:600 13px var(--mono);color:var(--gold-deep);letter-spacing:.04em;padding-top:8px}
+.ch-label span{display:block;font:500 13px var(--body);color:var(--muted);margin-top:4px;letter-spacing:0}
+.chapter h2{font-size:clamp(28px,3.8vw,42px);line-height:1.05;font-weight:800;font-stretch:106%;margin-bottom:14px}
+.chapter p{margin:0 0 14px;max-width:64ch}
+.reasons{display:grid;gap:14px;margin-top:8px;padding:0;list-style:none}
+@media (min-width:700px){.reasons{grid-template-columns:repeat(3,1fr)}}
+.reasons li{border-top:3px solid var(--gold);padding-top:14px}
+.reasons b{display:block;font:700 18px var(--body);margin-bottom:6px}
+.reasons p{font-size:15.5px;color:var(--muted);margin:0}
+.who{display:grid;gap:14px;margin-top:6px}
+@media (min-width:760px){.who{grid-template-columns:repeat(3,1fr)}}
+.who article{background:var(--ground);border-radius:16px;padding:20px;display:grid;gap:8px;align-content:start}
+.who .fig{font:600 28px/1 var(--mono);color:var(--pine)}
+@media (prefers-color-scheme: dark){.who .fig{color:var(--gold)}}
+.who h3{font-size:19px;font-weight:700;font-stretch:100%}
+.who p{font-size:15.5px;margin:0;color:var(--muted)}
+.facts{width:100%;border-collapse:collapse;font-size:15.5px;margin-top:4px}
+.facts th,.facts td{text-align:left;padding:12px 10px 12px 0;border-bottom:1px solid var(--rule);vertical-align:top}
+.facts th{font-weight:600;width:42%}
+.facts td{font-family:var(--mono);font-variant-numeric:tabular-nums}
+.tbl{overflow-x:auto}
+.risk{border-left:4px solid var(--gold);padding:4px 0 4px 18px;margin:8px 0 0}
+.flow{list-style:none;padding:0;margin:8px 0 0;display:grid;gap:12px;counter-reset:s}
+.flow li{counter-increment:s;display:grid;grid-template-columns:44px 1fr;gap:14px;align-items:start}
+.flow li::before{content:counter(s);font:700 18px var(--mono);width:44px;height:44px;border-radius:50%;display:grid;place-items:center;background:var(--pine);color:#fff}
+@media (prefers-color-scheme: dark){.flow li::before{background:var(--gold);color:#2A1E03}}
+.flow b{display:block}
+.flow p{margin:2px 0 0;color:var(--muted);font-size:15.5px}
+details{border-bottom:1px solid var(--rule);padding:14px 0}
+details summary{cursor:pointer;font:600 17px var(--body);list-style:none;display:flex;justify-content:space-between;gap:16px}
+details summary::after{content:"+";font:500 22px/1 var(--mono);color:var(--gold-deep)}
+details[open] summary::after{content:"–"}
+details p{margin:10px 0 0;color:var(--muted);max-width:64ch}
+
+/* Schluss */
+.close{background:var(--pine);color:var(--on-pine);padding-block:clamp(48px,7vw,88px)}
+.close .wrap{display:grid;gap:20px;justify-items:start}
+.close h2{font-size:clamp(34px,6vw,72px);line-height:.95;font-weight:850;font-stretch:112%;max-width:16ch}
+.close h2 em{font-style:normal;color:var(--gold)}
+.close p{margin:0;color:var(--on-pine-muted);max-width:52ch}
+footer{background:#0A2A20;color:#A9C2B5;padding-block:40px 56px;font-size:14px}
+footer .wrap{display:grid;gap:28px}
+@media (min-width:880px){footer .wrap{grid-template-columns:1fr 1fr}}
+footer h3{font:700 15px var(--body);color:#EEF4EF;margin-bottom:8px}
+footer p{margin:0 0 8px}
+footer a{color:#EEF4EF}
+.ph{background:rgba(242,179,61,.18);color:#F6D48A;border-radius:4px;padding:0 4px}
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:20;background:rgba(15,59,46,.96);backdrop-filter:blur(6px);padding:10px max(16px,env(safe-area-inset-right,0px)) calc(10px + env(safe-area-inset-bottom,0px)) max(16px,env(safe-area-inset-left,0px));display:flex;gap:12px;align-items:center;justify-content:space-between;transform:translateY(110%);transition:transform .25s}
+.sticky.show{transform:none}
+.sticky span{color:var(--on-pine);font-size:14px;font-weight:600}
+.sticky .btn{padding:12px 16px;font-size:15px;flex:none}
+@media (min-width:880px){.sticky{display:none}}
+</style>
+</head>
+<body>
+
+<header class="top gut">
+  <div class="wrap">
+    <a class="brand" href="#"><svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#F2B33D"/><path d="M8 16.5l5.5 5.5L24.5 10" fill="none" stroke="#0F3B2E" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"/></svg>rente.einfach.erledigt</a>
+    <span class="chip">Offizieller Start 01.01.2027 · noch <b class="js-days">–</b> Tage</span>
+  </div>
+</header>
+
+<section class="stage gut" aria-labelledby="h-hero">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Altersvorsorgedepot · Dein Vorsprung</p>
+      <h1 id="h-hero">Alle warten auf 2027. <em>Du startest jetzt.</em></h1>
+      <p class="sub">Das neue, staatlich geförderte Altersvorsorgedepot ist über diesen Weg schon heute abschließbar. Ohne Termin, ohne Beratungsgespräch, in drei Schritten.</p>
+      <div class="ctas">
+        <a class="btn btn-gold js-cta" href="https://ovb.helvetia-altersvorsorge.de/get-started" target="_blank" rel="noopener">Vorsprung sichern
+          <svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 10h11m-4-5 5 5-5 5" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        <a class="btn btn-line" href="#rechner">Förderung berechnen</a>
+      </div>
+    </div>
+    <div class="track" aria-label="Dein zeitlicher Vorsprung">
+      <div class="track-head"><span>Dein Vorsprung bis zum offiziellen Start</span><strong class="num"><span class="js-days">–</span> Tage</strong></div>
+      <div class="rail" aria-hidden="true">
+        <div class="line"></div><div class="lead js-lead"></div>
+        <div class="mark you"><i></i></div>
+        <div class="mark all"><i></i></div>
+      </div>
+      <div class="marks-lbl"><span><b>Heute</b>Du eröffnest dein Depot</span><span style="text-align:right"><b>01.01.2027</b>Alle anderen fangen an</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="calc gut" id="rechner" aria-labelledby="h-calc">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="eyebrow">Förderrechner</p>
+      <h2 id="h-calc">Wie viel legt der Staat bei dir drauf?</h2>
+      <p>Drei Angaben, sofort dein Ergebnis. Gerechnet nach den Regeln des Altersvorsorgereformgesetzes, ohne Steuervorteile und ohne Kursentwicklung.</p>
+    </div>
+    <div class="calc-grid">
+      <form class="controls" id="calc" onsubmit="return false">
+        <div class="field">
+          <label for="beitrag">Dein monatlicher Beitrag</label>
+          <div class="big-val"><span id="beitrag-out">150</span> €<small>pro Monat</small></div>
+          <input type="range" id="beitrag" min="10" max="300" step="5" value="150" aria-describedby="beitrag-hint">
+          <p class="hint" id="beitrag-hint">Volle Grundzulage ab 150 € im Monat. Gefördert wird ab 10 € im Monat.</p>
+        </div>
+        <div class="field">
+          <span class="lbl" id="kinder-lbl">Kinder, für die du Kindergeld bekommst</span>
+          <div class="steps" role="group" aria-labelledby="kinder-lbl">
+            <button type="button" data-k="0" aria-pressed="true">0</button>
+            <button type="button" data-k="1" aria-pressed="false">1</button>
+            <button type="button" data-k="2" aria-pressed="false">2</button>
+            <button type="button" data-k="3" aria-pressed="false">3</button>
+            <button type="button" data-k="4" aria-pressed="false">4+</button>
+          </div>
+          <p class="hint">Die Kinderzulage bekommt pro Kind ein Elternteil.</p>
+        </div>
+        <label class="toggle" for="u25"><input type="checkbox" id="u25">Ich bin unter 25 Jahre alt</label>
+      </form>
+
+      <div>
+        <div class="slip" aria-live="polite">
+          <div class="slip-head">
+            <h3>Förderbescheid</h3>
+            <div class="num">Vorschau · Beitragsjahr 2027<br>keine verbindliche Auskunft</div>
+          </div>
+          <span class="stamp" id="stamp" aria-hidden="true">✓ ERLEDIGT</span>
+          <dl class="rows">
+            <div class="row"><dt>Dein Eigenbeitrag im Jahr</dt><dd id="r-eigen">1.800 €</dd></div>
+            <div class="row plus"><dt>Grundzulage</dt><dd id="r-grund">+ 540 €</dd></div>
+            <div class="row plus"><dt>Kinderzulage</dt><dd id="r-kind">+ 0 €</dd></div>
+            <div class="row plus"><dt>Einsteiger-Bonus (einmalig)</dt><dd id="r-bonus">–</dd></div>
+          </dl>
+          <div class="total"><span>Förderung pro Jahr</span><strong id="r-total">540 €</strong></div>
+          <p class="quote" id="r-quote">Auf jeden Euro, den du einzahlst, legt der Staat <b>30 Cent</b> drauf.</p>
+          <div class="slip-cta">
+            <a class="btn btn-gold js-cta" href="https://ovb.helvetia-altersvorsorge.de/get-started" target="_blank" rel="noopener">Vorsprung sichern – Depot eröffnen</a>
+            <p class="fine">Du landest direkt in der Abschlussstrecke. Dort werden deine Zulagen noch einmal genau berechnet.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="paper gut" aria-label="Whitepaper">
+  <div class="wrap chapters">
+
+    <article class="chapter">
+      <p class="ch-label">Kapitel 1<span>Das Produkt</span></p>
+      <div>
+        <h2>Was ist das Altersvorsorgedepot?</h2>
+        <p>Das Altersvorsorgedepot ist die neue, staatlich geförderte private Altersvorsorge. Es löst ab dem 01.01.2027 die Riester-Förderung ab. Statt in teure Garantieprodukte fließt dein Geld in Fonds und ETFs, und der Staat zahlt Zulagen dazu.</p>
+        <p>Der Bundestag hat das Gesetz am 27. März 2026 beschlossen, der Bundesrat hat am 8. Mai 2026 zugestimmt. Die meisten Anbieter starten am 1. Januar 2027. Über diese Abschlussstrecke kannst du dein Depot schon jetzt eröffnen.</p>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <p class="ch-label">Kapitel 2<span>Der Vorsprung</span></p>
+      <div>
+        <h2>Warum jetzt und nicht im Januar?</h2>
+        <ul class="reasons">
+          <li><b>Kein Ansturm</b><p>Ab Januar wollen Millionen gleichzeitig ein Depot. Deins steht dann schon.</p></li>
+          <li><b>Früher ansparen</b><p>Dein Sparplan läuft, während andere noch vergleichen. Jeder Monat mehr ist Zeit am Kapitalmarkt.</p></li>
+          <li><b>Startklar ab Tag 1</b><p>Sobald die Förderung 2027 fließt, bist du dabei. Zulagen gibt es ab dem Beitragsjahr 2027.</p></li>
+        </ul>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <p class="ch-label">Kapitel 3<span>Für wen</span></p>
+      <div>
+        <h2>Für wen es sich besonders lohnt</h2>
+        <div class="who">
+          <article><span class="fig">300 €</span><h3>Familien</h3><p>Bis zu 300 € Kinderzulage pro Kind und Jahr, solange es Kindergeld gibt. Die volle Kinderzulage gibt es schon ab 25 € im Monat.</p></article>
+          <article><span class="fig">0 € zurück</span><h3>Riester-Sparer</h3><p>Ein Wechsel ins Altersvorsorgedepot ist möglich, ohne die bisherige Förderung zurückzuzahlen. Ob es für dich passt, hängt von deinem Vertrag ab.</p></article>
+          <article><span class="fig">neu</span><h3>Selbstständige</h3><p>Zum ersten Mal staatlich gefördert. Die Förderung hängt ab 2027 nicht mehr an der gesetzlichen Rentenversicherung.</p></article>
+        </div>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <p class="ch-label">Kapitel 4<span>Die Zahlen</span></p>
+      <div>
+        <h2>Die Förderung auf einen Blick</h2>
+        <div class="tbl">
+          <table class="facts">
+            <tr><th>Grundzulage</th><td>50 % auf die ersten 360 €, 25 % bis 1.800 € → max. 540 € / Jahr</td></tr>
+            <tr><th>Kinderzulage</th><td>100 % auf die ersten 300 € → max. 300 € je Kind / Jahr</td></tr>
+            <tr><th>Einsteiger-Bonus</th><td>einmalig 200 € bei Abschluss vor dem 25. Geburtstag</td></tr>
+            <tr><th>Mindestbeitrag für Förderung</th><td>120 € / Jahr (10 € / Monat)</td></tr>
+            <tr><th>Kosten Standarddepot</th><td>max. 1,0 % Effektivkosten / Jahr</td></tr>
+            <tr><th>Einzahlung möglich bis</th><td>6.840 € / Jahr, gefördert bis 1.800 €</td></tr>
+          </table>
+        </div>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <p class="ch-label">Kapitel 5<span>Ehrlich gesagt</span></p>
+      <div>
+        <h2>Was du wissen musst</h2>
+        <p class="risk">Das Altersvorsorgedepot hat keine Beitragsgarantie. Der Wert hängt von den Kursen ab und kann schwanken, auch nach unten. Dafür fallen die teuren Garantiekosten weg.</p>
+        <p>Das Geld ist für die Rente gedacht und wird in der Regel erst im Ruhestand ausgezahlt. Die Zulagen werden über den Anbieter bei der Zulagenstelle beantragt. Diese Seite informiert und ersetzt keine Anlageberatung.</p>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <p class="ch-label">Kapitel 6<span>Der Abschluss</span></p>
+      <div>
+        <h2>So einfach geht's</h2>
+        <ol class="flow">
+          <li><div><b>Starten</b><p>Vorname, Nachname und Geburtsdatum eingeben.</p></div></li>
+          <li><div><b>Zuschüsse berechnen</b><p>Die Strecke rechnet deine persönlichen Zulagen aus.</p></div></li>
+          <li><div><b>Depot eröffnen</b><p>Online abschließen, ganz ohne Termin.</p></div></li>
+        </ol>
+      </div>
+    </article>
+
+    <article class="chapter">
+      <p class="ch-label">Kapitel 7<span>Fragen</span></p>
+      <div>
+        <h2>Häufige Fragen</h2>
+        <details><summary>Bekomme ich schon für 2026 Zulagen?</summary><p>Nein. Die Zulagen gibt es ab dem Beitragsjahr 2027. Wenn du jetzt abschließt, ist dein Depot bereit, sobald die Förderung startet.</p></details>
+        <details><summary>Muss ich meinen Riester-Vertrag kündigen?</summary><p>Nein, und eine Kündigung kann Förderung kosten. Bestehende Verträge können weiterlaufen oder in ein Altersvorsorgedepot wechseln, ohne die bisherige Förderung zurückzuzahlen. Prüfe vorher Kosten und Garantie deines Vertrags.</p></details>
+        <details><summary>Wie viel muss ich mindestens einzahlen?</summary><p>Für die Förderung mindestens 120 € im Jahr, also 10 € im Monat. Die volle Grundzulage gibt es bei 1.800 € im Jahr, also 150 € im Monat.</p></details>
+        <details><summary>Kann ich den Beitrag später ändern?</summary><p>Entscheidend ist, was du über das Jahr einzahlst. Wie flexibel dein Sparplan ist, siehst du in der Abschlussstrecke.</p></details>
+        <details><summary>Werde ich beraten?</summary><p>Nein. Du schließt selbst online ab. Diese Seite und die Strecke informieren, sie ersetzen keine persönliche Anlageberatung.</p></details>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<section class="close gut" aria-labelledby="h-close">
+  <div class="wrap">
+    <p class="eyebrow" style="color:var(--gold)">Noch <span class="js-days">–</span> Tage bis zum offiziellen Start</p>
+    <h2 id="h-close">Die anderen warten. <em>Du bist schon fertig.</em></h2>
+    <p>Eröffne dein Altersvorsorgedepot jetzt online, in wenigen Minuten und ohne Termin.</p>
+    <a class="btn btn-gold js-cta" href="https://ovb.helvetia-altersvorsorge.de/get-started" target="_blank" rel="noopener">Vorsprung sichern – Depot eröffnen</a>
+  </div>
+</section>
+
+<footer class="gut">
+  <div class="wrap">
+    <div>
+      <h3>Hinweise</h3>
+      <p>Alle Angaben ohne Gewähr, Stand Oktober 2026, nach dem Altersvorsorgereformgesetz. Keine Anlageberatung. Keine Beitragsgarantie, der Wert kann schwanken. Der Rechner ist eine vereinfachte Vorschau ohne Steuervorteile.</p>
+      <p>Quellen: <a href="https://www.allianz.de/vorsorge/altersvorsorgedepot/foerderung/" rel="noopener" target="_blank">Allianz – Förderung</a> · <a href="https://www.cash-online.de/a/altersvorsorgedepot-ab-2027-726968/" rel="noopener" target="_blank">cash.online</a> · <a href="https://etf.capital/altersvorsorgedepot/" rel="noopener" target="_blank">etf.capital</a></p>
+    </div>
+    <div id="impressum">
+      <h3>Impressum</h3>
+      <p><span class="ph">[Vorname Nachname]</span><br><span class="ph">[Straße Nr.]</span>, <span class="ph">[PLZ Ort]</span><br>E-Mail: <span class="ph">[E-Mail]</span> · Telefon: <span class="ph">[Telefon]</span></p>
+      <p><span class="ph">[Vermittlerstatus, z. B. gebundener Versicherungsvertreter nach § 34d Abs. 7 GewO]</span> für die OVB Vermögensberatung AG · Registernummer: <span class="ph">[D-XXXX-XXXXX-XX]</span> · Register: <a href="https://www.vermittlerregister.info" target="_blank" rel="noopener">www.vermittlerregister.info</a></p>
+      <h3 id="datenschutz" style="margin-top:16px">Datenschutz</h3>
+      <p>Diese Seite setzt keine Cookies, nutzt kein Tracking und lädt keine Inhalte von Drittanbietern. Gehostet bei GitHub Pages (GitHub Inc.), das beim Aufruf technisch notwendige Server-Logdaten wie die IP-Adresse verarbeitet. Beim Klick auf „Depot eröffnen“ verlässt du diese Seite; dort gilt die Datenschutzerklärung des Anbieters.</p>
+    </div>
+  </div>
+</footer>
+
+<div class="sticky" id="sticky" aria-hidden="true">
+  <span>Noch <span class="js-days">–</span> Tage Vorsprung</span>
+  <a class="btn btn-gold js-cta" href="https://ovb.helvetia-altersvorsorge.de/get-started" target="_blank" rel="noopener" tabindex="-1">Depot eröffnen</a>
+</div>
+
+<script>
+(function(){
+  var START=new Date(2027,0,1), now=new Date(); now.setHours(0,0,0,0);
+  var days=Math.max(0,Math.round((START-now)/864e5));
+  document.querySelectorAll('.js-days').forEach(function(el){el.textContent=days});
+  var lead=document.querySelector('.js-lead');
+  if(lead){requestAnimationFrame(function(){lead.style.width='100%'})}
+
+  var eur=new Intl.NumberFormat('de-DE',{maximumFractionDigits:0});
+  var b=document.getElementById('beitrag'), out=document.getElementById('beitrag-out'), u25=document.getElementById('u25'), kids=0;
+  function zulagen(E,k){
+    if(E<120) return {g:0,k:0};
+    var g=0.5*Math.min(E,360)+0.25*Math.max(0,Math.min(E,1800)-360);
+    return {g:g,k:k*Math.min(E,300)};
+  }
+  function calc(){
+    var m=+b.value, E=m*12, z=zulagen(E,kids), tot=z.g+z.k;
+    out.textContent=m;
+    document.getElementById('r-eigen').textContent=eur.format(E)+' €';
+    document.getElementById('r-grund').textContent='+ '+eur.format(z.g)+' €';
+    document.getElementById('r-kind').textContent='+ '+eur.format(z.k)+' €';
+    document.getElementById('r-bonus').textContent=u25.checked?'+ 200 €':'–';
+    document.getElementById('r-total').textContent=eur.format(tot)+' €';
+    var cent=E? Math.round(tot/E*100):0;
+    document.getElementById('r-quote').innerHTML = cent>=100
+      ? 'Der Staat legt mehr drauf, als du selbst einzahlst: <b>'+eur.format(tot)+' €</b> auf <b>'+eur.format(E)+' €</b>.'
+      : 'Auf jeden Euro, den du einzahlst, legt der Staat <b>'+cent+' Cent</b> drauf.'+(u25.checked?' Plus einmalig 200 € Bonus.':'');
+    document.getElementById('stamp').classList.toggle('on',tot>0);
+  }
+  b.addEventListener('input',calc); u25.addEventListener('change',calc);
+  document.querySelectorAll('.steps button').forEach(function(btn){
+    btn.addEventListener('click',function(){kids=+btn.dataset.k;document.querySelectorAll('.steps button').forEach(function(x){x.setAttribute('aria-pressed',x===btn?'true':'false')});calc()});
+  });
+  calc();
+
+  var sticky=document.getElementById('sticky'), stage=document.querySelector('.stage');
+  if('IntersectionObserver' in window){new IntersectionObserver(function(e){sticky.classList.toggle('show',!e[0].isIntersecting)}).observe(stage)}
+})();
+</script>
+</body>
+</html>
