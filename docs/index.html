@@ -134,6 +134,39 @@ input[type=range]{width:100%;accent-color:var(--pine);height:28px}
 .slip-cta .btn{width:100%}
 .fine{font-size:13px;color:var(--muted);margin:0}
 
+/* Rechner: ausführlich */
+.duo{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:340px){.duo{grid-template-columns:1fr}}
+.kid-ages{display:flex;flex-wrap:wrap;gap:10px;margin-top:4px}
+.kid-ages label{display:grid;gap:4px;font:500 13px var(--body);color:var(--muted)}
+.kid-ages select{font:600 16px var(--mono);padding:8px 10px;border-radius:10px;border:1.5px solid var(--rule);background:var(--paper);color:var(--ink);min-width:92px}
+.slip-sub{font:700 13px var(--body);text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:22px 0 0}
+.row.sum{border-bottom:2px solid var(--ink)}
+.row.sum dt{color:var(--ink);font-weight:600}
+.lifetime{position:relative;margin-top:16px;background:var(--pine);color:var(--on-pine);border-radius:14px;padding:16px 18px;display:grid;gap:4px}
+.lifetime small{font:500 13px var(--body);color:var(--on-pine-muted)}
+.lifetime strong{font:600 clamp(28px,4.4vw,40px)/1.05 var(--mono);font-variant-numeric:tabular-nums;color:var(--gold)}
+.lifetime span{font-size:14.5px}
+.path{margin-top:24px;background:var(--paper);border:1px solid var(--rule);border-radius:20px;padding:clamp(20px,3vw,30px)}
+.path-head{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;align-items:baseline}
+.path-head h3{font-size:clamp(22px,3vw,28px);font-weight:800;font-stretch:106%}
+.legend{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
+.legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.chart{position:relative;margin-top:16px;min-height:260px}
+.chart svg{display:block;width:100%;height:auto;overflow:visible}
+.chart text{font:500 12px var(--mono);fill:var(--muted)}
+.tip{position:absolute;pointer-events:none;background:var(--paper);border:1px solid var(--rule);border-radius:10px;box-shadow:0 8px 24px -12px rgba(0,0,0,.35);padding:8px 10px;font-size:13px;white-space:nowrap;display:none}
+.tip b{font-family:var(--mono);font-weight:600}
+.miles{list-style:none;padding:0;margin:18px 0 0;display:grid;gap:10px}
+@media (min-width:760px){.miles{grid-template-columns:repeat(3,1fr)}}
+.miles li{border-top:3px solid var(--gold);padding-top:10px;font-size:15px}
+.miles b{display:block;font:600 18px var(--mono)}
+.miles span{color:var(--muted)}
+.lifetime .stamp{top:30px;bottom:auto;right:16px;color:var(--gold);border-color:var(--gold);font-size:15px;padding:4px 10px}
+@media (max-width:560px){.lifetime .stamp{top:34px;bottom:auto;right:12px;font-size:12px}}
+.consult{margin:6px 0 0;font-size:13px;color:var(--muted)}
+.consult a{color:var(--muted)}
+
 /* Whitepaper */
 .paper{background:var(--paper);border-top:1px solid var(--rule);padding-block:clamp(48px,7vw,96px)}
 .chapters{display:grid;gap:clamp(48px,6vw,72px)}
@@ -231,51 +264,90 @@ footer a{color:#EEF4EF}
     <div class="sec-head">
       <p class="eyebrow">Förderrechner</p>
       <h2 id="h-calc">Wie viel legt der Staat bei dir drauf?</h2>
-      <p>Drei Angaben, sofort dein Ergebnis. Gerechnet nach den Regeln des Altersvorsorgereformgesetzes, ohne Steuervorteile und ohne Kursentwicklung.</p>
+      <p>Vier Angaben, und du siehst deine Förderung pro Jahr und bis zur Rente. Gerechnet nach dem Altersvorsorgereformgesetz, ohne Steuervorteile und ohne Kursentwicklung.</p>
     </div>
     <div class="calc-grid">
       <form class="controls" id="calc" onsubmit="return false">
+        <div class="duo">
+          <div class="field">
+            <label for="alter">Dein Alter heute</label>
+            <div class="big-val"><span id="alter-out">35</span><small>Jahre</small></div>
+            <input type="range" id="alter" min="16" max="63" step="1" value="35">
+          </div>
+          <div class="field">
+            <label for="rente">Auszahlung ab</label>
+            <div class="big-val"><span id="rente-out">67</span><small>Jahre</small></div>
+            <input type="range" id="rente" min="65" max="70" step="1" value="67" aria-describedby="rente-hint">
+          </div>
+        </div>
+        <p class="hint fine" id="rente-hint" style="margin-top:-14px;font-size:14px;color:var(--muted)">Ausgezahlt wird frühestens ab 65, spätestens ab 70.</p>
         <div class="field">
           <label for="beitrag">Dein monatlicher Beitrag</label>
           <div class="big-val"><span id="beitrag-out">150</span> €<small>pro Monat</small></div>
-          <input type="range" id="beitrag" min="10" max="300" step="5" value="150" aria-describedby="beitrag-hint">
-          <p class="hint" id="beitrag-hint">Volle Grundzulage ab 150 € im Monat. Gefördert wird ab 10 € im Monat.</p>
+          <input type="range" id="beitrag" min="10" max="570" step="5" value="150" aria-describedby="beitrag-hint">
+          <p class="hint" id="beitrag-hint">Volle Grundzulage ab 150 € im Monat. Gefördert wird ab 10 € im Monat, einzahlen kannst du bis 570 €.</p>
         </div>
         <div class="field">
-          <span class="lbl" id="kinder-lbl">Kinder, für die du Kindergeld bekommst</span>
+          <span class="lbl" id="kinder-lbl">Kinder unter 18, für die du Kindergeld bekommst</span>
           <div class="steps" role="group" aria-labelledby="kinder-lbl">
             <button type="button" data-k="0" aria-pressed="true">0</button>
             <button type="button" data-k="1" aria-pressed="false">1</button>
             <button type="button" data-k="2" aria-pressed="false">2</button>
             <button type="button" data-k="3" aria-pressed="false">3</button>
-            <button type="button" data-k="4" aria-pressed="false">4+</button>
+            <button type="button" data-k="4" aria-pressed="false">4</button>
           </div>
-          <p class="hint">Die Kinderzulage bekommt pro Kind ein Elternteil.</p>
+          <div class="kid-ages" id="kid-ages"></div>
+          <p class="hint">Gerechnet bis zum 18. Geburtstag. In Ausbildung oder Studium gibt es Kindergeld und Kinderzulage oft bis 25. Pro Kind bekommt ein Elternteil die Zulage.</p>
         </div>
-        <label class="toggle" for="u25"><input type="checkbox" id="u25">Ich bin unter 25 Jahre alt</label>
       </form>
 
       <div>
         <div class="slip" aria-live="polite">
           <div class="slip-head">
             <h3>Förderbescheid</h3>
-            <div class="num">Vorschau · Beitragsjahr 2027<br>keine verbindliche Auskunft</div>
+            <div class="num">Vorschau · ab Beitragsjahr 2027<br>keine verbindliche Auskunft</div>
           </div>
-          <span class="stamp" id="stamp" aria-hidden="true">✓ ERLEDIGT</span>
+          <p class="slip-sub">Im ersten Jahr (2027)</p>
           <dl class="rows">
-            <div class="row"><dt>Dein Eigenbeitrag im Jahr</dt><dd id="r-eigen">1.800 €</dd></div>
+            <div class="row"><dt>Dein Eigenbeitrag</dt><dd id="r-eigen">1.800 €</dd></div>
             <div class="row plus"><dt>Grundzulage</dt><dd id="r-grund">+ 540 €</dd></div>
             <div class="row plus"><dt>Kinderzulage</dt><dd id="r-kind">+ 0 €</dd></div>
             <div class="row plus"><dt>Einsteiger-Bonus (einmalig)</dt><dd id="r-bonus">–</dd></div>
           </dl>
-          <div class="total"><span>Förderung pro Jahr</span><strong id="r-total">540 €</strong></div>
+          <div class="total"><span>Förderung 2027</span><strong id="r-total">540 €</strong></div>
           <p class="quote" id="r-quote">Auf jeden Euro, den du einzahlst, legt der Staat <b>30 Cent</b> drauf.</p>
+
+          <p class="slip-sub">Bis zur Rente</p>
+          <dl class="rows">
+            <div class="row"><dt>Sparphase</dt><dd id="t-jahre">31 Jahre</dd></div>
+            <div class="row"><dt>Deine Einzahlungen</dt><dd id="t-eigen">–</dd></div>
+            <div class="row plus"><dt>Grundzulagen</dt><dd id="t-grund">–</dd></div>
+            <div class="row plus"><dt>Kinderzulagen</dt><dd id="t-kind">–</dd></div>
+            <div class="row plus sum"><dt>Zulagen vom Staat gesamt</dt><dd id="t-zul">–</dd></div>
+          </dl>
+          <div class="lifetime">
+            <span class="stamp" id="stamp" aria-hidden="true">✓ ERLEDIGT</span>
+            <small>Eingezahlt plus Zulagen, ohne Kursentwicklung</small>
+            <strong id="t-total">–</strong>
+            <span id="t-text">–</span>
+          </div>
           <div class="slip-cta">
             <a class="btn btn-gold js-cta" href="https://ovb.helvetia-altersvorsorge.de/get-started" target="_blank" rel="noopener">Vorsprung sichern – Depot eröffnen</a>
             <p class="fine">Du landest direkt in der Abschlussstrecke. Dort werden deine Zulagen noch einmal genau berechnet.</p>
+            <p class="consult">Noch eine Frage offen? <a href="https://calendly.com/marco76steffen/rente-einfach-erledigt" target="_blank" rel="noopener">Kurzes Gespräch buchen</a></p>
           </div>
         </div>
       </div>
+    </div>
+
+    <div class="path" aria-labelledby="h-path">
+      <div class="path-head">
+        <h3 id="h-path">Dein Weg bis zur Rente</h3>
+        <div class="legend"><span><i style="background:var(--pine-2)"></i>Deine Einzahlungen</span><span><i style="background:var(--gold)"></i>Zulagen vom Staat</span></div>
+      </div>
+      <p class="fine" style="margin-top:6px">Aufsummiert Jahr für Jahr. Wie sich das Geld am Kapitalmarkt entwickelt, ist offen und hier nicht eingerechnet: Es kann mehr oder weniger werden.</p>
+      <div class="chart" id="chart"><div class="tip" id="tip"></div></div>
+      <ul class="miles" id="miles"></ul>
     </div>
   </div>
 </section>
@@ -362,7 +434,7 @@ footer a{color:#EEF4EF}
         <details><summary>Muss ich meinen Riester-Vertrag kündigen?</summary><p>Nein, und eine Kündigung kann Förderung kosten. Bestehende Verträge können weiterlaufen oder in ein Altersvorsorgedepot wechseln, ohne die bisherige Förderung zurückzuzahlen. Prüfe vorher Kosten und Garantie deines Vertrags.</p></details>
         <details><summary>Wie viel muss ich mindestens einzahlen?</summary><p>Für die Förderung mindestens 120 € im Jahr, also 10 € im Monat. Die volle Grundzulage gibt es bei 1.800 € im Jahr, also 150 € im Monat.</p></details>
         <details><summary>Kann ich den Beitrag später ändern?</summary><p>Entscheidend ist, was du über das Jahr einzahlst. Wie flexibel dein Sparplan ist, siehst du in der Abschlussstrecke.</p></details>
-        <details><summary>Werde ich beraten?</summary><p>Nein. Du schließt selbst online ab. Diese Seite und die Strecke informieren, sie ersetzen keine persönliche Anlageberatung.</p></details>
+        <details><summary>Werde ich beraten?</summary><p>Musst du nicht: Du schließt selbst online ab, die Strecke führt dich durch. Diese Seite und die Strecke informieren, sie ersetzen keine persönliche Anlageberatung. Wenn du trotzdem lieber mit jemandem sprechen willst, kannst du <a href="https://calendly.com/marco76steffen/rente-einfach-erledigt" target="_blank" rel="noopener">hier einen Termin buchen</a>.</p></details>
       </div>
     </article>
 
@@ -382,7 +454,7 @@ footer a{color:#EEF4EF}
   <div class="wrap">
     <div>
       <h3>Hinweise</h3>
-      <p>Alle Angaben ohne Gewähr, Stand Oktober 2026, nach dem Altersvorsorgereformgesetz. Keine Anlageberatung. Keine Beitragsgarantie, der Wert kann schwanken. Der Rechner ist eine vereinfachte Vorschau ohne Steuervorteile.</p>
+      <p>Alle Angaben ohne Gewähr, Stand Oktober 2026, nach dem Altersvorsorgereformgesetz. Keine Anlageberatung. Keine Beitragsgarantie, der Wert kann schwanken. Der Rechner ist eine vereinfachte Vorschau ohne Steuervorteile und ohne Kursentwicklung; Kinderzulage bis zum 18. Geburtstag gerechnet, Beitrag über die ganze Sparphase gleich.</p>
       <p>Quellen: <a href="https://www.allianz.de/vorsorge/altersvorsorgedepot/foerderung/" rel="noopener" target="_blank">Allianz – Förderung</a> · <a href="https://www.cash-online.de/a/altersvorsorgedepot-ab-2027-726968/" rel="noopener" target="_blank">cash.online</a> · <a href="https://etf.capital/altersvorsorgedepot/" rel="noopener" target="_blank">etf.capital</a></p>
     </div>
     <div id="impressum">
@@ -391,7 +463,7 @@ footer a{color:#EEF4EF}
       <p>Versicherungsvermittler für die OVB Vermögensberatung AG<br>IHK-Registrierung gem. § 34d GewO: D-A795-ZETHQ-99<br>Vermittlerregister: <a href="https://www.vermittlerregister.info" target="_blank" rel="noopener">www.vermittlerregister.info</a></p>
       <p>Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV: Marco Steffen, Anschrift wie oben.</p>
       <h3 id="datenschutz" style="margin-top:16px">Datenschutz</h3>
-      <p>Diese Seite setzt keine Cookies, nutzt kein Tracking und lädt keine Inhalte von Drittanbietern. Gehostet bei GitHub Pages (GitHub Inc.), das beim Aufruf technisch notwendige Server-Logdaten wie die IP-Adresse verarbeitet. Beim Klick auf „Depot eröffnen“ verlässt du diese Seite; dort gilt die Datenschutzerklärung des Anbieters.</p>
+      <p>Diese Seite setzt keine Cookies, nutzt kein Tracking und lädt keine Inhalte von Drittanbietern. Gehostet bei GitHub Pages (GitHub Inc.), das beim Aufruf technisch notwendige Server-Logdaten wie die IP-Adresse verarbeitet. Beim Klick auf „Depot eröffnen“ oder „Termin buchen“ verlässt du diese Seite; dort gilt die Datenschutzerklärung des jeweiligen Anbieters (Helvetia bzw. Calendly).</p>
     </div>
   </div>
 </footer>
@@ -410,30 +482,129 @@ footer a{color:#EEF4EF}
   if(lead){requestAnimationFrame(function(){lead.style.width='100%'})}
 
   var eur=new Intl.NumberFormat('de-DE',{maximumFractionDigits:0});
-  var b=document.getElementById('beitrag'), out=document.getElementById('beitrag-out'), u25=document.getElementById('u25'), kids=0;
-  function zulagen(E,k){
-    if(E<120) return {g:0,k:0};
-    var g=0.5*Math.min(E,360)+0.25*Math.max(0,Math.min(E,1800)-360);
-    return {g:g,k:k*Math.min(E,300)};
+  var $=function(id){return document.getElementById(id)};
+  var bIn=$('beitrag'), aIn=$('alter'), rIn=$('rente'), kids=[], NOWY=now.getFullYear();
+  var MONTHS26=Math.max(0,11-now.getMonth()); // Monate im laufenden Jahr ab nächstem Monat
+  function grund(E){ if(E<120) return 0; return 0.5*Math.min(E,360)+0.25*Math.max(0,Math.min(E,1800)-360); }
+  function kind(E){ return E<120?0:Math.min(E,300); }
+  function e(v){ return eur.format(Math.round(v))+' €'; }
+
+  function renderKids(){
+    var box=$('kid-ages'); box.innerHTML='';
+    kids.forEach(function(age,i){
+      var l=document.createElement('label'); l.textContent='Kind '+(i+1)+', Alter';
+      var sel=document.createElement('select'); sel.setAttribute('aria-label','Alter von Kind '+(i+1));
+      for(var a=0;a<18;a++){var o=document.createElement('option');o.value=a;o.textContent=a===0?'unter 1':a+' J.';if(a===age)o.selected=true;sel.appendChild(o)}
+      sel.addEventListener('change',function(){kids[i]=+sel.value;calc()});
+      l.appendChild(sel); box.appendChild(l);
+    });
   }
+
   function calc(){
-    var m=+b.value, E=m*12, z=zulagen(E,kids), tot=z.g+z.k;
-    out.textContent=m;
-    document.getElementById('r-eigen').textContent=eur.format(E)+' €';
-    document.getElementById('r-grund').textContent='+ '+eur.format(z.g)+' €';
-    document.getElementById('r-kind').textContent='+ '+eur.format(z.k)+' €';
-    document.getElementById('r-bonus').textContent=u25.checked?'+ 200 €':'–';
-    document.getElementById('r-total').textContent=eur.format(tot)+' €';
-    var cent=E? Math.round(tot/E*100):0;
-    document.getElementById('r-quote').innerHTML = cent>=100
-      ? 'Der Staat legt mehr drauf, als du selbst einzahlst: <b>'+eur.format(tot)+' €</b> auf <b>'+eur.format(E)+' €</b>.'
-      : 'Auf jeden Euro, den du einzahlst, legt der Staat <b>'+cent+' Cent</b> drauf.'+(u25.checked?' Plus einmalig 200 € Bonus.':'');
-    document.getElementById('stamp').classList.toggle('on',tot>0);
+    var m=+bIn.value, E=m*12, age=+aIn.value, ra=+rIn.value;
+    $('beitrag-out').textContent=m; $('alter-out').textContent=age; $('rente-out').textContent=ra;
+    var bonus=age<25?200:0;
+    // Jahr 2027 = Alter age+1 ... bis zum Jahr vor Auszahlungsbeginn
+    var N=Math.max(0,ra-age-1), pre=m*MONTHS26;
+    var years=[], cE=pre, cZ=0, tG=0, tK=0;
+    for(var i=0;i<N;i++){
+      var yr=NOWY+1+i, g=grund(E), k=0;
+      kids.forEach(function(c){ if(c+1+i<18) k+=kind(E) });
+      var z=g+k+(i===0?bonus:0);
+      tG+=g; tK+=k; cE+=E; cZ+=z;
+      years.push({yr:yr,age:age+1+i,e:cE,z:cZ});
+    }
+    // Jahr 2027
+    var g1=N?grund(E):0, k1=0; if(N) kids.forEach(function(c){ if(c+1<18) k1+=kind(E) });
+    var tot1=g1+k1;
+    $('r-eigen').textContent=e(E);
+    $('r-grund').textContent='+ '+e(g1);
+    $('r-kind').textContent='+ '+e(k1);
+    $('r-bonus').textContent=bonus&&N?'+ 200 €':'–';
+    $('r-total').textContent=e(tot1+(N?bonus:0));
+    var cent=E?Math.round(tot1/E*100):0;
+    $('r-quote').innerHTML = cent>=100
+      ? 'Der Staat legt mehr drauf, als du selbst einzahlst: <b>'+e(tot1)+'</b> auf <b>'+e(E)+'</b>.'
+      : 'Auf jeden Euro, den du einzahlst, legt der Staat <b>'+cent+' Cent</b> drauf.'+(bonus?' Plus einmalig 200 € Bonus, weil du unter 25 bist.':'');
+    $('stamp').classList.toggle('on',tot1>0);
+
+    var zul=tG+tK+(N?bonus:0), eig=cE;
+    $('t-jahre').textContent = N ? N+' Jahre ('+(NOWY+1)+'–'+(NOWY+N)+')' : '–';
+    $('t-eigen').textContent=e(eig);
+    $('t-grund').textContent='+ '+e(tG+(N?bonus:0));
+    $('t-kind').textContent='+ '+e(tK);
+    $('t-zul').textContent='+ '+e(zul);
+    $('t-total').textContent=e(eig+zul);
+    $('t-text').textContent = N
+      ? 'Davon '+e(zul)+' vom Staat, das sind '+Math.round(eig?zul/eig*100:0)+' % zusätzlich zu deinen Einzahlungen.'+(pre?' Vorsprung: '+e(pre)+' davon sparst du schon 2026 an.':'')
+      : 'Mit diesem Alter bleibt bis zur Auszahlung kein volles Förderjahr. Stell das Auszahlungsalter höher.';
+    // Grundzulage-Zeile inkl. Bonus beschriften
+    document.querySelector('#t-grund').previousElementSibling.textContent = bonus&&N ? 'Grundzulagen + Bonus' : 'Grundzulagen';
+
+    miles(years,age,ra,eig,zul,pre);
+    chart(years,pre,age);
   }
-  b.addEventListener('input',calc); u25.addEventListener('change',calc);
+
+  function miles(years,age,ra,eig,zul,pre){
+    var ul=$('miles'); ul.innerHTML='';
+    function add(big,txt){var li=document.createElement('li');var b=document.createElement('b');b.textContent=big;var s=document.createElement('span');s.textContent=txt;li.appendChild(b);li.appendChild(s);ul.appendChild(li)}
+    if(!years.length){return}
+    var mid=years[Math.min(years.length-1,9)];
+    add(e(mid.e+mid.z),'nach '+Math.min(years.length,10)+' Jahren (mit '+mid.age+'), davon '+e(mid.z)+' Zulagen');
+    var lastKid=-1; kids.forEach(function(c){lastKid=Math.max(lastKid,17-c)});
+    if(lastKid>=0 && lastKid<years.length) add('bis '+(NOWY+1+lastKid),'gibt es Kinderzulage, solange dein jüngstes Kind unter 18 ist');
+    else add(e(years[0].z),'Zulagen schon im ersten Jahr 2027');
+    add(e(eig+zul),'mit '+ra+' auf dem Konto, ohne Kursentwicklung');
+  }
+
+  var tip=$('tip');
+  function chart(years,pre,age){
+    var box=$('chart'); var old=box.querySelector('svg'); if(old) old.remove();
+    if(!years.length){tip.style.display='none';return}
+    var W=Math.max(300,box.clientWidth), H=260, mT=14, mB=28, mR=8;
+    var max=years[years.length-1].e+years[years.length-1].z;
+    var step=Math.pow(10,Math.floor(Math.log10(max/4))), nice=[1,2,2.5,5,10].map(function(f){return f*step}).find(function(s){return max/s<=5})||step*10;
+    var top=Math.ceil(max/nice)*nice, ticks=[]; for(var t=0;t<=top+1e-9;t+=nice) ticks.push(t);
+    var ns='http://www.w3.org/2000/svg';
+    var svg=document.createElementNS(ns,'svg'); svg.setAttribute('viewBox','0 0 '+W+' '+H); svg.setAttribute('role','img');
+    svg.setAttribute('aria-label','Einzahlungen und Zulagen aufsummiert bis zur Rente');
+    box.insertBefore(svg,tip);
+    function el(n,a){var x=document.createElementNS(ns,n);for(var k in a)x.setAttribute(k,a[k]);svg.appendChild(x);return x}
+    var probe=el('text',{x:0,y:0}); var mL=0; ticks.forEach(function(t){probe.textContent=eur.format(t);mL=Math.max(mL,probe.getComputedTextLength())}); probe.remove(); mL=Math.ceil(mL)+10;
+    var n=years.length, bw=(W-mL-mR)/n, gap=Math.min(2,bw*.2);
+    var y=function(v){return H-mB-(v/top)*(H-mT-mB)};
+    ticks.forEach(function(t){ el('line',{x1:mL,x2:W-mR,y1:y(t),y2:y(t),stroke:'var(--rule)','stroke-width':1});
+      var tx=el('text',{x:mL-8,y:y(t)+4,'text-anchor':'end'}); tx.textContent=eur.format(t); });
+    years.forEach(function(d,i){
+      var x=mL+i*bw+gap/2, w=Math.max(1,bw-gap);
+      el('rect',{x:x,y:y(d.e),width:w,height:Math.max(0,y(0)-y(d.e)),fill:'var(--pine-2)'});
+      el('rect',{x:x,y:y(d.e+d.z),width:w,height:Math.max(0,y(d.e)-y(d.e+d.z)),fill:'var(--gold)'});
+    });
+    var every=Math.max(1,Math.ceil(n/Math.max(2,Math.floor((W-mL)/56))));
+    years.forEach(function(d,i){ if(i%every===0||i===n-1){ if(i!==n-1 && n-1-i<every) return;
+      var tx=el('text',{x:mL+i*bw+bw/2,y:H-8,'text-anchor':'middle'}); tx.textContent=d.age+' J.'; }});
+    var hit=el('rect',{x:mL,y:mT,width:W-mL-mR,height:H-mT-mB,fill:'transparent'});
+    function show(ev){
+      var r=svg.getBoundingClientRect(), sx=(ev.clientX-r.left)*(W/r.width);
+      var i=Math.max(0,Math.min(n-1,Math.floor((sx-mL)/bw))), d=years[i];
+      tip.innerHTML='Mit '+d.age+' ('+d.yr+')<br>Eingezahlt <b>'+e(d.e)+'</b><br>Zulagen <b>'+e(d.z)+'</b>';
+      tip.style.display='block';
+      var px=(mL+i*bw+bw/2)*(r.width/W), left=px+12; if(left+tip.offsetWidth>r.width) left=px-tip.offsetWidth-12;
+      tip.style.left=Math.max(0,left)+'px'; tip.style.top='8px';
+    }
+    hit.addEventListener('pointermove',show); hit.addEventListener('pointerdown',show);
+    hit.addEventListener('pointerleave',function(){tip.style.display='none'});
+  }
+
+  [bIn,aIn,rIn].forEach(function(x){x.addEventListener('input',calc)});
   document.querySelectorAll('.steps button').forEach(function(btn){
-    btn.addEventListener('click',function(){kids=+btn.dataset.k;document.querySelectorAll('.steps button').forEach(function(x){x.setAttribute('aria-pressed',x===btn?'true':'false')});calc()});
+    btn.addEventListener('click',function(){
+      var k=+btn.dataset.k; while(kids.length<k) kids.push(kids.length?Math.min(17,kids[kids.length-1]+2):3); kids.length=k;
+      document.querySelectorAll('.steps button').forEach(function(x){x.setAttribute('aria-pressed',x===btn?'true':'false')});
+      renderKids(); calc();
+    });
   });
+  var rt; window.addEventListener('resize',function(){clearTimeout(rt);rt=setTimeout(calc,150)});
   calc();
 
   var sticky=document.getElementById('sticky'), stage=document.querySelector('.stage');
