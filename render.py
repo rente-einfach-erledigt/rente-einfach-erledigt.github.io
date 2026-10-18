@@ -2,7 +2,7 @@
 """Rendert ein Karussell im Design von @rente.einfach.erledigt.
 
 Aufruf:  python3 render.py posts/<post-id>/post.json
-Ergebnis: posts/<post-id>/folie_1.png ... folie_N.png (1080x1350)
+Ergebnis: posts/<post-id>/folie_1.png/.jpg ... folie_N.png/.jpg (1080x1350); hochgeladen werden die .jpg
 
 post.json -> {"slides": [ {Folie}, ... ]}
 Felder pro Folie (alle optional ausser kick):
@@ -104,6 +104,7 @@ def render(spec_path):
             d.text((100, H - 150), "Wischen  →", font=F(SEMI, 40), fill=AMBER)
         p = os.path.join(out, f"folie_{i}.png")
         img.save(p, optimize=True); files.append(p)
+        img.save(os.path.join(out, f"folie_{i}.jpg"), quality=92, optimize=True)  # JPG fuer TikTok & Co.
     print("\n".join(files))
 
 if __name__ == "__main__":

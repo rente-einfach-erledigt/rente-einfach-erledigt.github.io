@@ -81,3 +81,6 @@ status: offen → freigegeben | abgelehnt (Felix) → geplant → gepostet | feh
 - Threads: KEIN Kommentar-Wort (dort gibt es keine Auto-DM). Stattdessen im override-Text die Zeile
   „Rechne hier aus, wie viel Förderung dir zusteht: rente-einfach-erledigt.github.io“. Max. 500 Zeichen, keine Hashtags.
 - Weitere Kanäle (Facebook, TikTok, LinkedIn, Pinterest) folgen; bis dahin gilt: Link statt Kommentar-Wort, wenn es keine Auto-DM gibt.
+- TikTok: Foto-Slideshow aus denselben Folien (immer die .jpg-Dateien hochladen, gilt für alle Kanäle).
+  Text: kein Kommentar-Wort, stattdessen „Förderung berechnen: Link im Profil ✓“, Vorsprung in Zeile 1, Pflicht-Hinweis, 3–5 Hashtags.
+  options.tiktok = {"tiktokPrivacy":"public","tiktokAllowComment":true,"tiktokYourBrand":true,"tiktokAutoAddMusic":true}
