@@ -87,3 +87,6 @@ status: offen → freigegeben | abgelehnt (Felix) → geplant → gepostet | feh
 - WICHTIG: Die letzte Folie („Kommentiere <WORT> … DM“) gibt es nur auf Instagram. Für alle anderen Kanäle
   einen ZWEITEN Entwurf ohne die letzte Folie anlegen (Text mit Link statt Kommentar-Wort).
   In der Freigabe-Datenbank beide Entwurf-IDs als `ihpPostIds` speichern.
+- Facebook-Seite: Entwurf B (ohne Kommentar-Folie). Text: Vorsprung in Zeile 1, 2–3 Sätze,
+  „👉 Rechne in 30 Sekunden aus, wie viel Förderung dir zusteht: https://rente-einfach-erledigt.github.io“, Pflicht-Hinweis, keine Hashtags nötig.
+  Zielgruppe dort eher 40+: Riester-Themen bevorzugt im Facebook-Text betonen.
