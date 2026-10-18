@@ -5,7 +5,8 @@ Dieses Dokument lesen alle Agenten zuerst. Es gilt immer.
 ## Ziel
 Felix (OVB-Vermittler) gewinnt Kunden für das **Altersvorsorgedepot (AVD)** über eine
 OVB-Direktabschlussstrecke (Helvetia/Xaver) – ganz ohne Beratung.
-Abschluss-Link (steckt in den Buttons der Rechner-Seite): https://ovb.helvetia-altersvorsorge.de/get-started
+Abschluss-Link (steckt in ALLEN Buttons der Rechner-Seite und jeder neuen Seite, IMMER genau dieser, nie ein anderer):
+https://ovb-vp-portal.helvetia-altersvorsorge.de/tippgeber-link#khPjL6gC8SM8k3UNSb3VmB6b8Ly7V_n14AUzRK0r9rw
 In DMs und Bio verlinken wir die Rechner-Seite: https://rente-einfach-erledigt.github.io/
 
 ## Kernbotschaft: DER VORSPRUNG (wichtigste Regel bis 31.12.2026)
