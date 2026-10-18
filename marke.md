@@ -75,3 +75,9 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 datum (JJJJ-MM-TT), uhrzeit (HH:MM), thema, zielgruppe, wort, kanaele [..], format, caption,
 bilder [/_blob/... Asset-URLs der Freigabe-Seite], status, ihpPostId, hinweis, erstelltAm
 status: offen → freigegeben | abgelehnt (Felix) → geplant → gepostet | fehler (Agenten)
+
+## Kanäle und Texte je Kanal (create_post mit `overrides`)
+- Instagram: Caption mit „Kommentiere <WORT> und du bekommst den Link per DM.“ (ManyChat schickt die DM automatisch).
+- Threads: KEIN Kommentar-Wort (dort gibt es keine Auto-DM). Stattdessen im override-Text die Zeile
+  „Rechne hier aus, wie viel Förderung dir zusteht: rente-einfach-erledigt.github.io“. Max. 500 Zeichen, keine Hashtags.
+- Weitere Kanäle (Facebook, TikTok, LinkedIn, Pinterest) folgen; bis dahin gilt: Link statt Kommentar-Wort, wenn es keine Auto-DM gibt.
