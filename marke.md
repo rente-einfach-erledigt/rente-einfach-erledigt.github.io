@@ -7,9 +7,16 @@ Felix (OVB-Vermittler) gewinnt Kunden für das **Altersvorsorgedepot (AVD)** üb
 OVB-Direktabschlussstrecke (Helvetia/Xaver) – ganz ohne Beratung.
 Abschluss-Link (in jede DM, in die Bio): https://ovb.helvetia-altersvorsorge.de/get-started
 
-## Kernbotschaft
-- Bis 31.12.2026: „Alle warten auf 2027 – du kannst schon jetzt abschließen.“
+## Kernbotschaft: DER VORSPRUNG (wichtigste Regel bis 31.12.2026)
+- „Alle warten auf 2027 – du startest jetzt. Vor allen anderen.“
   Über OVB ist das Depot schon jetzt abschließbar, der breite Marktstart ist am 01.01.2027.
+- PFLICHT bis 31.12.2026 in JEDEM Post: der Vorsprung steht sichtbar auf Folie 1 (Hook oder kick
+  „DEIN VORSPRUNG“) UND in der ersten Caption-Zeile UND auf der letzten Folie
+  (kick z. B. „SICHERE DIR DEN VORSPRUNG“). Auch Themen-Posts (Familie, Riester, Selbstständige)
+  verbinden ihr Thema mit dem Vorsprung, z. B. „Familien, die jetzt starten, sind im Januar schon startklar.“
+- Ehrliche Vorteile, die du nennen darfst: Depot steht schon, bevor im Januar der Ansturm beginnt;
+  Sparplan läuft früher; startklar, sobald die Förderung 2027 fließt; Riester-Wechsel in Ruhe vorbereiten.
+- NICHT behaupten: mehr Zulagen, Zulagen für 2026, bessere Konditionen oder „begrenzte Plätze“.
 - Ab 01.01.2027: „Jetzt starten, Zulagen sichern.“
 
 ## Zielgruppen (gleichmäßig abwechseln)
