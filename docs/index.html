@@ -40,7 +40,7 @@
 :root{
   --pine:#0F3B2E; --pine-2:#16503F; --gold:#F2B33D; --gold-deep:#C98A12;
   --paper:#FBFAF5; --ground:#EEF2EC; --ink:#11231B; --muted:#4E6158; --rule:#D3DCD5; --on-pine:#EEF4EF; --on-pine-muted:#A9C2B5;
-  --ok:#2E7D4F; --warn-bg:#FBEFD2;
+  --ok:#2E7D4F; --warn-bg:#FBEFD2; --grow:#7FB89A;
   --display:"Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
   --body:"Figtree", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
   --mono:"Plex Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
@@ -169,6 +169,18 @@ input[type=range]{width:100%;accent-color:var(--pine);height:28px}
 .path-head h3{font-size:clamp(22px,3vw,28px);font-weight:800;font-stretch:106%}
 .legend{display:flex;gap:16px;flex-wrap:wrap;font-size:14px;color:var(--muted)}
 .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+.growth{margin-top:18px;display:grid;gap:10px;background:var(--ground);border-radius:14px;padding:16px 18px}
+.growth .top-row{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.growth label{font:600 15px var(--body)}
+.growth .val{font:600 24px var(--mono);font-variant-numeric:tabular-nums}
+.growth .val small{font:500 13px var(--body);color:var(--muted);margin-left:4px}
+.growth .picks{display:flex;gap:8px;flex-wrap:wrap}
+.growth .picks button{font:600 14px var(--mono);padding:7px 12px;border-radius:10px;border:1.5px solid var(--rule);background:transparent;color:var(--ink);cursor:pointer}
+.growth .picks button[aria-pressed="true"]{background:var(--pine);border-color:var(--pine);color:#fff}
+@media (prefers-color-scheme: dark){.growth .picks button[aria-pressed="true"]{background:var(--gold);border-color:var(--gold);color:#2A1E03}}
+.growth .fine b{color:var(--ink)}
+.lifetime .grow-line{display:block;margin-top:6px;padding-top:8px;border-top:1px solid #2C5B4B;font-size:14.5px}
+.lifetime .grow-line b{font-family:var(--mono);color:var(--gold);font-weight:600}
 .chart{position:relative;margin-top:16px;min-height:260px}
 .chart svg{display:block;width:100%;height:auto;overflow:visible}
 .chart text{font:500 12px var(--mono);fill:var(--muted)}
@@ -281,7 +293,7 @@ footer a{color:#EEF4EF}
     <div class="sec-head">
       <p class="eyebrow">Förderrechner</p>
       <h2 id="h-calc">Wie viel legt der Staat bei dir drauf?</h2>
-      <p>Vier Angaben, und du siehst deine Förderung pro Jahr und bis zur Rente. Gerechnet nach dem Altersvorsorgereformgesetz, ohne Steuervorteile und ohne Kursentwicklung.</p>
+      <p>Vier Angaben, und du siehst deine Förderung pro Jahr und bis zur Rente. Gerechnet nach dem Altersvorsorgereformgesetz, ohne Steuervorteile. Die Wertentwicklung kannst du unten als Beispiel dazuschalten.</p>
     </div>
     <div class="calc-grid">
       <form class="controls" id="calc" onsubmit="return false">
@@ -347,6 +359,7 @@ footer a{color:#EEF4EF}
             <small>Eingezahlt plus Zulagen, ohne Kursentwicklung</small>
             <strong id="t-total">–</strong>
             <span id="t-text">–</span>
+            <span class="grow-line" id="t-grow" hidden></span>
           </div>
           <div class="slip-cta">
             <a class="btn btn-gold js-cta" href="https://ovb-vp-portal.helvetia-altersvorsorge.de/tippgeber-link#khPjL6gC8SM8k3UNSb3VmB6b8Ly7V_n14AUzRK0r9rw" target="_blank" rel="noopener">Vorsprung sichern – Depot eröffnen</a>
@@ -360,9 +373,23 @@ footer a{color:#EEF4EF}
     <div class="path" aria-labelledby="h-path">
       <div class="path-head">
         <h3 id="h-path">Dein Weg bis zur Rente</h3>
-        <div class="legend"><span><i style="background:var(--pine-2)"></i>Deine Einzahlungen</span><span><i style="background:var(--gold)"></i>Zulagen vom Staat</span></div>
+        <div class="legend"><span><i style="background:var(--pine-2)"></i>Deine Einzahlungen</span><span><i style="background:var(--gold)"></i>Zulagen vom Staat</span><span id="lg-grow" hidden><i style="background:var(--grow)"></i>Wertzuwachs (Beispiel)</span></div>
       </div>
-      <p class="fine" style="margin-top:6px">Aufsummiert Jahr für Jahr. Wie sich das Geld am Kapitalmarkt entwickelt, ist offen und hier nicht eingerechnet: Es kann mehr oder weniger werden.</p>
+      <p class="fine" style="margin-top:6px">Aufsummiert Jahr für Jahr. Mit dem Regler siehst du, was der Zinseszins-Effekt daraus machen könnte.</p>
+      <div class="growth">
+        <div class="top-row">
+          <label for="rendite">Angenommene Wertentwicklung pro Jahr, nach Kosten</label>
+          <div class="val"><span id="rendite-out">0</span> %<small>pro Jahr</small></div>
+        </div>
+        <input type="range" id="rendite" min="0" max="8" step="0.5" value="0" aria-describedby="rendite-hint">
+        <div class="picks" role="group" aria-label="Schnellauswahl Wertentwicklung">
+          <button type="button" data-r="0" aria-pressed="true">0 %</button>
+          <button type="button" data-r="2" aria-pressed="false">2 %</button>
+          <button type="button" data-r="4" aria-pressed="false">4 %</button>
+          <button type="button" data-r="6" aria-pressed="false">6 %</button>
+        </div>
+        <p class="fine" id="rendite-hint"><b>Nur ein Rechenbeispiel, keine Prognose und kein Versprechen.</b> Fonds und ETFs schwanken und können auch fallen, es gibt keine Beitragsgarantie. Die Kosten des Standarddepots (bis zu 1 % im Jahr) sind von deiner Annahme schon abgezogen zu denken.</p>
+      </div>
       <div class="chart" id="chart"><div class="tip" id="tip"></div></div>
       <ul class="miles" id="miles"></ul>
     </div>
@@ -471,7 +498,7 @@ footer a{color:#EEF4EF}
   <div class="wrap">
     <div>
       <h3>Hinweise</h3>
-      <p>Alle Angaben ohne Gewähr, Stand Oktober 2026, nach dem Altersvorsorgereformgesetz. Keine Anlageberatung. Keine Beitragsgarantie, der Wert kann schwanken. Der Rechner ist eine vereinfachte Vorschau ohne Steuervorteile und ohne Kursentwicklung; Kinderzulage bis zum 18. Geburtstag gerechnet, Beitrag über die ganze Sparphase gleich.</p>
+      <p>Alle Angaben ohne Gewähr, Stand Oktober 2026, nach dem Altersvorsorgereformgesetz. Keine Anlageberatung. Keine Beitragsgarantie, der Wert kann schwanken. Der Rechner ist eine vereinfachte Vorschau ohne Steuervorteile; die Wertentwicklung ist ein frei gewähltes Rechenbeispiel ohne Garantie (jährliche Verzinsung, Beiträge zur Jahresmitte); Kinderzulage bis zum 18. Geburtstag gerechnet, Beitrag über die ganze Sparphase gleich.</p>
       <p>Quellen: <a href="https://www.allianz.de/vorsorge/altersvorsorgedepot/foerderung/" rel="noopener" target="_blank">Allianz – Förderung</a> · <a href="https://www.cash-online.de/a/altersvorsorgedepot-ab-2027-726968/" rel="noopener" target="_blank">cash.online</a> · <a href="https://etf.capital/altersvorsorgedepot/" rel="noopener" target="_blank">etf.capital</a></p>
     </div>
     <div id="impressum">
@@ -500,7 +527,7 @@ footer a{color:#EEF4EF}
 
   var eur=new Intl.NumberFormat('de-DE',{maximumFractionDigits:0});
   var $=function(id){return document.getElementById(id)};
-  var bIn=$('beitrag'), aIn=$('alter'), rIn=$('rente'), kids=[], NOWY=now.getFullYear();
+  var gIn=$('rendite'), bIn=$('beitrag'), aIn=$('alter'), rIn=$('rente'), kids=[], NOWY=now.getFullYear();
   var MONTHS26=Math.max(0,11-now.getMonth()); // Monate im laufenden Jahr ab nächstem Monat
   function grund(E){ if(E<120) return 0; return 0.5*Math.min(E,360)+0.25*Math.max(0,Math.min(E,1800)-360); }
   function kind(E){ return E<120?0:Math.min(E,300); }
@@ -523,13 +550,15 @@ footer a{color:#EEF4EF}
     var bonus=age<25?200:0;
     // Jahr 2027 = Alter age+1 ... bis zum Jahr vor Auszahlungsbeginn
     var N=Math.max(0,ra-age-1), pre=m*MONTHS26;
-    var years=[], cE=pre, cZ=0, tG=0, tK=0;
+    var rr=+gIn.value/100; $('rendite-out').textContent=String(+gIn.value).replace('.',',');
+    var years=[], cE=pre, cZ=0, tG=0, tK=0, bal=pre;
     for(var i=0;i<N;i++){
       var yr=NOWY+1+i, g=grund(E), k=0;
       kids.forEach(function(c){ if(c+1+i<18) k+=kind(E) });
       var z=g+k+(i===0?bonus:0);
       tG+=g; tK+=k; cE+=E; cZ+=z;
-      years.push({yr:yr,age:age+1+i,e:cE,z:cZ});
+      bal=bal*(1+rr)+(E+z)*(1+rr/2);
+      years.push({yr:yr,age:age+1+i,e:cE,z:cZ,g:Math.max(0,bal-cE-cZ)});
     }
     // Jahr 2027
     var g1=N?grund(E):0, k1=0; if(N) kids.forEach(function(c){ if(c+1<18) k1+=kind(E) });
@@ -558,6 +587,11 @@ footer a{color:#EEF4EF}
     // Grundzulage-Zeile inkl. Bonus beschriften
     document.querySelector('#t-grund').previousElementSibling.textContent = bonus&&N ? 'Grundzulagen + Bonus' : 'Grundzulagen';
 
+    var gain=years.length?years[years.length-1].g:0, gl=$('t-grow');
+    gl.hidden=!(rr>0&&N);
+    if(rr>0&&N){ gl.innerHTML='Mit '+String(+gIn.value).replace('.',',')+' % Wertentwicklung im Jahr (Beispiel): <b>'+e(eig+zul+gain)+'</b>, davon <b>'+e(gain)+'</b> Zinseszins-Effekt.'; }
+    $('lg-grow').hidden=!(rr>0);
+    document.querySelectorAll('.growth .picks button').forEach(function(x){x.setAttribute('aria-pressed',String(+x.dataset.r===+gIn.value))});
     miles(years,age,ra,eig,zul,pre);
     chart(years,pre,age);
   }
@@ -567,11 +601,13 @@ footer a{color:#EEF4EF}
     function add(big,txt){var li=document.createElement('li');var b=document.createElement('b');b.textContent=big;var s=document.createElement('span');s.textContent=txt;li.appendChild(b);li.appendChild(s);ul.appendChild(li)}
     if(!years.length){return}
     var mid=years[Math.min(years.length-1,9)];
-    add(e(mid.e+mid.z),'nach '+Math.min(years.length,10)+' Jahren (mit '+mid.age+'), davon '+e(mid.z)+' Zulagen');
+    add(e(mid.e+mid.z+mid.g),'nach '+Math.min(years.length,10)+' Jahren (mit '+mid.age+'), davon '+e(mid.z)+' Zulagen'+(mid.g>0?' und '+e(mid.g)+' Wertzuwachs (Beispiel)':''));
     var lastKid=-1; kids.forEach(function(c){lastKid=Math.max(lastKid,17-c)});
     if(lastKid>=0 && lastKid<years.length) add('bis '+(NOWY+1+lastKid),'gibt es Kinderzulage, solange dein jüngstes Kind unter 18 ist');
     else add(e(years[0].z),'Zulagen schon im ersten Jahr 2027');
-    add(e(eig+zul),'mit '+ra+' auf dem Konto, ohne Kursentwicklung');
+    var gn=years[years.length-1].g;
+    if(gn>0) add(e(eig+zul+gn),'mit '+ra+' im Beispiel mit '+String(+gIn.value).replace('.',',')+' % pro Jahr, davon '+e(gn)+' Zinseszins');
+    else add(e(eig+zul),'mit '+ra+' auf dem Konto, ohne Wertentwicklung');
   }
 
   var tip=$('tip');
@@ -579,7 +615,7 @@ footer a{color:#EEF4EF}
     var box=$('chart'); var old=box.querySelector('svg'); if(old) old.remove();
     if(!years.length){tip.style.display='none';return}
     var W=Math.max(300,box.clientWidth), H=260, mT=14, mB=28, mR=8;
-    var max=years[years.length-1].e+years[years.length-1].z;
+    var L=years[years.length-1], max=L.e+L.z+L.g;
     var step=Math.pow(10,Math.floor(Math.log10(max/4))), nice=[1,2,2.5,5,10].map(function(f){return f*step}).find(function(s){return max/s<=5})||step*10;
     var top=Math.ceil(max/nice)*nice, ticks=[]; for(var t=0;t<=top+1e-9;t+=nice) ticks.push(t);
     var ns='http://www.w3.org/2000/svg';
@@ -596,6 +632,7 @@ footer a{color:#EEF4EF}
       var x=mL+i*bw+gap/2, w=Math.max(1,bw-gap);
       el('rect',{x:x,y:y(d.e),width:w,height:Math.max(0,y(0)-y(d.e)),fill:'var(--pine-2)'});
       el('rect',{x:x,y:y(d.e+d.z),width:w,height:Math.max(0,y(d.e)-y(d.e+d.z)),fill:'var(--gold)'});
+      if(d.g>0) el('rect',{x:x,y:y(d.e+d.z+d.g),width:w,height:Math.max(0,y(d.e+d.z)-y(d.e+d.z+d.g)),fill:'var(--grow)'});
     });
     var every=Math.max(1,Math.ceil(n/Math.max(2,Math.floor((W-mL)/56))));
     years.forEach(function(d,i){ if(i%every===0||i===n-1){ if(i!==n-1 && n-1-i<every) return;
@@ -604,7 +641,7 @@ footer a{color:#EEF4EF}
     function show(ev){
       var r=svg.getBoundingClientRect(), sx=(ev.clientX-r.left)*(W/r.width);
       var i=Math.max(0,Math.min(n-1,Math.floor((sx-mL)/bw))), d=years[i];
-      tip.innerHTML='Mit '+d.age+' ('+d.yr+')<br>Eingezahlt <b>'+e(d.e)+'</b><br>Zulagen <b>'+e(d.z)+'</b>';
+      tip.innerHTML='Mit '+d.age+' ('+d.yr+')<br>Eingezahlt <b>'+e(d.e)+'</b><br>Zulagen <b>'+e(d.z)+'</b>'+(d.g>0?'<br>Wertzuwachs (Beispiel) <b>'+e(d.g)+'</b>':'');
       tip.style.display='block';
       var px=(mL+i*bw+bw/2)*(r.width/W), left=px+12; if(left+tip.offsetWidth>r.width) left=px-tip.offsetWidth-12;
       tip.style.left=Math.max(0,left)+'px'; tip.style.top='8px';
@@ -613,7 +650,8 @@ footer a{color:#EEF4EF}
     hit.addEventListener('pointerleave',function(){tip.style.display='none'});
   }
 
-  [bIn,aIn,rIn].forEach(function(x){x.addEventListener('input',calc)});
+  [bIn,aIn,rIn,gIn].forEach(function(x){x.addEventListener('input',calc)});
+  document.querySelectorAll('.growth .picks button').forEach(function(b){b.addEventListener('click',function(){gIn.value=b.dataset.r;calc()})});
   document.querySelectorAll('.steps button').forEach(function(btn){
     btn.addEventListener('click',function(){
       var k=+btn.dataset.k; while(kids.length<k) kids.push(kids.length?Math.min(17,kids[kids.length-1]+2):3); kids.length=k;

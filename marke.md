@@ -37,7 +37,8 @@ In DMs und Bio verlinken wir die Rechner-Seite: https://rente-einfach-erledigt.g
 ## Regeln (Pflicht)
 - Informieren, nie beraten. Keine Empfehlung „du solltest …“.
 - Zulagen immer mit „bis zu“.
-- Keine Renditeversprechen, keine Zinsbeispiele.
+- Keine Renditeversprechen, keine Zinsbeispiele in Posts, Captions und Artikeln.
+  Einzige Ausnahme: der Wertentwicklungs-Regler im Rechner der Website (startet bei 0 %, Nutzer wählt selbst, klar als Rechenbeispiel ohne Garantie markiert). Nicht verändern oder anderswo nachbauen.
 - Jede Caption endet mit: „Keine Anlageberatung. Keine Beitragsgarantie, der Wert kann schwanken.“
 - Nie „kündige Riester“. Kündigen kann Förderung kosten – nur so erwähnen.
 - Keine Zulagen für 2026 versprechen.
