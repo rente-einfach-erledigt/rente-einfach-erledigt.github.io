@@ -56,6 +56,12 @@ Neue Erkenntnisse aus Helvetia/OVB-Quellen (z. B. Produktdetails der Strecke) in
 - Keine falsche Dringlichkeit, keine Fake-Countdowns.
 - Faceless: nur Grafiken, Text, ggf. KI-Stimme. Kein Gesicht.
 
+## Copywriting (Website, Captions, Artikel)
+- Nutzen zuerst, aktiv, kurz: erst die Antwort („Nein. …“), dann der Grund. Max. 2 Sätze pro Gedanke.
+- Keine Absicherungs-Floskeln im Fließtext („Diese Seite ersetzt keine …“) – Pflichthinweise stehen gesammelt im Hinweis/Fußbereich.
+- Du-Form, konkrete Verben, keine Behördensprache, keine Füllwörter („trotzdem“, „grundsätzlich“, „eventuell“).
+- Der Beratungstermin wird nur als leise Option angeboten („Lieber vorher kurz sprechen?“), nie als Hauptweg.
+
 ## Formate
 - Karussell: 6–7 Folien, gerendert mit `python3 render.py posts/<id>/post.json`
   - Folie 1: Hook + `"swipe": true`
