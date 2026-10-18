@@ -84,3 +84,6 @@ status: offen → freigegeben | abgelehnt (Felix) → geplant → gepostet | feh
 - TikTok: Foto-Slideshow aus denselben Folien (immer die .jpg-Dateien hochladen, gilt für alle Kanäle).
   Text: kein Kommentar-Wort, stattdessen „Förderung berechnen: Link im Profil ✓“, Vorsprung in Zeile 1, Pflicht-Hinweis, 3–5 Hashtags.
   options.tiktok = {"tiktokPrivacy":"public","tiktokAllowComment":true,"tiktokYourBrand":true,"tiktokAutoAddMusic":true}
+- WICHTIG: Die letzte Folie („Kommentiere <WORT> … DM“) gibt es nur auf Instagram. Für alle anderen Kanäle
+  einen ZWEITEN Entwurf ohne die letzte Folie anlegen (Text mit Link statt Kommentar-Wort).
+  In der Freigabe-Datenbank beide Entwurf-IDs als `ihpPostIds` speichern.
