@@ -56,3 +56,13 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 2. Felix tippt auf der Freigabe-Seite ✓ oder ✗.
 3. Täglich: Posting-Agent plant freigegebene Entwürfe zum geplanten Termin ein, löscht abgelehnte.
 4. Freitag: Auswertungs-Agent schreibt Erkenntnisse in `lernen.md`.
+
+## Adressen
+- Freigabe-Seite (Artefakt mit Datenbank, Sammlung `posts`): https://claude.ai/artifact/ND7MXo9UfG9widVMYUCmnh
+- Bilder öffentlich: https://raw.githubusercontent.com/zhwolffelix-code/rente-einfach-erledigt-content/main/posts/<id>/folie_N.png
+- iHatePosting: Konto von Felix, Zeitzone Europe/Berlin
+
+## Datenmodell Freigabe-Seite (`posts/<id>`, id = `JJJJ-MM-TT-thema`)
+datum (JJJJ-MM-TT), uhrzeit (HH:MM), thema, zielgruppe, wort, kanaele [..], format, caption,
+bilder [/_blob/... Asset-URLs der Freigabe-Seite], status, ihpPostId, hinweis, erstelltAm
+status: offen → freigegeben | abgelehnt (Felix) → geplant → gepostet | fehler (Agenten)
