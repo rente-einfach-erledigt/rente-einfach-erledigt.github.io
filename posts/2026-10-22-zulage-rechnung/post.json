@@ -1,0 +1,42 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Für jeden Euro legt der Staat bis zu 50 Cent dazu.",
+   "body": "Ab 2027. Wer jetzt startet, ist dann schon dabei.",
+   "swipe": true
+  },
+  {
+   "kick": "Stufe 1",
+   "big": "50 Cent",
+   "body": "Zulage pro Euro auf deine ersten 360 € Eigenbeitrag im Jahr."
+  },
+  {
+   "kick": "Stufe 2",
+   "big": "25 Cent",
+   "body": "Zulage pro Euro auf die nächsten 1.440 € im Jahr."
+  },
+  {
+   "kick": "Zusammen",
+   "big": "bis zu 540 €",
+   "body": "Grundzulage pro Jahr bei 1.800 € Eigenbeitrag."
+  },
+  {
+   "kick": "Beispiel",
+   "head": "30 € im Monat",
+   "body": "= 360 € im Jahr. Darauf gibt es bis zu 180 € Grundzulage."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "START",
+   "cta": true,
+   "body": "und du bekommst den Link per DM."
+  }
+ ]
+}
