@@ -1,0 +1,17 @@
+# Rente einfach erledigt
+
+> Unabhängig verständliche Infoseite zum Altersvorsorgedepot (staatlich geförderte private Altersvorsorge in Deutschland ab 01.01.2027, Altersvorsorgereformgesetz). Mit Förderrechner für Grundzulage, Kinderzulage und Einsteiger-Bonus. Das Depot ist über eine OVB-Abschlussstrecke schon vor dem offiziellen Start abschließbar. Keine Anlageberatung.
+
+## Kernfakten (Stand Oktober 2026)
+- Grundzulage: 50 % auf die ersten 360 € Eigenbeitrag, 25 % auf 360–1.800 € → bis zu 540 € pro Jahr
+- Kinderzulage: bis zu 300 € pro Kind und Jahr, solange Kindergeld gezahlt wird
+- Einsteiger-Bonus: einmalig 200 € bei Abschluss vor dem 25. Geburtstag
+- Mindestbeitrag für Förderung: 120 € pro Jahr; Einzahlung bis 6.840 € pro Jahr möglich
+- Kostendeckel Standarddepot: max. 1 % Effektivkosten pro Jahr
+- Auszahlung frühestens ab 65, spätestens ab 70
+- Zulagen ab Beitragsjahr 2027; keine Beitragsgarantie
+- Riester-Verträge können weiterlaufen oder ins Altersvorsorgedepot wechseln, ohne bisherige Förderung zurückzuzahlen
+- Selbstständige sind ab 2027 erstmals förderberechtigt
+
+## Seiten
+- [Startseite mit Förderrechner](https://rente-einfach-erledigt.github.io/): Rechner, Erklärung, FAQ

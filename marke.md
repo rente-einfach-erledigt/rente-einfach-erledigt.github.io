@@ -57,24 +57,34 @@ Dunkelgrün #0F3B2E, Gold #F2B33D, Creme #FAF6EC, Schrift Inter. Wird von render
 ## Posting-Zeiten (Europe/Berlin)
 Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 
-## Ablauf
-1. Sonntag: Wochen-Agent recherchiert, schreibt 7 Posts, rendert Bilder, pusht sie hierher,
-   lädt sie zu iHatePosting (upload_media per raw.githubusercontent-URL), legt Entwürfe an
-   und trägt alles in die Freigabe-Seite ein.
-2. Felix tippt auf der Freigabe-Seite ✓ oder ✗.
-3. Täglich: Posting-Agent plant freigegebene Entwürfe zum geplanten Termin ein, löscht abgelehnte.
-4. Freitag: Auswertungs-Agent schreibt Erkenntnisse in `lernen.md`.
+## Ablauf und Agenten-Team
+1. Sonntag 17:58 – Wochen-Agent: recherchiert, schreibt 7 Karussells, rendert, lädt hoch, legt Entwürfe an, trägt sie in die Freigabe-Seite ein.
+2. Mittwoch 09:47 – SEO/GEO-Agent: schreibt 1 Ratgeber-Artikel für die Website (Plan in `seo.md`), legt ihn auf einem
+   Git-Zweig `artikel/<slug>` ab und trägt ihn als format "Artikel" in die Freigabe-Seite ein. Pflegt Sitemap, llms.txt, Schema.
+3. Felix tippt auf der Freigabe-Seite ✓ oder ✗ – für Posts UND Artikel. Ohne ✓ geht nichts raus.
+4. Täglich 06:47 und 16:47 – Posting-Agent: plant freigegebene Posts ein, veröffentlicht freigegebene Artikel
+   (Zweig in main mergen), räumt Abgelehntes auf.
+5. Freitag 15:53 – Auswertungs-Agent: Erkenntnisse in `lernen.md`, fragt Felix nach den Abschlüssen, trägt sie ins Kanal-Cockpit ein.
+6. Täglich 20:42 – Manager-Agent: prüft, ob alles läuft (Agenten, Posts, Kanäle, Website, Regeln). Meldet sich nur bei Problemen.
+   Samstags: Wochen-Review mit max. 3 Verbesserungsvorschlägen in `manager.md`. Felix antwortet „ja“ oder „nein“ je Vorschlag;
+   nur bestätigte Vorschläge setzt der Manager um (über marke.md, lernen.md, seo.md oder die Website).
 
 ## Adressen
 - Rechner-Seite (für DMs, Bio, Captions): https://rente-einfach-erledigt.github.io/
 - Freigabe-Seite (Artefakt mit Datenbank, Sammlung `posts`): https://claude.ai/artifact/ND7MXo9UfG9widVMYUCmnh
 - Bilder öffentlich: https://raw.githubusercontent.com/rente-einfach-erledigt/rente-einfach-erledigt.github.io/main/posts/<id>/folie_N.png
 - iHatePosting: Konto von Felix, Zeitzone Europe/Berlin
+- Kanal-Cockpit (Dashboard): https://claude.ai/artifact/Efn2qBq7TzGFNoy3WieRdF
+- Beratungstermin (nur dezent, nie Haupt-CTA): https://calendly.com/marco76steffen/rente-einfach-erledigt
+- Ratgeber-Artikel: https://rente-einfach-erledigt.github.io/ratgeber/<slug>.html
 
 ## Datenmodell Freigabe-Seite (`posts/<id>`, id = `JJJJ-MM-TT-thema`)
 datum (JJJJ-MM-TT), uhrzeit (HH:MM), thema, zielgruppe, wort, kanaele [..], format, caption,
 bilder [/_blob/... Asset-URLs der Freigabe-Seite], status, ihpPostId, hinweis, erstelltAm
 status: offen → freigegeben | abgelehnt (Felix) → geplant → gepostet | fehler (Agenten)
+Artikel (format "Artikel"): zusätzlich zweig ("artikel/<slug>"), seite (Ziel-URL); caption = voller Artikeltext als Klartext;
+keine ihpPostIds. Freigegeben → Posting-Agent merged den Zweig → status "gepostet", url = seite.
+Manager-Hinweise: Findet der Manager bei einem offenen Post einen Regelverstoß, schreibt er ihn in `hinweis`.
 
 ## Kanäle und Texte je Kanal (create_post mit `overrides`)
 - Instagram: Caption mit „Kommentiere <WORT> und du bekommst den Link per DM.“ (ManyChat schickt die DM automatisch).
