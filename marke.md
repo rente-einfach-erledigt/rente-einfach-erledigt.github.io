@@ -6,7 +6,7 @@ Dieses Dokument lesen alle Agenten zuerst. Es gilt immer.
 Felix (OVB-Vermittler) gewinnt Kunden für das **Altersvorsorgedepot (AVD)** über eine
 OVB-Direktabschlussstrecke (Helvetia/Xaver) – ganz ohne Beratung.
 Abschluss-Link (steckt in den Buttons der Rechner-Seite): https://ovb.helvetia-altersvorsorge.de/get-started
-In DMs und Bio verlinken wir die Rechner-Seite: https://zhwolffelix-code.github.io/rente-einfach-erledigt-content/
+In DMs und Bio verlinken wir die Rechner-Seite: https://rente-einfach-erledigt.github.io/
 
 ## Kernbotschaft: DER VORSPRUNG (wichtigste Regel bis 31.12.2026)
 - „Alle warten auf 2027 – du startest jetzt. Vor allen anderen.“
@@ -66,9 +66,9 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 4. Freitag: Auswertungs-Agent schreibt Erkenntnisse in `lernen.md`.
 
 ## Adressen
-- Rechner-Seite (für DMs, Bio, Captions): https://zhwolffelix-code.github.io/rente-einfach-erledigt-content/
+- Rechner-Seite (für DMs, Bio, Captions): https://rente-einfach-erledigt.github.io/
 - Freigabe-Seite (Artefakt mit Datenbank, Sammlung `posts`): https://claude.ai/artifact/ND7MXo9UfG9widVMYUCmnh
-- Bilder öffentlich: https://raw.githubusercontent.com/zhwolffelix-code/rente-einfach-erledigt-content/main/posts/<id>/folie_N.png
+- Bilder öffentlich: https://raw.githubusercontent.com/rente-einfach-erledigt/rente-einfach-erledigt.github.io/main/posts/<id>/folie_N.png
 - iHatePosting: Konto von Felix, Zeitzone Europe/Berlin
 
 ## Datenmodell Freigabe-Seite (`posts/<id>`, id = `JJJJ-MM-TT-thema`)
