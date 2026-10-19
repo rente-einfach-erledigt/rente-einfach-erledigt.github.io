@@ -1,0 +1,7 @@
+{"zielgruppe":"riester","wort":"RIESTER","scenes":[
+ {"type":"hook","kick":"RIESTER-SPARER","text":"Dein Riester-Vertrag\nist nicht verloren.\n*Er bekommt ein Upgrade.*"},
+ {"type":"myth","myth":"Riester muss ich jetzt kündigen.","fact":"Nein. Weiterlaufen lassen *oder wechseln*. Kündigen kann Förderung kosten."},
+ {"type":"list","title":"Was sich ab 2027 ändert","items":["Fonds und ETFs statt teurer Garantien","Kostendeckel: max. 1 % im Jahr","Wechsel ohne Förderung zurückzuzahlen"]},
+ {"type":"bars","title":"Maximale Grundzulage pro Jahr","items":[{"label":"Bisher Riester","value":175},{"label":"Altersvorsorgedepot: bis zu","value":540,"gold":true}]},
+ {"type":"cta","kick":"DEIN VORSPRUNG","text":"Alle warten auf 2027.\n*Du bereitest den Wechsel jetzt vor.*"}
+]}

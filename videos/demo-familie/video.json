@@ -1,0 +1,7 @@
+{"zielgruppe":"familien","wort":"KIND","scenes":[
+ {"type":"hook","kick":"DEIN VORSPRUNG","text":"Du hast Kinder?\nDann zahlt der Staat\n*bald mit.*"},
+ {"type":"counter","label":"Kinderzulage","pre":"bis zu","value":300,"unit":"€","sub":"pro Kind und Jahr. Schon ab 25 € im Monat."},
+ {"type":"persona","name":"Lisa","alter":31,"kinder":[2,5],"beitrag":150,"rente":67},
+ {"type":"countdown"},
+ {"type":"cta","kick":"SICHERE DIR DEN VORSPRUNG","text":"Rechne aus, was\n*deine Familie* bekommt."}
+]}

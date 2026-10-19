@@ -1,0 +1,7 @@
+{"zielgruppe":"einsteiger","wort":"START","scenes":[
+ {"type":"hook","kick":"UNTER 25?","text":"200 € extra,\nnur weil du\n*früh dran bist.*"},
+ {"type":"counter","label":"Einsteiger-Bonus","pre":"einmalig","value":200,"unit":"€","sub":"wenn du vor deinem 25. Geburtstag abschließt."},
+ {"type":"persona","name":"Jonas","alter":22,"kinder":[],"beitrag":50,"rente":67,"job":"Azubi"},
+ {"type":"text","kick":"EHRLICH GESAGT","text":"Keine Garantie: Fonds schwanken.\nDafür *45 Jahre Zeit* und Zulagen vom Staat."},
+ {"type":"cta","kick":"SICHERE DIR DEN VORSPRUNG","text":"Rechne aus, was *dein Start* bringt."}
+]}

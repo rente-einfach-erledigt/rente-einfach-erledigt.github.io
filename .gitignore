@@ -1,0 +1,3 @@
+videos/demo-*/*.mp4
+videos/demo-*/cover.jpg
+__pycache__/

@@ -76,6 +76,21 @@ Dunkelgrün #0F3B2E, Gold #F2B33D, Creme #FAF6EC, Schrift Inter. Wird von render
 ## Posting-Zeiten (Europe/Berlin)
 Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 
+## Videos (Video-Agent, Sonntag 19:47)
+- Renderer: `python3 video.py videos/<id>/video.json` → video_A.mp4 (Instagram-Reel, Ende „Kommentiere WORT“), video_B.mp4
+  (TikTok, YouTube Shorts, Facebook, Threads: Ende „Link im Profil ✓“), cover.jpg. Szenen-Typen und Regeln stehen im Kopf von video.py.
+- 4 Videos pro Woche: Di, Do, Sa, So jeweils 12:15. Zielgruppen rotieren (Familien, Riester-Sparer, Selbstständige, Einsteiger unter 25),
+  jedes Video spricht GENAU EINE Zielgruppe an – in ihrer Sprache, mit ihrer Situation (Persona mit Name, Alter, Lebenslage).
+- Nicht generisch: jedes Video hat einen konkreten Hook (Frage, Zahl oder Irrtum), höchstens 1 Countdown pro Woche,
+  Szenen-Mix wechselt (nicht zweimal hintereinander dieselbe Reihenfolge), Personas wechseln (Namen, Alter, Berufe, Beiträge).
+  Die Persona-Zahlen rechnet video.py selbst – nie Zahlen von Hand eintragen.
+- Länge 18–30 s. Hook in den ersten 2 Sekunden. Vorsprung in Szene 1 oder 2 UND in der CTA-Szene (bis 31.12.2026).
+- Alle Pflicht-Regeln gelten wie bei Karussells (keine Renditeversprechen, „bis zu“, keine Zulagen für 2026 …).
+- Caption: wie bei Karussells (A = Instagram mit Kommentar-Wort, B = je Kanal), YouTube: Titel max. 70 Zeichen mit „#Shorts“,
+  Beschreibung mit Link https://rente-einfach-erledigt.github.io und Pflicht-Hinweis.
+- Ton: eigene, lizenzfreie Musik aus video.py (keine fremde Musik). Eine Sprecherstimme kommt später dazu, sobald möglich.
+- Freigabe-Seite: Dokument mit format "Video", video = /_blob-URL der video_A.mp4, bilder = [/_blob-URL von cover.jpg].
+
 ## Ablauf und Agenten-Team
 1. Sonntag 17:58 – Wochen-Agent: recherchiert, schreibt 7 Karussells, rendert, lädt hoch, legt Entwürfe an, trägt sie in die Freigabe-Seite ein.
 2. Mittwoch 09:47 – SEO/GEO-Agent: schreibt 1 Ratgeber-Artikel für die Website (Plan in `seo.md`), legt ihn auf einem
@@ -84,6 +99,7 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 4. Täglich 06:47 und 16:47 – Posting-Agent: plant freigegebene Posts ein, veröffentlicht freigegebene Artikel
    (Zweig in main mergen), räumt Abgelehntes auf.
 5. Freitag 15:53 – Auswertungs-Agent: Erkenntnisse in `lernen.md`, fragt Felix nach den Abschlüssen, trägt sie ins Kanal-Cockpit ein.
+5b. Sonntag 19:47 – Video-Agent: 4 Kurzvideos (Reels/TikTok/Shorts) pro Woche, auf die Freigabe-Seite.
 6. Täglich 20:42 – Manager-Agent: prüft, ob alles läuft (Agenten, Posts, Kanäle, Website, Regeln). Meldet sich nur bei Problemen.
    Samstags: Wochen-Review mit max. 3 Verbesserungsvorschlägen in `manager.md`. Felix antwortet „ja“ oder „nein“ je Vorschlag;
    nur bestätigte Vorschläge setzt der Manager um (über marke.md, lernen.md, seo.md oder die Website).
