@@ -25,10 +25,10 @@ nach dem Altersvorsorgedepot fragen, landen auf rente-einfach-erledigt.github.io
 9. altersvorsorgedepot-auszahlung – „Wann und wie wird das Altersvorsorgedepot ausgezahlt?“
 
 ## Wartet auf Freigabe
-- 2026-10-19 – altersvorsorgedepot-rechner – „Altersvorsorgedepot Rechner: So viel Förderung bekommst du“ (Zweig artikel/altersvorsorgedepot-rechner, enthält auch /ratgeber/, Sitemap, llms.txt, Footer-Link)
+(keiner)
 
 ## Veröffentlicht
-(noch keine)
+- 2026-10-19 – /ratgeber/altersvorsorgedepot-rechner.html – „Altersvorsorgedepot Rechner: So viel Förderung bekommst du“ (+ /ratgeber/ Übersicht)
 
 ## GEO-Beobachtungen
 - 2026-10-19 – Google „Altersvorsorgedepot Rechner“: oben stehen Raisin, steuerschroeder.de, HanseMerkur, zendepot, extraETF, Finanztip, covago – fast nur Anbieter/Portale mit eigenem Rechner; unsere Seite taucht noch nicht auf.
