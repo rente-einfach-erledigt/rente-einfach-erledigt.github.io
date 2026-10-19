@@ -1,0 +1,53 @@
+{
+ "zielgruppe": "familien",
+ "wort": "KIND",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "DEIN VORSPRUNG",
+   "text": "Nur 50 € im Monat übrig?\n*Reicht für die volle Kinderzulage.*"
+  },
+  {
+   "type": "myth",
+   "myth": "Vorsorge lohnt sich erst mit viel Geld.",
+   "fact": "Nein. Ab 25 € im Monat gibt es *bis zu 300 €* Kinderzulage pro Kind."
+  },
+  {
+   "type": "persona",
+   "name": "Aylin",
+   "alter": 29,
+   "kinder": [
+    3
+   ],
+   "beitrag": 50,
+   "rente": 67,
+   "job": "Alleinerziehend, Teilzeit",
+   "dur": 7.5,
+   "figur": {
+    "haut": "oliv",
+    "haar": "dutt",
+    "haarfarbe": "braun",
+    "kleidung": "lila",
+    "ohrringe": true,
+    "kinder": [
+     {
+      "haut": "oliv",
+      "haar": "locken",
+      "haarfarbe": "schwarz",
+      "kleidung": "gold"
+     }
+    ]
+   }
+  },
+  {
+   "type": "text",
+   "kick": "FAMILIEN MIT VORSPRUNG",
+   "text": "Wer jetzt startet,\nist im Januar *schon startklar.*"
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Rechne aus, was\n*dein Kind* dir bringt."
+  }
+ ]
+}

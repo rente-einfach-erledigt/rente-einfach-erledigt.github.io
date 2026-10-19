@@ -1,0 +1,7 @@
+{"zielgruppe":"einsteiger","wort":"START","scenes":[
+ {"type":"hook","kick":"UNTER 25 · DEIN VORSPRUNG","text":"Rente? Noch 45 Jahre hin.\n*Genau das ist dein Vorteil.*"},
+ {"type":"countdown"},
+ {"type":"bars","title":"30 € im Monat","items":[{"label":"Du zahlst im Jahr","value":360},{"label":"Staat legt drauf: bis zu","value":180,"gold":true}]},
+ {"type":"persona","name":"Mia","alter":20,"kinder":[],"beitrag":30,"rente":67,"job":"Studentin mit Minijob","figur":{"haut":"dunkel","haar":"locken","haarfarbe":"schwarz","kleidung":"gold","ohrringe":true}},
+ {"type":"cta","kick":"SICHERE DIR DEN VORSPRUNG","text":"Rechne aus, was\n*dein Start* bringt."}
+]}

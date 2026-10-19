@@ -1,0 +1,46 @@
+{
+ "zielgruppe": "riester",
+ "wort": "RIESTER",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "RIESTER-SPARER 40+",
+   "text": "Bisher max. 175 € Zulage.\n*Ab 2027 bis zu 540 €.*"
+  },
+  {
+   "type": "text",
+   "kick": "DEIN VORSPRUNG",
+   "text": "Alle warten auf 2027.\n*Du bereitest den Wechsel jetzt in Ruhe vor.*"
+  },
+  {
+   "type": "persona",
+   "name": "Petra",
+   "alter": 52,
+   "kinder": [],
+   "beitrag": 150,
+   "rente": 67,
+   "job": "Pflegekraft, Riester seit 2009",
+   "figur": {
+    "haut": "hell",
+    "haar": "seitenscheitel",
+    "haarfarbe": "grau",
+    "kleidung": "rot",
+    "brille": true
+   }
+  },
+  {
+   "type": "list",
+   "title": "Deine Optionen",
+   "items": [
+    "Weiterlaufen lassen",
+    "Ins Depot wechseln, ohne Förderung zurückzuzahlen",
+    "Wichtig: Kündigen kann Förderung kosten"
+   ]
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Rechne aus, was\n*dein Wechsel* bringt."
+  }
+ ]
+}

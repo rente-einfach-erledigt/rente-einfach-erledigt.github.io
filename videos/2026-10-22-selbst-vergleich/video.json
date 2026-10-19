@@ -1,0 +1,57 @@
+{
+ "zielgruppe": "selbststaendige",
+ "wort": "SELBST",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "SELBSTSTÄNDIG · DEIN VORSPRUNG",
+   "text": "50 oder 150 €\nim Monat?\n*So viel legt der Staat drauf.*"
+  },
+  {
+   "type": "persona",
+   "name": "Sophie",
+   "alter": 35,
+   "kinder": [],
+   "beitrag": 50,
+   "rente": 67,
+   "job": "Gründerin, Design-Studio",
+   "figur": {
+    "haut": "hell",
+    "haar": "kurz",
+    "haarfarbe": "blond",
+    "kleidung": "gruen",
+    "brille": true
+   }
+  },
+  {
+   "type": "persona",
+   "name": "Deniz",
+   "alter": 35,
+   "kinder": [],
+   "beitrag": 150,
+   "rente": 67,
+   "job": "Tischlermeister",
+   "figur": {
+    "haut": "braun",
+    "haar": "glatze",
+    "haarfarbe": "schwarz",
+    "kleidung": "blau",
+    "bart": "voll"
+   }
+  },
+  {
+   "type": "list",
+   "title": "Gut zu wissen",
+   "items": [
+    "Ab 2027 erstmals förderberechtigt",
+    "Volle Grundzulage ab 150 € im Monat",
+    "Fonds und ETFs, keine Garantie"
+   ]
+  },
+  {
+   "type": "cta",
+   "kick": "DEIN VORSPRUNG",
+   "text": "Alle warten auf 2027.\n*Dein Depot steht dann schon.*"
+  }
+ ]
+}
