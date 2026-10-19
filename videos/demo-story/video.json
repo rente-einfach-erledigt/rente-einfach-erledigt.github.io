@@ -1,0 +1,6 @@
+{"zielgruppe":"selbststaendige","wort":"SELBST","scenes":[
+ {"type":"hook","kick":"SELBSTSTÄNDIG?","text":"Jahrelang keine Förderung.\n*Ab 2027 bist du dabei.*"},
+ {"type":"persona","name":"Murat","alter":36,"kinder":[],"beitrag":150,"rente":67,"job":"Selbstständiger Elektriker","figur":{"haut":"oliv","haar":"kurz","haarfarbe":"schwarz","kleidung":"petrol","bart":"kurz"}},
+ {"type":"persona","name":"Anna","alter":34,"kinder":[1,4],"beitrag":100,"rente":67,"job":"Grafikdesignerin","figur":{"haut":"hell","haar":"dutt","haarfarbe":"rot","kleidung":"senf","brille":true,"kinder":[{"haut":"hell","haar":"locken","haarfarbe":"rot","kleidung":"blau"},{"haut":"hell","haar":"kurz","haarfarbe":"blond","kleidung":"gruen"}]}},
+ {"type":"cta","kick":"DEIN VORSPRUNG","text":"Alle warten auf 2027.\n*Du rechnest jetzt.*"}
+]}

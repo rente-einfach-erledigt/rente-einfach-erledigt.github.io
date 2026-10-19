@@ -76,6 +76,18 @@ Dunkelgrün #0F3B2E, Gold #F2B33D, Creme #FAF6EC, Schrift Inter. Wird von render
 ## Posting-Zeiten (Europe/Berlin)
 Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 
+## Beispielrechnungen mit illustrierten Figuren (Karussells UND Videos)
+- Pro Woche mindestens 2 Karussells und 2 Videos mit Beispielrechnung: render.py-Folie `persona` bzw. video.py-Szene `persona`
+  (rechnen alle Zahlen selbst: Zulagen 2027, eigene Beiträge + Zulagen bis zur Rente, ohne Kursentwicklung).
+- Jede Figur bekommt eine passende Illustration (`figur`, Optionen in avatar.py). Vielfalt: Haut, Haare, Alter, Geschlecht, Familienform.
+- Immer als BEISPIELRECHNUNG / Beispielfigur erkennbar. Nie als echte Kundin/echter Kunde, keine „Erfahrungsberichte“, keine Ergebnisse
+  („hat schon X € bekommen“) – nur was jemand in dieser Lage laut Gesetz bekommen kann.
+- Kreative Lebenslagen (Ideen, nicht abschließend): Familie mit 2 Kindern; Alleinerziehende mit 1 Kind; Selbstständiger Handwerker;
+  Freelancerin mit Kindern; Azubi mit 50 €/Monat (+ Einsteiger-Bonus); Studentin mit Minijob; Paar ohne Kinder, beide 150 €;
+  Riester-Wechsler mit 52; Pflegekraft im Schichtdienst; Mama nach der Elternzeit; Gründer im ersten Jahr; Vater mit 3 Kindern.
+- Vergleiche funktionieren gut: zwei Figuren nebeneinander (z. B. „Startet mit 25 vs. mit 45“, „50 € vs. 150 € im Monat“) –
+  als zwei persona-Szenen bzw. -Folien hintereinander.
+
 ## Videos (Video-Agent, Sonntag 19:47)
 - Renderer: `python3 video.py videos/<id>/video.json` → video_A.mp4 (Instagram-Reel, Ende „Kommentiere WORT“), video_B.mp4
   (TikTok, YouTube Shorts, Facebook, Threads: Ende „Link im Profil ✓“), cover.jpg. Szenen-Typen und Regeln stehen im Kopf von video.py.

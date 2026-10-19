@@ -16,11 +16,16 @@ Szenen (dur = Sekunden, optional; sonst Standard):
   {"type":"hook", "kick":"DEIN VORSPRUNG", "text":"Alle warten auf 2027.\n*Du startest jetzt.*"}
         *Wort* = gold hervorgehoben, \n = neue Zeile. Max ~10 Woerter.
   {"type":"counter", "label":"Kinderzulage", "pre":"bis zu", "value":300, "unit":"€", "sub":"pro Kind und Jahr"}
-  {"type":"persona", "name":"Lisa", "alter":31, "kinder":[2,5], "beitrag":150, "rente":67}
-        rechnet Grund-/Kinderzulage 2027 und die Summe bis zur Rente selbst (ohne Kursentwicklung).
+  {"type":"persona", "name":"Lisa", "alter":31, "kinder":[2,5], "beitrag":150, "rente":67, "job":"Erzieherin", "figur":{...}}
+        BEISPIELRECHNUNG: rechnet Grund-/Kinderzulage 2027 sowie eigene Beitraege + Zulagen bis zur Rente selbst
+        (ohne Kursentwicklung). "figur" (optional, empfohlen) = illustrierte Figur, Optionen siehe avatar.py.
   {"type":"bars", "title":"Im Jahr 2027", "items":[{"label":"Du zahlst","value":1800},{"label":"Staat legt drauf","value":1140,"gold":true}]}
   {"type":"myth", "myth":"Riester muss ich kündigen.", "fact":"Weiterlaufen lassen oder wechseln. Kündigen kann Förderung kosten."}
   {"type":"list", "title":"3 Dinge, die du wissen musst", "items":["…","…","…"]}
+  {"type":"story", "name":"Sandra, 44", "rolle":"Pflegekraft, 2 Kinder", "zitat":"Ich hab ewig gewartet. Jetzt weiß ich, *wie viel der Staat mir dazulegt.*",
+   "figur":{"haut":"hell","haar":"lang","haarfarbe":"braun","kleidung":"gold","brille":false,"kinder":[{...}]}}
+        Illustrierte Beispielfigur erzaehlt in Ich-Form (Optionen der figur: siehe avatar.py). Wird automatisch als
+        „Beispielfigur · Illustration“ gekennzeichnet. Nie als echte Kundin/echter Kunde ausgeben, keine erfundenen Ergebnisse.
   {"type":"countdown"}                  # zeigt die echten Tage bis 01.01.2027
   {"type":"text", "kick":"…", "text":"…"}   # ruhige Textszene
   {"type":"cta", "kick":"SICHERE DIR DEN VORSPRUNG", "text":"Rechne in 30 Sekunden aus,\nwie viel dir zusteht."}
@@ -30,6 +35,8 @@ Pflicht: Hinweiszeile "Keine Anlageberatung …" wird in der letzten Szene autom
 import json, math, os, subprocess, sys, datetime, wave
 import numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from avatar import avatar
 
 W, H, FPS = 1080, 1920, 30
 GREEN = (15, 59, 46); GREEN2 = (22, 80, 63); AMBER = (242, 179, 61); CREAM = (250, 246, 236); SOFT = (190, 210, 198); DEEP = (9, 38, 30)
@@ -203,7 +210,8 @@ def zulagen(E, kids_ages, i):
     return g, k
 
 class Persona(Scene):
-    dur = 6.0
+    """Beispielrechnung fuer eine (optional illustrierte) Beispielfigur. Zahlen rechnet video.py selbst."""
+    dur = 7.0
     def prep(self):
         sc = self.ctx["sc"]; s = self.s
         kids = s.get("kinder", []); m = float(s["beitrag"]); E = m * 12; age = int(s["alter"]); ra = int(s.get("rente", 67))
@@ -212,46 +220,60 @@ class Persona(Scene):
         for i in range(N): g, k = zulagen(E, kids, i); tz += g + k; te += E
         self.rows = [("Grundzulage", g1)]
         if kids: self.rows.append(("Kinderzulage", k1))
-        if bonus: self.rows.append(("Einsteiger-Bonus", bonus))
-        self.total1 = g1 + k1 + bonus; self.tz = tz; self.te = te; self.N = N; self.ra = ra
-        who = f"{s['name']}, {age}"
+        if bonus: self.rows.append(("Einsteiger-Bonus (einmalig)", bonus))
+        self.tz = tz; self.te = te; self.N = N; self.ra = ra
+        self.av = avatar(s["figur"], 300) if s.get("figur") else None
         chips = [f"{len(kids)} {'Kind' if len(kids) == 1 else 'Kinder'}" if kids else "keine Kinder", f"{eur(m)} € im Monat"]
         if s.get("job"): chips.insert(0, s["job"])
-        self.who = text_img(who, F(BOLD, 92 * sc), CREAM)
-        self.chips = [text_img(c, F(SEMI, 38 * sc), DEEP) for c in chips]
-        self.rf = F(SEMI, 50 * sc); self.vf = F(BOLD, 56 * sc)
-        self.lab = kick_img("SO VIEL LEGT DER STAAT 2027 DRAUF", self.ctx)
-        self.sumlab = text_img(f"Zulagen bis {ra} (ohne Kursentwicklung)", F(MED, 40 * sc), SOFT)
+        self.kick = kick_img("BEISPIELRECHNUNG", self.ctx)
+        self.who = text_img(f"{s['name']}, {age}", F(BOLD, (78 if self.av else 92) * sc), CREAM)
+        self.chips = [text_img(c, F(SEMI, 34 * sc), DEEP) for c in chips]
+        self.rf = F(SEMI, 46 * sc); self.vf = F(BOLD, 52 * sc)
+        self.lab = kick_img("ZULAGEN IM JAHR 2027", self.ctx)
+        self.sf = F(MED, 38 * sc); self.bf = F(BOLD, 104 * sc)
     def draw(self, fr, t):
-        d = ImageDraw.Draw(fr); y = 470
-        paste(fr, self.who, X0, y + 30 * (1 - ease(t / .4)), ease(t / .4)); y += self.who.height + 18
-        x = X0
+        d = ImageDraw.Draw(fr); acc = self.ctx["acc"]; y = 300
+        if self.av:
+            p = ease(t / .45); paste(fr, self.av, X0 - 6, y + 30 * (1 - p), p)
+            tx, ty = X0 + 330, y + 60
+        else:
+            tx, ty = X0, y + 120
+        paste(fr, self.kick, tx, ty, ease((t - .1) / .3)); ty += self.kick.height + 14
+        paste(fr, self.who, tx, ty + 20 * (1 - ease((t - .15) / .4)), ease((t - .15) / .4)); ty += self.who.height + 14
+        # Chips (umbrechen, wenn zu breit)
+        x = tx; maxx = X0 + MAXW
         for i, c in enumerate(self.chips):
-            p = ease((t - .25 - i * .12) / .3)
+            w = c.width + 36
+            if x + w > maxx: x = tx; ty += 64
+            p = ease((t - .3 - i * .12) / .3)
             if p > 0:
-                w = c.width + 44
-                pill = Image.new("RGBA", (w, 66), (0, 0, 0, 0)); ImageDraw.Draw(pill).rounded_rectangle([0, 0, w - 1, 65], 33, fill=SOFT + (255,))
-                pill.alpha_composite(c, (22, 10)); paste(fr, pill, x, y, p)
-            x += c.width + 60
-        y += 120
-        paste(fr, self.lab, X0, y, ease((t - .7) / .3)); y += self.lab.height + 26
+                pill = Image.new("RGBA", (w, 56), (0, 0, 0, 0)); ImageDraw.Draw(pill).rounded_rectangle([0, 0, w - 1, 55], 28, fill=SOFT + (255,))
+                pill.alpha_composite(c, (18, 7)); paste(fr, pill, x, ty, p)
+            x += w + 12
+        y = max(y + 330, ty + 100)
+        paste(fr, self.lab, X0, y, ease((t - .7) / .3)); y += self.lab.height + 22
         for i, (lab, v) in enumerate(self.rows):
             p = ease((t - 0.9 - i * .35) / .35)
             if p <= 0: continue
             a = int(255 * p)
-            d.text((X0, y + i * 92), lab, font=self.rf, fill=CREAM + (a,))
-            vs = "+ " + eur(v) + " €"; d.text((X0 + MAXW - tlen(vs, self.vf), y + i * 92 - 4), vs, font=self.vf, fill=self.ctx["acc"] + (a,))
-            d.line([(X0, y + i * 92 + 74), (X0 + MAXW, y + i * 92 + 74)], fill=GREEN2 + (a,), width=2)
-        y += len(self.rows) * 92 + 50
-        p = ease((t - 0.9 - len(self.rows) * .35 - .2) / .5)
+            d.text((X0, y + i * 84), lab, font=self.rf, fill=CREAM + (a,))
+            vs = "+ " + eur(v) + " €"; d.text((X0 + MAXW - tlen(vs, self.vf), y + i * 84 - 4), vs, font=self.vf, fill=acc + (a,))
+            d.line([(X0, y + i * 84 + 68), (X0 + MAXW, y + i * 84 + 68)], fill=GREEN2 + (a,), width=2)
+        y += len(self.rows) * 84 + 40
+        t0 = 0.9 + len(self.rows) * .35 + .2
+        p = ease((t - t0) / .5)
         if p > 0:
-            card = Image.new("RGBA", (MAXW, 230), (0, 0, 0, 0)); cd = ImageDraw.Draw(card)
-            cd.rounded_rectangle([0, 0, MAXW - 1, 229], 28, fill=DEEP + (235,))
-            val = self.tz * ease_io((t - 0.9 - len(self.rows) * .35 - .2) / 1.0)
-            cd.text((34, 28), self.sumlab_text(), font=F(MED, 40 * self.ctx["sc"]), fill=SOFT)
-            cd.text((34, 84), eur(val) + " €", font=F(BOLD, 112 * self.ctx["sc"]), fill=self.ctx["acc"])
+            card = Image.new("RGBA", (MAXW, 330), (0, 0, 0, 0)); cd = ImageDraw.Draw(card)
+            cd.rounded_rectangle([0, 0, MAXW - 1, 329], 28, fill=DEEP + (235,))
+            k = ease_io((t - t0) / 1.2)
+            cd.text((34, 26), f"Bis {self.ra}: eigene Beiträge", font=self.sf, fill=SOFT)
+            v1 = eur(self.te * k) + " €"; cd.text((MAXW - 34 - tlen(v1, self.sf), 26), v1, font=self.sf, fill=CREAM)
+            cd.text((34, 76), "+ Zulagen vom Staat", font=self.sf, fill=SOFT)
+            v2 = eur(self.tz * k) + " €"; cd.text((MAXW - 34 - tlen(v2, self.sf), 76), v2, font=self.sf, fill=acc)
+            cd.line([(34, 134), (MAXW - 34, 134)], fill=GREEN2, width=2)
+            cd.text((34, 150), eur((self.te + self.tz) * k) + " €", font=self.bf, fill=acc)
+            cd.text((34, 280), "ohne Kursentwicklung · Beispielrechnung", font=F(MED, 28), fill=SOFT)
             paste(fr, card, X0, y + 40 * (1 - p), p)
-    def sumlab_text(self): return f"Zulagen bis {self.ra}, ohne Kursentwicklung"
     def events(self):
         ev = [(0.0, "whoosh")] + [(0.9 + i * .35, "tick") for i in range(len(self.rows))]
         ev.append((0.9 + len(self.rows) * .35 + .2, "pop")); return ev
@@ -381,7 +403,45 @@ class CTA(Scene):
         paste(fr, self.disc, X0, BOTTOM + 40, ease((t - .5) / .4))
     def events(self): return [(0.0, "whoosh"), (0.9, "pop")]
 
-TYPES = {"hook": Hook, "text": Text, "counter": Counter, "persona": Persona, "bars": Bars, "myth": Myth, "list": ListScene, "countdown": Countdown, "cta": CTA}
+
+class Story(Scene):
+    """Illustrierte Beispielfigur erzaehlt in Ich-Form. Immer als Beispielfigur gekennzeichnet."""
+    dur = 6.0
+    def prep(self):
+        sc = self.ctx["sc"]; s = self.s
+        self.av = avatar(s.get("figur", {}), 420)
+        self.name = text_img(s["name"], F(BOLD, 64 * sc), CREAM)
+        self.role = text_img(s.get("rolle", ""), F(MED, 40 * sc), SOFT) if s.get("rolle") else None
+        self.tag = text_img("BEISPIELFIGUR · ILLUSTRATION", F(SEMI, 26), DEEP)
+        f, ls = fit_font("„" + s["zitat"].strip("„“\"") + "“", BOLD, 66 * sc, MAXW - 80, 6)
+        self.lines = [rich_line_img(l, f, DEEP, (176, 104, 10)) for l in ls]; self.lh = int(f.size * 1.18)
+        self.step = min(0.35, (self.dur - 2.2) / max(1, len(self.lines)))
+    def draw(self, fr, t):
+        d = ImageDraw.Draw(fr); y = 300
+        p = ease(t / .45)
+        paste(fr, self.av, X0 - 6, y + 40 * (1 - p), p)
+        tx = X0 + 450; ty = y + 120
+        paste(fr, self.name, tx, ty + 20 * (1 - ease((t - .2) / .4)), ease((t - .2) / .4))
+        if self.role: paste(fr, self.role, tx, ty + self.name.height + 6, ease((t - .3) / .4))
+        pt = ease((t - .4) / .4)
+        if pt > 0:
+            w = self.tag.width + 32; pill = Image.new("RGBA", (w, 46), (0, 0, 0, 0))
+            ImageDraw.Draw(pill).rounded_rectangle([0, 0, w - 1, 45], 23, fill=SOFT + (255,)); pill.alpha_composite(self.tag, (16, 7))
+            paste(fr, pill, tx, ty + self.name.height + 70, pt)
+        by = y + 470; bh = len(self.lines) * self.lh + 70
+        pb = ease((t - .6) / .4)
+        if pb > 0:
+            bub = Image.new("RGBA", (MAXW, bh + 40), (0, 0, 0, 0)); bd = ImageDraw.Draw(bub)
+            bd.rounded_rectangle([0, 40, MAXW - 1, bh + 39], 36, fill=CREAM + (255,))
+            bd.polygon([(110, 40), (190, 40), (120, 0)], fill=CREAM + (255,))
+            for i, im in enumerate(self.lines):
+                a = ease((t - 0.9 - i * self.step) / .3)
+                if a > 0:
+                    ln = im.copy(); ln.putalpha(ln.getchannel("A").point(lambda v: int(v * a))); bub.alpha_composite(ln, (40, 40 + 35 + i * self.lh))
+            paste(fr, bub, X0, by + 30 * (1 - pb), pb)
+    def events(self): return [(0.0, "whoosh"), (0.6, "pop")]
+
+TYPES = {"hook": Hook, "text": Text, "counter": Counter, "persona": Persona, "bars": Bars, "myth": Myth, "list": ListScene, "countdown": Countdown, "cta": CTA, "story": Story}
 
 # ---------- Header + Fortschritt ----------
 def header(ctx):
