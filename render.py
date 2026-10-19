@@ -13,6 +13,8 @@ Felder pro Folie (alle optional ausser kick):
   head  : fette Ueberschrift
   body  : Fliesstext, "\n" fuer Absatz
   swipe : true -> "Wischen →" unten (erste Folie)
+  theme : "gruen" (Standard) | "creme" | "gold"  – Farbvariante der Folie (v. a. Folie 1 = Kachel im Profil-Raster).
+          Wird vom Feed-Agenten fuer Abwechslung im Raster gesetzt. Gilt nicht fuer persona-Folien.
   figur : illustrierte Beispielfigur ueber dem Text (Optionen siehe avatar.py)
   persona : {"name":"Anna","alter":34,"kinder":[1,4],"beitrag":100,"rente":67,"job":"Grafikdesignerin","figur":{...}}
           -> ganze Folie als BEISPIELRECHNUNG: Figur, Lebenslage, Zulagen 2027, eigene Beitraege + Zulagen bis zur Rente.
@@ -125,12 +127,22 @@ def persona_slide(img, d, p):
     d.text((134, y + 284), "ohne Kursentwicklung · Beispielrechnung", font=F(MED, 28), fill=SOFT)
     if y + 330 > H - 90: raise SystemExit("Persona-Folie zu hoch – Job/Info kuerzen.")
 
+THEMES = {
+    "gruen": ((15, 59, 46), (242, 179, 61), (250, 246, 236), (190, 210, 198)),
+    "creme": ((250, 246, 236), (201, 138, 18), (15, 59, 46), (92, 112, 102)),
+    "gold":  ((242, 179, 61), (9, 38, 30), (15, 59, 46), (74, 62, 20)),
+}
+def set_theme(name):
+    global GREEN, AMBER, CREAM, SOFT
+    GREEN, AMBER, CREAM, SOFT = THEMES.get(name or "gruen", THEMES["gruen"])
+
 def render(spec_path):
     spec = json.load(open(spec_path, encoding="utf-8"))
     out = os.path.dirname(spec_path)
     slides = spec["slides"]
     files = []
     for i, s in enumerate(slides, 1):
+        set_theme(None if s.get("persona") else s.get("theme"))
         img = Image.new("RGB", (W, H), GREEN); d = ImageDraw.Draw(img)
         check(d, 100, 92, 46, AMBER, 10)
         d.text((165, 98), HANDLE, font=F(SEMI, 30), fill=CREAM)
@@ -151,6 +163,7 @@ def render(spec_path):
         p = os.path.join(out, f"folie_{i}.png")
         img.save(p, optimize=True); files.append(p)
         img.save(os.path.join(out, f"folie_{i}.jpg"), quality=92, optimize=True)  # JPG fuer TikTok & Co.
+    set_theme(None)
     print("\n".join(files))
 
 if __name__ == "__main__":

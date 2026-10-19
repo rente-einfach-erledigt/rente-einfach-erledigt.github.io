@@ -103,6 +103,20 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 - Ton: eigene, lizenzfreie Musik aus video.py (keine fremde Musik). Eine Sprecherstimme kommt später dazu, sobald möglich.
 - Freigabe-Seite: Dokument mit format "Video", video = /_blob-URL der video_A.mp4, bilder = [/_blob-URL von cover.jpg].
 
+## Feed & Profil (Feed-Agent, Sonntag 21:12)
+- Ziel: Das Instagram-Profil wirkt wie aus einem Guss, aber nie eintönig. Abschluss-Zahlen (lernen.md) haben Vorrang vor Optik.
+- Raster-Regeln (Profil zeigt Kacheln im Format 3:4, neuester Beitrag oben links):
+  - Nie 3 Kacheln derselben Farbvariante nebeneinander oder untereinander; Mischung pro 9 Kacheln: ca. 4 grün, 3 creme, 2 gold.
+  - Formate wechseln: nie 3 Karussells hintereinander, Reels und Beispielrechnungen dazwischen.
+  - Zielgruppen/Hooks: keine zwei gleichen nebeneinander; Figuren-Kacheln (Beispielrechnung) gleichmäßig verteilen.
+  - Kachel-Text muss im 3:4-Ausschnitt komplett lesbar sein, max. ~9 Wörter Headline.
+- Werkzeuge: render.py `theme` (gruen/creme/gold) für Karussell-Folien; cover.py für Reel-Titelbilder in einer Farbvariante;
+  grid.py baut die Raster-Vorschau (grid.py --farben misst Farbe/Helligkeit jeder Kachel).
+- Der Feed-Agent darf an OFFENEN (noch nicht freigegebenen) Beiträgen: Farbvariante von Folie 1 ändern (neu rendern, neu hochladen,
+  Entwurf aktualisieren), Reel-Titelbild tauschen (falls iHatePosting das unterstützt) und Termine offener Beiträge innerhalb
+  derselben Woche tauschen. Er ändert nie Texte, Zahlen, Regeln oder freigegebene Beiträge.
+- Profil-Pflege (macht Felix in der App, Agent liefert Vorlage): angeheftete Beiträge (3), Story-Highlight-Titelbilder, Bio.
+
 ## Ablauf und Agenten-Team
 1. Sonntag 17:58 – Wochen-Agent: recherchiert, schreibt 7 Karussells, rendert, lädt hoch, legt Entwürfe an, trägt sie in die Freigabe-Seite ein.
 2. Mittwoch 09:47 – SEO/GEO-Agent: schreibt 1 Ratgeber-Artikel für die Website (Plan in `seo.md`), legt ihn auf einem
@@ -112,6 +126,7 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
    (Zweig in main mergen), räumt Abgelehntes auf.
 5. Freitag 15:53 – Auswertungs-Agent: Erkenntnisse in `lernen.md`, fragt Felix nach den Abschlüssen, trägt sie ins Kanal-Cockpit ein.
 5b. Sonntag 19:47 – Video-Agent: 4 Kurzvideos (Reels/TikTok/Shorts) pro Woche, auf die Freigabe-Seite.
+5c. Sonntag 21:12 – Feed-Agent: Raster-Vorschau, Farben/Formate abwechseln, Vorschau oben auf der Freigabe-Seite.
 6. Täglich 20:42 – Manager-Agent: prüft, ob alles läuft (Agenten, Posts, Kanäle, Website, Regeln). Meldet sich nur bei Problemen.
    Samstags: Wochen-Review mit max. 3 Verbesserungsvorschlägen in `manager.md`. Felix antwortet „ja“ oder „nein“ je Vorschlag;
    nur bestätigte Vorschläge setzt der Manager um (über marke.md, lernen.md, seo.md oder die Website).
