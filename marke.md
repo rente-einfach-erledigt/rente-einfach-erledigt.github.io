@@ -117,6 +117,18 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
   derselben Woche tauschen. Er ändert nie Texte, Zahlen, Regeln oder freigegebene Beiträge.
 - Profil-Pflege (macht Felix in der App, Agent liefert Vorlage): angeheftete Beiträge (3), Story-Highlight-Titelbilder, Bio.
 
+## Trends & Tests (Trend-Agent Mo + Do 08:43)
+- trends.md enthält aktuelle Formate, Hooks, Themen und Anlässe, die gerade auf Instagram, TikTok, Facebook und Threads funktionieren
+  (faceless, Finanzen/Altersvorsorge, Deutschland). Jeder Trend mit: was genau, warum, Beleg/Quelle, wie wir ihn regelkonform umsetzen.
+- Wochen-Agent und Video-Agent setzen PRO WOCHE 1–2 Beiträge als Trend-Test um (Feld `test` im Freigabe-Dokument = Trend-Name,
+  Zeile in trends.md unter „Tests“). Der Rest bleibt bei Bewährtem aus lernen.md.
+- Auswertungs-Agent vergleicht Tests mit dem Durchschnitt (Reichweite, Speichern, Teilen, Kommentare) und setzt in trends.md
+  „behalten“ (→ wird Standard, Eintrag in lernen.md) oder „verworfen“. Erst nach mind. 2 Tests urteilen.
+- Grenzen: Keine fremde/lizenzierte Trend-Musik (nur eigene Musik bzw. TikTok-Auto-Musik), keine Trends, die Regeln brechen
+  (falsche Dringlichkeit, Renditeversprechen, „kündige Riester“), keine fremden Inhalte kopieren, keine Trends zu Unglücken/Tragödien.
+- Aktuelle Anlässe (z. B. Rentennachrichten, Gesetzesänderungen, Jahreswechsel-Countdown, Gehaltstag) sind erlaubt und erwünscht,
+  wenn sie sachlich bleiben.
+
 ## Ablauf und Agenten-Team
 1. Sonntag 17:58 – Wochen-Agent: recherchiert, schreibt 7 Karussells, rendert, lädt hoch, legt Entwürfe an, trägt sie in die Freigabe-Seite ein.
 2. Mittwoch 09:47 – SEO/GEO-Agent: schreibt 1 Ratgeber-Artikel für die Website (Plan in `seo.md`), legt ihn auf einem
@@ -127,6 +139,7 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 5. Freitag 15:53 – Auswertungs-Agent: Erkenntnisse in `lernen.md`, fragt Felix nach den Abschlüssen, trägt sie ins Kanal-Cockpit ein.
 5b. Sonntag 19:47 – Video-Agent: 4 Kurzvideos (Reels/TikTok/Shorts) pro Woche, auf die Freigabe-Seite.
 5c. Sonntag 21:12 – Feed-Agent: Raster-Vorschau, Farben/Formate abwechseln, Vorschau oben auf der Freigabe-Seite.
+5d. Montag + Donnerstag 08:43 – Trend-Agent: erkennt virale Formate/Hooks/Anlässe, pflegt trends.md.
 6. Täglich 20:42 – Manager-Agent: prüft, ob alles läuft (Agenten, Posts, Kanäle, Website, Regeln). Meldet sich nur bei Problemen.
    Samstags: Wochen-Review mit max. 3 Verbesserungsvorschlägen in `manager.md`. Felix antwortet „ja“ oder „nein“ je Vorschlag;
    nur bestätigte Vorschläge setzt der Manager um (über marke.md, lernen.md, seo.md oder die Website).
