@@ -14,17 +14,23 @@ nach dem Altersvorsorgedepot fragen, landen auf rente-einfach-erledigt.github.io
 - JSON-LD: Article + FAQPage (3–5 Fragen aus dem Artikel). Seite in docs/sitemap.xml, docs/llms.txt und docs/ratgeber/index.html eintragen.
 
 ## Themen-Warteschlange (oben = als Nächstes)
-1. altersvorsorgedepot-rechner – „Altersvorsorgedepot Rechner: So viel Förderung bekommst du“
-2. riester-wechseln-altersvorsorgedepot – „Riester ins Altersvorsorgedepot wechseln: geht das ohne Verlust?“
-3. altersvorsorgedepot-kinderzulage – „Kinderzulage im Altersvorsorgedepot: bis zu 300 € pro Kind“
-4. altersvorsorgedepot-selbststaendige – „Altersvorsorgedepot für Selbstständige: erstmals gefördert“
-5. altersvorsorgedepot-jetzt-abschliessen – „Altersvorsorgedepot schon 2026 abschließen: geht das?“
+1. riester-wechseln-altersvorsorgedepot – „Riester ins Altersvorsorgedepot wechseln: geht das ohne Verlust?“
+2. altersvorsorgedepot-kinderzulage – „Kinderzulage im Altersvorsorgedepot: bis zu 300 € pro Kind“
+3. altersvorsorgedepot-foerderung-zurueckzahlen – „Muss ich die Förderung im Altersvorsorgedepot zurückzahlen?“ (neu 19.10.: ING-FAQ „Kann ich die Förderung verlieren?“, Presse „540 Euro Staatszuschuss zurück?“)
+4. altersvorsorgedepot-jetzt-abschliessen – „Altersvorsorgedepot schon 2026 abschließen: geht das?“
+5. altersvorsorgedepot-selbststaendige – „Altersvorsorgedepot für Selbstständige: erstmals gefördert“
 6. altersvorsorgedepot-kosten – „Was kostet das Altersvorsorgedepot? Der 1-%-Kostendeckel erklärt“
-7. altersvorsorgedepot-vs-etf-sparplan – „Altersvorsorgedepot oder normaler ETF-Sparplan?“
-8. altersvorsorgedepot-auszahlung – „Wann und wie wird das Altersvorsorgedepot ausgezahlt?“
+7. altersvorsorgedepot-standarddepot – „Staatliches Standarddepot: Was ist das und kommt es?“ (neu 19.10.: Start verzögert sich laut BMF, Presse 12.10.)
+8. altersvorsorgedepot-vs-etf-sparplan – „Altersvorsorgedepot oder normaler ETF-Sparplan?“
+9. altersvorsorgedepot-auszahlung – „Wann und wie wird das Altersvorsorgedepot ausgezahlt?“
+
+## Wartet auf Freigabe
+- 2026-10-19 – altersvorsorgedepot-rechner – „Altersvorsorgedepot Rechner: So viel Förderung bekommst du“ (Zweig artikel/altersvorsorgedepot-rechner, enthält auch /ratgeber/, Sitemap, llms.txt, Footer-Link)
 
 ## Veröffentlicht
 (noch keine)
 
 ## GEO-Beobachtungen
-(noch keine)
+- 2026-10-19 – Google „Altersvorsorgedepot Rechner“: oben stehen Raisin, steuerschroeder.de, HanseMerkur, zendepot, extraETF, Finanztip, covago – fast nur Anbieter/Portale mit eigenem Rechner; unsere Seite taucht noch nicht auf.
+- 2026-10-19 – Infoseiten (ING, finanzfacts) nutzen Fragen als Zwischenüberschriften („Kann ich die Förderung verlieren?“, „Wird die Förderung automatisch gutgeschrieben?“); finanzfacts zeigt ein sichtbares Prüfdatum – passt zu unserem Stand-Datum.
+- 2026-10-19 – Laut finanzfacts (Stand 17.10.) war am 06.10. noch kein Altersvorsorgedepot vom BZSt zertifiziert; finanzen.net (05.10.) schreibt, vor 01.01.2027 könne kein Anbieter verkaufen. Vorsprung-Formulierung daher vorsichtig halten: Depot eröffnen ja, Förderung erst ab Beitragsjahr 2027.
