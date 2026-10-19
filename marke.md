@@ -20,6 +20,8 @@ In DMs und Bio verlinken wir die Rechner-Seite: https://rente-einfach-erledigt.g
   Sparplan läuft früher; startklar, sobald die Förderung 2027 fließt; Riester-Wechsel in Ruhe vorbereiten.
 - NICHT behaupten: mehr Zulagen, Zulagen für 2026, bessere Konditionen oder „begrenzte Plätze“.
 - Ab 01.01.2027: „Jetzt starten, Zulagen sichern.“
+- JANUAR-WELLE (V5, Felix 19.10.): Ab der Woche vom 14.12.2026 dreht sich mindestens jeder zweite Beitrag (Karussell und Video)
+  um den Marktstart am 01.01.2027 („Ab 1. Januar können alle – du bist schon startklar.“). Sachlich, kein Countdown-Druck.
 
 ## Zielgruppen (gleichmäßig abwechseln)
 1. Riester-Sparer – Wechsel ins AVD möglich, ohne bisherige Förderung zurückzuzahlen
@@ -61,6 +63,8 @@ Neue Erkenntnisse aus Helvetia/OVB-Quellen (z. B. Produktdetails der Strecke) in
 - Keine Absicherungs-Floskeln im Fließtext („Diese Seite ersetzt keine …“) – Pflichthinweise stehen gesammelt im Hinweis/Fußbereich.
 - Du-Form, konkrete Verben, keine Behördensprache, keine Füllwörter („trotzdem“, „grundsätzlich“, „eventuell“).
 - Der Beratungstermin wird nur als leise Option angeboten („Lieber vorher kurz sprechen?“), nie als Hauptweg.
+- Teilen-Zeile (V7, Felix 19.10.): Familien- und Riester-Beiträge haben in der Caption vor dem Pflicht-Hinweis eine kurze Zeile
+  zum Weiterschicken, z. B. „Schick das deinem Partner.“ / „Schick das deinen Eltern.“ Weitergeleitete Beiträge bringen neue Reichweite.
 
 ## Formate
 - Karussell: 6–7 Folien, gerendert mit `python3 render.py posts/<id>/post.json`
@@ -165,6 +169,7 @@ Manager-Hinweise: Findet der Manager bei einem offenen Post einen Regelverstoß,
 - Instagram: Caption mit „Kommentiere <WORT> und du bekommst den Link per DM.“ (ManyChat schickt die DM automatisch).
 - Threads: KEIN Kommentar-Wort (dort gibt es keine Auto-DM). Stattdessen im override-Text die Zeile
   „Rechne hier aus, wie viel Förderung dir zusteht: rente-einfach-erledigt.github.io“. Max. 500 Zeichen, keine Hashtags.
+  Der Threads-Text endet mit einer kurzen, echten Frage an die Leser (z. B. „Läuft bei dir noch ein Riester-Vertrag?“) – löst Antworten aus (V6, Felix 19.10.).
 - Weitere Kanäle (Facebook, TikTok, LinkedIn, Pinterest) folgen; bis dahin gilt: Link statt Kommentar-Wort, wenn es keine Auto-DM gibt.
 - TikTok: Foto-Slideshow aus denselben Folien (immer die .jpg-Dateien hochladen, gilt für alle Kanäle).
   Text: kein Kommentar-Wort, stattdessen „Förderung berechnen: Link im Profil ✓“, Vorsprung in Zeile 1, Pflicht-Hinweis, 3–5 Hashtags.
@@ -175,3 +180,10 @@ Manager-Hinweise: Findet der Manager bei einem offenen Post einen Regelverstoß,
 - Facebook-Seite: Entwurf B (ohne Kommentar-Folie). Text: Vorsprung in Zeile 1, 2–3 Sätze,
   „👉 Rechne in 30 Sekunden aus, wie viel Förderung dir zusteht: https://rente-einfach-erledigt.github.io“, Pflicht-Hinweis, keine Hashtags nötig.
   Zielgruppe dort eher 40+: Riester-Themen bevorzugt im Facebook-Text betonen.
+- Pinterest (V3, Felix 19.10.; gilt, sobald list_accounts ein aktives Pinterest-Konto zeigt): Pinterest NIE in Entwurf B aufnehmen
+  (nur 1 Bild/Video pro Pin, Board ist Pflicht). Stattdessen ein eigener Entwurf C (action "draft"):
+  Karussell → nur folie_1.jpg; Video → video_B.mp4. Text: Vorsprung-Satz + 1–2 Sätze mit Suchbegriffen
+  („Altersvorsorgedepot“, „Förderung“, „Kinderzulage“ …) + Pflicht-Hinweis, keine Hashtags.
+  options.pinterest = {"boardId":"<id aus list_pinterest_boards>","title":"<max. 100 Zeichen, mit Suchbegriff>",
+  "link":"https://rente-einfach-erledigt.github.io/#rechner"}. Die ID von C zusätzlich in ihpPostIds speichern, "Pinterest" in kanaele.
+  Gibt es kein Board, Entwurf C weglassen und Felix in der Abschluss-Nachricht sagen, dass er ein Board anlegen soll.
