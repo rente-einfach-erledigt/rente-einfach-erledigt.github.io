@@ -92,6 +92,18 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
 - Vergleiche funktionieren gut: zwei Figuren nebeneinander (z. B. „Startet mit 25 vs. mit 45“, „50 € vs. 150 € im Monat“) –
   als zwei persona-Szenen bzw. -Folien hintereinander.
 
+## Follower-Aufbau (V9, Felix 20.10.: „noch keine Follower“ – gilt für Wochen- und Video-Agent)
+- Jeder Beitrag gibt einen Grund zu folgen. Instagram-Caption: direkt nach der Kommentar-Zeile eine kurze Folgen-Zeile,
+  z. B. „Folge @rente.einfach.erledigt – bis zum Start 2027 jeden Tag ein Förder-Fakt.“ (Text variieren, kein Druck, keine Versprechen.)
+- Serien statt Einzelstücke: mind. 3 Beiträge pro Woche gehören zu einer nummerierten Serie (z. B. „Irrtum 2/5“, „Förder-Fakt 3/7“)
+  mit Hinweis auf die nächste Folge in der Caption („Teil 3 kommt am Donnerstag“). Serien sind der stärkste Grund zu folgen.
+- Probe-Reels für Nicht-Follower: 2 der 4 Videos pro Woche als Trial Reel – Entwurf A mit
+  options.instagram = {"igTrialReel": true, "igGraduation": "auto"} und Feld test = "Trial-Reel" im Freigabe-Dokument.
+  Der Auswertungs-Agent vergleicht sie mit normalen Reels (Reichweite, Follows) und entscheidet nach 2 Wochen.
+- Kollaborationen: Sobald Felix Instagram-Handles für Collab-Posts in dieser Datei einträgt (Liste „Collab-Partner“),
+  bekommt 1 Beitrag pro Woche options.instagram.igCollaborators = [Handle]. Der Partner muss die Einladung in der App annehmen.
+  Collab-Partner: (noch keine)
+
 ## Videos (Video-Agent, Sonntag 19:47)
 - Renderer: `python3 video.py videos/<id>/video.json` → video_A.mp4 (Instagram-Reel, Ende „Kommentiere WORT“), video_B.mp4
   (TikTok, YouTube Shorts, Facebook, Threads: Ende „Link im Profil ✓“), cover.jpg. Szenen-Typen und Regeln stehen im Kopf von video.py.
