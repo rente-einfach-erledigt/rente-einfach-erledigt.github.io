@@ -16,6 +16,7 @@ Vorschläge haben eine Nummer (V1, V2 …) und einen Status: offen | angenommen 
 - V10 (2026-10-20, entschieden) – Ootto-Connector geprüft, Felix: wir bleiben beim eigenen Setup. Hinweis an Trend-Agent: Format „Werkzeug-How-to + Kommentar-Wort“ (z. B. „So rechnest du deine Förderung in 30 Sekunden aus – kommentiere START“) als Trend prüfen; Beleg: @jayantcreates.ai-Beitrag vom 08.10.2026 mit 7.328 Kommentaren bei 4.472 Likes (Screenshot von Felix).
 
 ## Status-Log
+- 2026-10-20 – ok (Agenten aktiv, 4 Kanäle aktiv, keine Fehl-Posts; 20.10. Karussell + Reel live auf allen 4 Kanälen, DB zieht Posting-Agent morgen nach; 21.–25.10. eingeplant; keine offenen Posts; Website + Abschluss-Links ok; Kleinigkeit: gemergter Zweig artikel/altersvorsorgedepot-rechner noch nicht gelöscht)
 - 2026-10-19 – Feed: erster Lauf, Raster-Vorschau 19.–25.10. auf der Freigabe-Seite; keine offenen Beiträge → keine Korrekturen; alle Kacheln grün, 3 Karussells in Folge (Do–Sa), Di 2× Familien
 - 2026-10-19 – Trend: erster Lauf, 5 Trends in trends.md (Frühstartrente, Weltspartag 30.10., „Was ist eigentlich …?“, Mythos-Serie, Problem→Ergebnis), kein Werkzeug-Ausbau nötig
 - 2026-10-19 – ok (19.10. live auf allen 4 Kanälen, 20.–25.10. eingeplant, Links korrekt)
