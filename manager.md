@@ -13,6 +13,7 @@ Vorschläge haben eine Nummer (V1, V2 …) und einen Status: offen | angenommen 
 - V7 (2026-10-19, umgesetzt) – Teilen-Zeile in Familien-/Riester-Captions (marke.md).
 - V8 (2026-10-19, angenommen – Felix) – Facebook-Gruppen zu Riester/Rente: Felix antwortet dort selbst (Agenten posten nicht in seinem Namen).
 - V9 (2026-10-20, umgesetzt) – Follower-Aufbau: Folgen-Zeile, Serien, 2 Trial Reels/Woche als Test, Collab-Regel in marke.md. Ausgangslage 20.10.: Instagram 3 Follower, 12 erreichte Konten, 14 Profilbesuche (3 Karussells, noch kein Reel). Felix: Collab-Handles nennen, 10 Min/Tag Interaktion.
+- V10 (2026-10-20, entschieden) – Ootto-Connector geprüft, Felix: wir bleiben beim eigenen Setup. Hinweis an Trend-Agent: Format „Werkzeug-How-to + Kommentar-Wort“ (z. B. „So rechnest du deine Förderung in 30 Sekunden aus – kommentiere START“) als Trend prüfen; Beleg: @jayantcreates.ai-Beitrag vom 08.10.2026 mit 7.328 Kommentaren bei 4.472 Likes (Screenshot von Felix).
 
 ## Status-Log
 - 2026-10-19 – Feed: erster Lauf, Raster-Vorschau 19.–25.10. auf der Freigabe-Seite; keine offenen Beiträge → keine Korrekturen; alle Kacheln grün, 3 Karussells in Folge (Do–Sa), Di 2× Familien
