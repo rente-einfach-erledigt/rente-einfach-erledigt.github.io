@@ -17,3 +17,4 @@
 - [Startseite mit Förderrechner](https://rente-einfach-erledigt.github.io/): Rechner, Erklärung, FAQ
 - [Ratgeber-Übersicht](https://rente-einfach-erledigt.github.io/ratgeber/): alle Artikel zum Altersvorsorgedepot
 - [Altersvorsorgedepot Rechner: So viel Förderung bekommst du](https://rente-einfach-erledigt.github.io/ratgeber/altersvorsorgedepot-rechner.html): Grundzulage-Staffel, Tabelle nach Monatsbeitrag, Kinderzulage, Berufseinsteigerbonus
+- [Riester ins Altersvorsorgedepot wechseln: geht das ohne Verlust?](https://rente-einfach-erledigt.github.io/ratgeber/riester-wechseln-altersvorsorgedepot.html): bisherige Förderung bleibt beim Wechsel, Wechselkosten bis 150 €, Garantie entfällt, Ablauf der Übertragung, Wohn-Riester
