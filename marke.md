@@ -133,6 +133,14 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
   derselben Woche tauschen. Er ändert nie Texte, Zahlen, Regeln oder freigegebene Beiträge.
 - Profil-Pflege (macht Felix in der App, Agent liefert Vorlage): angeheftete Beiträge (3), Story-Highlight-Titelbilder, Bio.
 
+## Suchfragen aus seo.md (V11, Felix 21.10. – gilt für Wochen-, Video- und Trend-Agent)
+- Vor jeder Planung seo.md lesen: „Themen-Warteschlange“ (Top 3) und „GEO-Beobachtungen“ (neueste oben).
+- Pro Woche greifen 1–2 Beiträge (Karussell oder Video) die heißesten Suchfragen/Pressethemen daraus auf
+  (z. B. Riester-Wechsel, „Muss ich die Förderung zurückzahlen?“, „Jetzt starten oder bis 2027 warten?“).
+- Kritische Stimmen (z. B. Verbraucherzentrale rät zum Abwarten) sachlich aufgreifen und beide Seiten zeigen –
+  nie abwerten, nie Druck machen; Vorsprung-Pflicht und alle Pflicht-Regeln gelten trotzdem.
+- Trend-Agent: Ein Suchthema, das in seo.md als Pressethema steht, darf als Anlass-Trend in trends.md landen.
+
 ## Trends & Tests (Trend-Agent Mo + Do 08:43)
 - trends.md enthält aktuelle Formate, Hooks, Themen und Anlässe, die gerade auf Instagram, TikTok, Facebook und Threads funktionieren
   (faceless, Finanzen/Altersvorsorge, Deutschland). Jeder Trend mit: was genau, warum, Beleg/Quelle, wie wir ihn regelkonform umsetzen.
