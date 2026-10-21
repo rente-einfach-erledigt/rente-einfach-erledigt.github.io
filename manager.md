@@ -15,6 +15,7 @@ Vorschläge haben eine Nummer (V1, V2 …) und einen Status: offen | angenommen 
 - V9 (2026-10-20, umgesetzt) – Follower-Aufbau: Folgen-Zeile, Serien, 2 Trial Reels/Woche als Test, Collab-Regel in marke.md. Ausgangslage 20.10.: Instagram 3 Follower, 12 erreichte Konten, 14 Profilbesuche (3 Karussells, noch kein Reel). Felix: Collab-Handles nennen, 10 Min/Tag Interaktion.
 - V10 (2026-10-20, entschieden) – Ootto-Connector geprüft, Felix: wir bleiben beim eigenen Setup. Hinweis an Trend-Agent: Format „Werkzeug-How-to + Kommentar-Wort“ (z. B. „So rechnest du deine Förderung in 30 Sekunden aus – kommentiere START“) als Trend prüfen; Beleg: @jayantcreates.ai-Beitrag vom 08.10.2026 mit 7.328 Kommentaren bei 4.472 Likes (Screenshot von Felix).
 - V11 (2026-10-21, umgesetzt) – SEO-Erkenntnisse in den Content: Wochen-, Video- und Trend-Agent lesen seo.md, 1–2 Beiträge/Woche zu den Top-Suchfragen (Regel in marke.md).
+- V12 (2026-10-21, umgesetzt) – Feed-Varianz: Wochen-Agent setzt Farbvariante (gruen/creme/gold) selbst beim Erstellen (marke.md); video.py zeigt den Hook ab Bild 1, damit Reel-Kacheln nicht leer sind (Felix: „ja“). Sichtbar ab Beiträgen 26.10.
 
 ## Status-Log
 - 2026-10-20 – ok (Agenten aktiv, 4 Kanäle aktiv, keine Fehl-Posts; 20.10. Karussell + Reel live auf allen 4 Kanälen, DB zieht Posting-Agent morgen nach; 21.–25.10. eingeplant; keine offenen Posts; Website + Abschluss-Links ok; Kleinigkeit: gemergter Zweig artikel/altersvorsorgedepot-rechner noch nicht gelöscht)

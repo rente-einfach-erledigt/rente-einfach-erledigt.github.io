@@ -4,7 +4,7 @@
 Aufruf:  python3 video.py videos/<id>/video.json
 Ergebnis: videos/<id>/video_A.mp4  (Instagram: Ende mit Kommentar-Wort)
           videos/<id>/video_B.mp4  (TikTok, YouTube Shorts, Facebook, Threads: Ende "Link im Profil")
-          videos/<id>/cover.jpg    (Titelbild aus der ersten Szene)
+          videos/<id>/cover.jpg    (Titelbild = erstes Videobild; Szene 1 zeigt den Hook ab Bild 1)
 
 video.json:
 {
@@ -537,11 +537,13 @@ def render(spec, out_dir, variant):
                 fill = 1 if j < si else (min(1, t / s.dur) if j == si else 0)
                 if fill > 0: dd.rounded_rectangle([x, 80, x + segw * fill, 88], 4, fill=CREAM)
             # Szenen-Uebergang: weiches Ausblenden am Ende
-            layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); s.draw(layer, t)
+            # Szene 1 zeigt ab dem ersten Bild den fertigen Hook (Instagram nimmt Bild 1 als Profil-Kachel)
+            tc = min(s.dur - 0.4, 2.2)
+            layer = Image.new("RGBA", (W, H), (0, 0, 0, 0)); s.draw(layer, max(t, tc) if si == 0 else t)
             out_a = 1 - ease((t - (s.dur - 0.28)) / 0.28) if si < len(scenes) - 1 else 1
             paste(fr, layer, 0, -30 * (1 - out_a), out_a)
             rgb = fr.convert("RGB")
-            if si == 0 and abs(t - min(s.dur - 0.4, 2.2)) < 0.5 / FPS: cover = rgb.copy()
+            if idx == 0: cover = rgb.copy()
             pr.stdin.write(rgb.tobytes()); idx += 1
         t0 += s.dur
     pr.stdin.close(); pr.wait(); os.remove(wav)
