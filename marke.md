@@ -126,6 +126,12 @@ Mo–Fr 07:30 oder 18:00, Sa/So 10:00. Ein Post pro Tag.
   - Formate wechseln: nie 3 Karussells hintereinander, Reels und Beispielrechnungen dazwischen.
   - Zielgruppen/Hooks: keine zwei gleichen nebeneinander; Figuren-Kacheln (Beispielrechnung) gleichmäßig verteilen.
   - Kachel-Text muss im 3:4-Ausschnitt komplett lesbar sein, max. ~9 Wörter Headline.
+- Farbe schon beim Erstellen (Felix 21.10.): Der Wochen-Agent setzt in JEDEM post.json bei Folie 1 und der letzten Folie
+  selbst `"theme"` – rotierend über die Woche, z. B. Mo gruen, Di creme, Mi gold, Do gruen, Fr creme, Sa gruen, So creme
+  (pro 7 Karussells ca. 3 gruen, 3 creme, 1–2 gold; nie 2 gleiche Tage hintereinander). Nicht auf den Feed-Agenten warten –
+  der korrigiert nur noch Feinheiten, solange Beiträge offen sind.
+- Reel-Kacheln: Instagram nimmt das ERSTE Videobild als Kachel (ein eigenes Titelbild kann iHatePosting nicht setzen).
+  Szene 1 muss deshalb ab dem allerersten Bild Hook-Text zeigen, nie eine leere Fläche.
 - Werkzeuge: render.py `theme` (gruen/creme/gold) für Karussell-Folien; cover.py für Reel-Titelbilder in einer Farbvariante;
   grid.py baut die Raster-Vorschau (grid.py --farben misst Farbe/Helligkeit jeder Kachel).
 - Der Feed-Agent darf an OFFENEN (noch nicht freigegebenen) Beiträgen: Farbvariante von Folie 1 ändern (neu rendern, neu hochladen,
