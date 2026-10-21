@@ -18,6 +18,7 @@ Vorschläge haben eine Nummer (V1, V2 …) und einen Status: offen | angenommen 
 - V12 (2026-10-21, umgesetzt) – Feed-Varianz: Wochen-Agent setzt Farbvariante (gruen/creme/gold) selbst beim Erstellen (marke.md); video.py zeigt den Hook ab Bild 1, damit Reel-Kacheln nicht leer sind (Felix: „ja“). Sichtbar ab Beiträgen 26.10.
 
 ## Status-Log
+- 2026-10-21 – ok (Agenten aktiv, 4 Kanäle aktiv, keine Fehl-Posts; 22.–25.10. komplett geplant (7 Beiträge), 21.10. live; 1 Artikel offen (Riester-Wechsel) – Regeln ok, Abschluss-Links im Zweig korrekt; Website-Quelle ok (Rechner, Impressum), Live-Abruf ohne Freigabe nicht möglich; Auffällig: Trend-Agent hat Mo 20.10. keinen Lauf verzeichnet – Do 22.10. prüfen; gemergter Zweig artikel/altersvorsorgedepot-rechner noch da)
 - 2026-10-20 – ok (Agenten aktiv, 4 Kanäle aktiv, keine Fehl-Posts; 20.10. Karussell + Reel live auf allen 4 Kanälen, DB zieht Posting-Agent morgen nach; 21.–25.10. eingeplant; keine offenen Posts; Website + Abschluss-Links ok; Kleinigkeit: gemergter Zweig artikel/altersvorsorgedepot-rechner noch nicht gelöscht)
 - 2026-10-19 – Feed: erster Lauf, Raster-Vorschau 19.–25.10. auf der Freigabe-Seite; keine offenen Beiträge → keine Korrekturen; alle Kacheln grün, 3 Karussells in Folge (Do–Sa), Di 2× Familien
 - 2026-10-19 – Trend: erster Lauf, 5 Trends in trends.md (Frühstartrente, Weltspartag 30.10., „Was ist eigentlich …?“, Mythos-Serie, Problem→Ergebnis), kein Werkzeug-Ausbau nötig
