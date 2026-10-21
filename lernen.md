@@ -18,4 +18,5 @@ Der Wochen-Agent liest sie, bevor er neue Posts plant.
 - 2026-10-25 – Video – Riester-Sparer 40+ – Petra, 52, Pflegekraft, Riester seit 2009, 150 € – Hook: „Bisher max. 175 € Zulage. Ab 2027 bis zu 540 €.“ (Zahl) – RIESTER
 
 ## Erkenntnisse
+- 2026-10-21 (SEO-Agent, Quelle cash-online 09.10.2026): Helvetia startet vor dem AVD-Start eine Investmentplattform mit Oddo BHF und Xaver; vor dem Start abgeschlossene „Brückenprodukte“ wechseln am 01.01.2027 automatisch ins regulierte Format. Zusätzlich plant Helvetia zum Start eine fondsgebundene Rentenversicherung.
 - Noch keine Daten. Start am 18.10.2026.
