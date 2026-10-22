@@ -5,6 +5,24 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 
 ## Aktive Trends (max. 8)
 
+### T8 – Eigener Gewinner: Familien-Persona-Video mit Zahl-Hook (TikTok) – Status: neu
+- **Was:** Unser Video „Aylin, 29, alleinerziehend, 50 €“ (Hook „Nur 50 € im Monat übrig? Reicht für die volle Kinderzulage.“, persona-Szene mit illustrierter Figur) ist unser bisher stärkster Beitrag.
+- **Warum jetzt:** Eigene Zahlen (iHatePosting, 7 Tage, Stand 22.10.2026): TikTok 611 Aufrufe = rund 3,4× der Schnitt unserer 5 TikTok-Beiträge (890 / 5 ≈ 178); Platz 2 mit 225 ist Selbstständige. Auf Instagram holen Familien-Beiträge ebenfalls die meisten Interaktionen (Karussell KIND 20.10.: 7). Aber: 0 Likes/Kommentare auf TikTok, nur 1 Video – Reichweiten-Signal, kein Urteil.
+- **Umsetzung:** Pro Woche mind. 1 Video nach demselben Bauplan: hook mit kleiner Zahl + Irrtum („Nur 25 € übrig?“) → persona (neue Figur, andere Lebenslage, z. B. Vater mit 3 Kindern, Paar mit Baby) → counter → cta. Auf TikTok Ende mit Frage in der Caption („Wie viele Kinder habt ihr?“), um die fehlenden Kommentare zu testen.
+- **Zielgruppe:** Familien. **Grenzen:** Figur immer als Beispielfigur, Zahlen rechnet video.py.
+
+### T7 – Anlass: Rentenreform verschoben – das Altersvorsorgedepot kommt trotzdem (alle) – Status: neu
+- **Was:** Die große Reform der gesetzlichen Rente (Rentenkommission: Kapitalrente, Nachhaltigkeitsfaktor, Streit um „Rente mit 63“) ist laut Presse auf Frühjahr 2027 verschoben; neuer Arbeitsminister Alexander Schweitzer (SPD) legt erst nach Einigung der Koalition einen Entwurf vor. Das Altersvorsorgedepot dagegen ist schon Gesetz (Bundesrat 08.05.2026) und startet am 01.01.2027.
+- **Warum jetzt:** Viel Unsicherheit („Was wird aus meiner Rente?“), Thema läuft seit 13./14.10. Belege: [inFranken, 13.10.2026](https://www.infranken.de/ratgeber/karriere-geld/rentenreform-csu-bundestag-alexander-schweitzer-rente-63-kapitalrente-nachhaltigkeitsfaktor-rentenalter-tmr-1-art-6402059), [ad-hoc-news, 14.10.2026](https://www.ad-hoc-news.de/wirtschaft/rentenreform-schweitzer-knuepft-gesetzentwurf-an-einigung-in-der-koalition/70320768), AVD-Beschluss: [AssCompact, 11.05.2026](https://www.asscompact.de/nachrichten/altersvorsorgedepot-beschlossen-wo-stehen-die-produktgeber). Passt zu seo.md Nr. 4 („jetzt starten oder warten?“). Vor jedem Post Stand per Websuche prüfen (Kabinett/Entwurf kann kommen).
+- **Umsetzung:** Video: hook („Rentenreform *verschoben*. Und jetzt?“) → text („Gesetzliche Rente: Entscheidung frühestens Frühjahr 2027“) → myth („Dann warte ich erst mal ab.“ / „Das Altersvorsorgedepot ist schon beschlossen – Start 01.01.2027.“) → counter Grundzulage „bis zu 540 €“ → cta mit Vorsprung. Karussell: „Was ist beschlossen – was noch offen?“ (2 Spalten: beschlossen = AVD, Frühstartrente im Bundestag; offen = Rentenalter, Kapitalrente, Rente mit 63).
+- **Zielgruppe:** Riester-Sparer 40+ (Facebook), alternativ Selbstständige (Rentenkommission will sie in die gesetzliche Rente – nur als „Vorschlag“ nennen). **Grenzen:** keine Panik („Rente reicht nicht“), keine Parteipolitik/Wertung, Vorschläge klar als Vorschläge kennzeichnen.
+
+### T6 – Format: „Antwort in einem Wort“ (Frage → Ein-Wort-Antwort) – Status: neu
+- **Was:** Eine Frage groß als Text, darauf eine Antwort aus genau einem Wort („Nein.“, „Ja.“, „540.“), dann 1 Satz Begründung – 3–4 Fragen schnell hintereinander.
+- **Warum jetzt:** [NewEngen TikTok-Trends (Stand 14.10.2026)](https://newengen.com/insights/tiktok-trends/) führt „Answer in One Word“ als aktuellen Trend und als faceless, ohne lizenzierte Musik, gut für Erklär-Content. Kurze Q&A-Einheiten passen zu „große Untertitel, kurze Einheiten, schnelle Wechsel“ ([Lightreel 10.–17.10.2026](https://lightreel.ai/blogs/whats-trending-on-instagram)).
+- **Umsetzung:** Video ohne KI-Screenrecording (keine erfundenen KI-Antworten): hook „Altersvorsorgedepot – *Antwort in einem Wort.*“ → 3× text-Szene (kick „FRAGE 1/3“, text „Muss ich Riester kündigen?\n*Nein.*“; „Gibt’s 2026 schon Zulagen?\n*Nein.*“; „Bekommen Selbstständige was?\n*Ja.*“) → counter → cta. Alternativ myth-Szenen. Karussell: je Folge eine Frage + großes `big`-Wort, Begründung im body. 15–22 s.
+- **Zielgruppe:** Einsteiger unter 25 / Grundlagen; Riester-Version für 40+. **Grenzen:** „bis zu“ bei Zulagen, keine Ja/Nein-Antworten auf Beratungsfragen („Lohnt sich das für mich?“).
+
 ### T1 – Anlass: Frühstartrente beschlossen (Familien) – Status: neu
 - **Was:** Der Bundestag hat am 16.10.2026 die Frühstartrente beschlossen: der Staat zahlt Kindern von 6 bis 18 Jahren 10 € pro Monat in ein kapitalgedecktes Vorsorgedepot; Eltern/Großeltern können bis zu 6.840 € pro Jahr dazulegen.
 - **Warum jetzt:** Große Rentennachricht der Woche, Eltern suchen gerade Erklärungen. Belege: [Bundestag, 16.10.2026](https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624), [Ihre Vorsorge (DRV), 16.10.2026](https://www.ihre-vorsorge.de/altersvorsorge/nachrichten/bundestag-beschliesst-fruehstartrente). Bundesrat muss noch zustimmen, Zahlungen laut Ihre Vorsorge ab 2027 geplant – vor jedem Post per Websuche Stand prüfen.
@@ -35,8 +53,11 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 - **Umsetzung:** Hook „Ich spare 100 € im Monat – *und der Staat?*“ → zwei persona-Szenen/-Folien („ohne Förderung“ vs. „mit Zulagen“, bzw. „startet mit 25 vs. 45“) → bars → cta. Als Karussell mit Hinweis „Speichern für später“ auf der vorletzten Folie.
 - **Zielgruppe:** Selbstständige oder Riester-Sparer (Facebook 40+). **Grenzen:** nur Beiträge + Zulagen, keine Kursentwicklung.
 
-### Eigene Zahlen (Stand 19.10.2026)
-- Noch zu wenig Daten (2 Beiträge je Kanal): Instagram 5 Interaktionen (Start-Post DEPOT, 2 Kommentare), Threads 111 Aufrufe, TikTok 54 Aufrufe, Facebook keine Werte. Noch kein „Eigener Gewinner“.
+### Eigene Zahlen (Stand 22.10.2026, 7 Tage, je 5 Beiträge)
+- TikTok 890 Aufrufe (Familien-Video Aylin 611, Selbstständige 225, Rest ≤ 43), 0 Interaktionen, 0 Follower.
+- Instagram 7 erreichte Konten, 12 Likes, 4 Kommentare, 0 Speichern/Teilen, 3 Follower; Familien-Karussell 7 und Start-Post DEPOT 6 Interaktionen, Riester/Selbst je 1.
+- Threads 172 Aufrufe (Start-Post 118), 0 Interaktionen, 1 Link-Klick. Facebook 25 Aufrufe, 0 Interaktionen.
+- Erster „Eigener Gewinner“ → T8 (nur 1 Beitrag, noch kein Urteil).
 
 ## Tests dieser und letzter Woche
 (Format: Datum – Beitrag-ID – Trend – Kanal – Ergebnis gegenüber Durchschnitt)
