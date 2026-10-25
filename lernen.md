@@ -23,6 +23,10 @@ Der Wochen-Agent liest sie, bevor er neue Posts plant.
 - 2026-10-30 – Weltspartag: Sparschwein vs. Zulagen, Beispiel Sven, 33, 1 Kind (Trend-Test T2) – KIND
 - 2026-10-31 – Jetzt starten oder bis 2027 warten? Beide Seiten – START
 - 2026-11-01 – Startklar 3/3: Selbstständige – eigener Anspruch statt über den Ehepartner – SELBST
+- 2026-10-27 – Video – Familien – Lena, 32, Mama nach der Elternzeit, 1 Baby, 75 € (story + persona, Trial-Reel) – Hook: „Elternzeit vorbei? Dein Baby bringt bis zu 300 € Zulage im Jahr.“ (Zahl) – KIND
+- 2026-10-29 – Video – Riester-Sparer 40+ – Birgit, 48, Verwaltung, Riester seit 2011, 1 Kind (15), 100 € (myth, Trend-Test T4) – Hook: „Riester-Wechsel: Muss ich Zulagen zurückzahlen?“ (Irrtum) – RIESTER
+- 2026-10-31 – Video – Selbstständige – Yusuf, 29, Gründer Foodtruck, 100 € (bars Vorher/Nachher, Trial-Reel) – Hook: „Bisher ohne Zulage? Ab 2027: bis zu 540 € für Selbstständige.“ (Vorher/Nachher) – SELBST
+- 2026-11-01 – Video – Einsteiger unter 25 – Jule, 21, Azubi Mediengestalterin, 40 € (counter + list, Trend-Test T3) – Hook: „Einsteiger-Bonus: Was ist das eigentlich?“ (Frage) – START
 
 ## Erkenntnisse
 - 2026-10-21 (SEO-Agent, Quelle cash-online 09.10.2026): Helvetia startet vor dem AVD-Start eine Investmentplattform mit Oddo BHF und Xaver; vor dem Start abgeschlossene „Brückenprodukte“ wechseln am 01.01.2027 automatisch ins regulierte Format. Zusätzlich plant Helvetia zum Start eine fondsgebundene Rentenversicherung.
