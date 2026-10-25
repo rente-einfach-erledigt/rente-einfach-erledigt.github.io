@@ -1,0 +1,50 @@
+{
+ "zielgruppe": "einsteiger",
+ "wort": "START",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "UNTER 25 · DEIN VORSPRUNG",
+   "text": "Einsteiger-Bonus:\n*Was ist das eigentlich?*"
+  },
+  {
+   "type": "counter",
+   "label": "Berufseinsteiger-Bonus",
+   "pre": "einmalig",
+   "value": 200,
+   "unit": "€",
+   "sub": "wenn du vor deinem\n25. Geburtstag startest"
+  },
+  {
+   "type": "list",
+   "title": "Kurz erklärt",
+   "items": [
+    "200 € einmalig obendrauf",
+    "Dazu bis zu 540 € Grundzulage im Jahr",
+    "Fonds und ETFs, keine Garantie"
+   ]
+  },
+  {
+   "type": "persona",
+   "name": "Jule",
+   "alter": 21,
+   "kinder": [],
+   "beitrag": 40,
+   "rente": 67,
+   "job": "Azubi Mediengestalterin",
+   "figur": {
+    "haut": "braun",
+    "haar": "locken",
+    "haarfarbe": "schwarz",
+    "kleidung": "blau",
+    "brille": true,
+    "ohrringe": true
+   }
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Mit 21 starten,\n*bevor alle anderen loslegen.*"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "zielgruppe": "familien",
+ "wort": "KIND",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "FAMILIEN · DEIN VORSPRUNG",
+   "text": "Elternzeit vorbei?\n*Dein Baby bringt bis zu 300 € Zulage im Jahr.*"
+  },
+  {
+   "type": "story",
+   "name": "Lena, 32",
+   "rolle": "Mama, 1 Baby",
+   "zitat": "Ich dachte, dafür reicht unser Geld gerade nicht. *Schon 25 € im Monat holen die volle Kinderzulage.*",
+   "figur": {
+    "haut": "mittel",
+    "haar": "zopf",
+    "haarfarbe": "rot",
+    "kleidung": "petrol",
+    "ohrringe": true,
+    "kinder": [
+     {
+      "haut": "mittel",
+      "haar": "kurz",
+      "haarfarbe": "rot",
+      "kleidung": "gold"
+     }
+    ]
+   }
+  },
+  {
+   "type": "persona",
+   "name": "Lena",
+   "alter": 32,
+   "kinder": [
+    0
+   ],
+   "beitrag": 75,
+   "rente": 67,
+   "job": "Teilzeit nach der Elternzeit",
+   "figur": {
+    "haut": "mittel",
+    "haar": "zopf",
+    "haarfarbe": "rot",
+    "kleidung": "petrol",
+    "ohrringe": true,
+    "kinder": [
+     {
+      "haut": "mittel",
+      "haar": "kurz",
+      "haarfarbe": "rot",
+      "kleidung": "gold"
+     }
+    ]
+   }
+  },
+  {
+   "type": "counter",
+   "label": "Kinderzulage",
+   "pre": "bis zu",
+   "value": 300,
+   "unit": "€",
+   "sub": "pro Kind und Jahr\nvoll schon ab 25 € im Monat"
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Alle warten auf 2027.\n*Euer Depot steht dann schon.*"
+  }
+ ]
+}

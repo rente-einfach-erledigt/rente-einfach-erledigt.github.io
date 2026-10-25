@@ -1,0 +1,52 @@
+{
+ "zielgruppe": "selbststaendige",
+ "wort": "SELBST",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "SELBSTSTÄNDIG · DEIN VORSPRUNG",
+   "text": "Bisher ohne Zulage?\n*Ab 2027: bis zu 540 € für Selbstständige.*"
+  },
+  {
+   "type": "bars",
+   "title": "Vorher / Nachher",
+   "items": [
+    {
+     "label": "Riester: für die meisten bisher",
+     "value": 0
+    },
+    {
+     "label": "Ab 2027 Grundzulage: bis zu",
+     "value": 540,
+     "gold": true
+    }
+   ]
+  },
+  {
+   "type": "text",
+   "kick": "DEIN VORSPRUNG",
+   "text": "2027 starten alle.\n*Dein Depot steht dann schon.*"
+  },
+  {
+   "type": "persona",
+   "name": "Yusuf",
+   "alter": 29,
+   "kinder": [],
+   "beitrag": 100,
+   "rente": 67,
+   "job": "Gründer, Foodtruck",
+   "figur": {
+    "haut": "oliv",
+    "haar": "kurz",
+    "haarfarbe": "schwarz",
+    "kleidung": "senf",
+    "bart": "kurz"
+   }
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Rechne aus, was\n*dir ab 2027 zusteht.*"
+  }
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "zielgruppe": "riester",
+ "wort": "RIESTER",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "RIESTER 40+ · DEIN VORSPRUNG",
+   "text": "Riester-Wechsel:\n*Muss ich Zulagen zurückzahlen?*"
+  },
+  {
+   "type": "myth",
+   "myth": "Beim Wechsel muss ich meine Riester-Zulagen zurückzahlen.",
+   "fact": "Nein. Der Wechsel ins Depot geht *ohne Rückzahlung.* Nur Kündigen kann Förderung kosten."
+  },
+  {
+   "type": "persona",
+   "name": "Birgit",
+   "alter": 48,
+   "kinder": [
+    15
+   ],
+   "beitrag": 100,
+   "rente": 67,
+   "job": "Verwaltung, Riester seit 2011",
+   "figur": {
+    "haut": "hell",
+    "haar": "dutt",
+    "haarfarbe": "blond",
+    "kleidung": "blau",
+    "brille": true,
+    "ohrringe": true
+   }
+  },
+  {
+   "type": "text",
+   "kick": "WAS BLEIBT",
+   "text": "Deine bisherigen Zulagen\n*bleiben dir erhalten.*"
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Alle warten auf Januar.\n*Du klärst deinen Wechsel jetzt.*"
+  }
+ ]
+}
