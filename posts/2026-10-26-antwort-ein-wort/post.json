@@ -1,0 +1,48 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Altersvorsorgedepot – Antwort in einem Wort.",
+   "body": "Alle warten auf 2027. Du kennst die Antworten schon jetzt.",
+   "swipe": true,
+   "theme": "gruen"
+  },
+  {
+   "kick": "Frage 1/4",
+   "pre": "Muss ich Riester kündigen?",
+   "big": "Nein.",
+   "body": "Dein Vertrag darf weiterlaufen. Kündigen kann Förderung kosten."
+  },
+  {
+   "kick": "Frage 2/4",
+   "pre": "Gibt es 2026 schon Zulagen?",
+   "big": "Nein.",
+   "body": "Die Förderung startet am 01.01.2027."
+  },
+  {
+   "kick": "Frage 3/4",
+   "pre": "Bekommen Selbstständige etwas?",
+   "big": "Ja.",
+   "body": "Ab 2027 erstmals: bis zu 540 € Grundzulage im Jahr."
+  },
+  {
+   "kick": "Frage 4/4",
+   "pre": "Kann ich das Depot schon eröffnen?",
+   "big": "Ja.",
+   "body": "Schon jetzt. Die Förderung kommt ab 2027 dazu."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "DEPOT",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "gruen"
+  }
+ ]
+}

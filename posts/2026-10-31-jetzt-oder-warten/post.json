@@ -1,0 +1,44 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Jetzt starten oder bis 2027 warten?",
+   "body": "Beide Seiten – damit du selbst entscheidest.",
+   "swipe": true,
+   "theme": "gruen"
+  },
+  {
+   "kick": "Pro Warten",
+   "head": "Verbraucherschützer raten zu Geduld.",
+   "body": "Sie wollen erst sehen, welche Angebote und Kosten es 2027 gibt."
+  },
+  {
+   "kick": "Pro Jetzt",
+   "head": "Dein Depot steht, bevor der Ansturm beginnt.",
+   "body": "Ab 2027 kommt die Förderung dazu – du bist dann schon startklar."
+  },
+  {
+   "kick": "Fakt",
+   "head": "Kostendeckel: max. 1 % im Standarddepot.",
+   "body": "Effektivkosten pro Jahr. Für frei gestaltete Depots gibt es keinen Deckel."
+  },
+  {
+   "kick": "Riester-Sparer",
+   "head": "Dein Vertrag hat Bestandsschutz.",
+   "body": "Wechseln ist freiwillig. Kündigen kann Förderung kosten."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "START",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "gruen"
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung",
+   "head": "3 Kinder, 100 € im Monat. Und der Staat?",
+   "body": "Startklar-Serie 2/3: Familien, die jetzt starten, sind im Januar bereit.",
+   "swipe": true,
+   "theme": "gruen"
+  },
+  {
+   "persona": {
+    "name": "Malik",
+    "alter": 41,
+    "kinder": [
+     2,
+     5,
+     9
+    ],
+    "beitrag": 100,
+    "rente": 67,
+    "job": "Busfahrer",
+    "figur": {
+     "haut": "dunkel",
+     "haar": "glatze",
+     "bart": "voll",
+     "haarfarbe": "schwarz",
+     "kleidung": "gruen",
+     "kinder": [
+      {
+       "haut": "dunkel",
+       "haar": "locken",
+       "haarfarbe": "schwarz",
+       "kleidung": "gold"
+      },
+      {
+       "haut": "dunkel",
+       "haar": "kurz",
+       "haarfarbe": "schwarz",
+       "kleidung": "blau"
+      },
+      {
+       "haut": "dunkel",
+       "haar": "zopf",
+       "haarfarbe": "schwarz",
+       "kleidung": "lila"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "kick": "Pro Kind",
+   "big": "bis zu 300 €",
+   "body": "Kinderzulage im Jahr – für jedes Kind."
+  },
+  {
+   "kick": "Gut zu wissen",
+   "head": "Für die volle Kinderzulage reichen 25 € im Monat.",
+   "body": "Pro Kind gibt es 1 € Zulage je eingezahltem Euro – bis zu 300 € im Jahr."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "KIND",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "gruen"
+  }
+ ]
+}

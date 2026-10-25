@@ -1,0 +1,44 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Selbstständig? Ab 2027 bekommst du eigene Zulagen.",
+   "body": "Startklar-Serie 3/3: Wer jetzt startet, ist im Januar schon dabei.",
+   "swipe": true,
+   "theme": "creme"
+  },
+  {
+   "kick": "Bisher",
+   "head": "Riester? Nur über den Ehepartner.",
+   "body": "Selbstständige hatten keinen eigenen Anspruch."
+  },
+  {
+   "kick": "Ab 2027",
+   "big": "bis zu 540 €",
+   "body": "Grundzulage pro Jahr – egal ob verheiratet oder nicht."
+  },
+  {
+   "kick": "So rechnet es",
+   "head": "Stufe 1: 50 Cent pro Euro bis 360 Euro.",
+   "body": "Danach 25 Cent pro Euro – bis zu 1.800 € Eigenbeitrag im Jahr."
+  },
+  {
+   "kick": "Mit Kindern",
+   "big": "bis zu 300 €",
+   "body": "zusätzlich pro Kind und Jahr."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "SELBST",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "creme"
+  }
+ ]
+}

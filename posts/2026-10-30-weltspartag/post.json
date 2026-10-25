@@ -1,0 +1,66 @@
+{
+ "slides": [
+  {
+   "kick": "Weltspartag · Dein Vorsprung",
+   "head": "Früher gab's ein Sparschwein. Ab 2027 legt der Staat drauf.",
+   "body": "Wer jetzt startet, ist im Januar schon dabei.",
+   "swipe": true,
+   "theme": "creme"
+  },
+  {
+   "kick": "Für dich",
+   "big": "bis zu 540 €",
+   "body": "Grundzulage pro Jahr."
+  },
+  {
+   "kick": "Für dein Kind",
+   "big": "bis zu 300 €",
+   "body": "Kinderzulage pro Kind und Jahr."
+  },
+  {
+   "persona": {
+    "name": "Sven",
+    "alter": 33,
+    "kinder": [
+     0
+    ],
+    "beitrag": 75,
+    "rente": 67,
+    "job": "Erzieher",
+    "figur": {
+     "haut": "hell",
+     "haar": "seitenscheitel",
+     "haarfarbe": "blond",
+     "brille": true,
+     "kleidung": "petrol",
+     "kinder": [
+      {
+       "haut": "hell",
+       "haar": "kurz",
+       "haarfarbe": "blond",
+       "kleidung": "gold"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "kick": "Der Unterschied",
+   "head": "Das Sparschwein legt nichts dazu.",
+   "body": "Im Altersvorsorgedepot gibt es ab 2027 bis zu 50 Cent Zulage pro Euro."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "KIND",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "creme"
+  }
+ ]
+}

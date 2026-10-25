@@ -1,0 +1,73 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Selbstständig mit 2 Kindern: Was bringt das ab 2027?",
+   "body": "Wer jetzt startet, ist im Januar schon startklar.",
+   "swipe": true,
+   "theme": "gold"
+  },
+  {
+   "persona": {
+    "name": "Jonas",
+    "alter": 38,
+    "kinder": [
+     3,
+     6
+    ],
+    "beitrag": 150,
+    "rente": 67,
+    "job": "Elektriker, selbstständig",
+    "figur": {
+     "haut": "braun",
+     "haar": "kurz",
+     "haarfarbe": "schwarz",
+     "bart": "kurz",
+     "kleidung": "blau",
+     "kinder": [
+      {
+       "haut": "braun",
+       "haar": "locken",
+       "haarfarbe": "schwarz",
+       "kleidung": "gold"
+      },
+      {
+       "haut": "braun",
+       "haar": "zopf",
+       "haarfarbe": "schwarz",
+       "kleidung": "rot"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "kick": "Neu ab 2027",
+   "head": "Eigener Anspruch auf Förderung.",
+   "body": "Bei Riester ging das für Selbstständige nur über den Ehepartner."
+  },
+  {
+   "kick": "Pro Kind",
+   "big": "bis zu 300 €",
+   "body": "Kinderzulage pro Kind und Jahr."
+  },
+  {
+   "kick": "Ab 120 € im Jahr",
+   "head": "Schon ab 10 € im Monat gibt es Zulage.",
+   "body": "Die volle Grundzulage gibt es bei 1.800 € Eigenbeitrag im Jahr."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "SELBST",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "gold"
+  }
+ ]
+}
