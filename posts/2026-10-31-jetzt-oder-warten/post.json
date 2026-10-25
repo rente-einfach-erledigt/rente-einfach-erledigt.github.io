@@ -5,7 +5,7 @@
    "head": "Jetzt starten oder bis 2027 warten?",
    "body": "Beide Seiten – damit du selbst entscheidest.",
    "swipe": true,
-   "theme": "gruen"
+   "theme": "gold"
   },
   {
    "kick": "Pro Warten",
@@ -38,7 +38,7 @@
    "big": "START",
    "cta": true,
    "body": "und du bekommst den Link per DM.",
-   "theme": "gruen"
+   "theme": "gold"
   }
  ]
 }
