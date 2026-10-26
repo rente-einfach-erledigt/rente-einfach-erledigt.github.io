@@ -5,29 +5,36 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 
 ## Aktive Trends (max. 8)
 
-### T8 – Eigener Gewinner: Familien-Persona-Video mit Zahl-Hook (TikTok) – Status: neu
-- **Was:** Unser Video „Aylin, 29, alleinerziehend, 50 €“ (Hook „Nur 50 € im Monat übrig? Reicht für die volle Kinderzulage.“, persona-Szene mit illustrierter Figur) ist unser bisher stärkster Beitrag.
-- **Warum jetzt:** Eigene Zahlen (iHatePosting, 7 Tage, Stand 22.10.2026): TikTok 611 Aufrufe = rund 3,4× der Schnitt unserer 5 TikTok-Beiträge (890 / 5 ≈ 178); Platz 2 mit 225 ist Selbstständige. Auf Instagram holen Familien-Beiträge ebenfalls die meisten Interaktionen (Karussell KIND 20.10.: 7). Aber: 0 Likes/Kommentare auf TikTok, nur 1 Video – Reichweiten-Signal, kein Urteil.
-- **Umsetzung:** Pro Woche mind. 1 Video nach demselben Bauplan: hook mit kleiner Zahl + Irrtum („Nur 25 € übrig?“) → persona (neue Figur, andere Lebenslage, z. B. Vater mit 3 Kindern, Paar mit Baby) → counter → cta. Auf TikTok Ende mit Frage in der Caption („Wie viele Kinder habt ihr?“), um die fehlenden Kommentare zu testen.
-- **Zielgruppe:** Familien. **Grenzen:** Figur immer als Beispielfigur, Zahlen rechnet video.py.
+### T10 – Häufige Frage: „Was, wenn ich mal nicht zahlen kann?“ – Beiträge pausieren (Selbstständige/Familien) – Status: neu
+- **Was:** Viele zögern, weil sie Angst vor einem festen Monatsbeitrag haben. Antwort: Das Altersvorsorgedepot muss ein Ruhenlassen erlauben – das Geld bleibt angelegt, erhaltene Zulagen bleiben, neue Zulagen pausieren mit den Beiträgen; laufende Depotkosten können weiterlaufen. Für die Grundförderung reichen auch einmal im Jahr mind. 120 €.
+- **Warum jetzt:** [Finanztip, 23.10.2026 (Stand 25.10.)](https://finanztip.de/daily/web/av-depot-was-passiert-wenn-du-die-sparrate-nicht-mehr-zahlen-kannst) greift genau diese Frage auf (Rechtsgrundlage dort: § 1 Abs. 1 Nr. 10a AltZertG, Mindestzahlung laut Gesetzesbeschluss). Passt zu Selbstständigen mit schwankendem Einkommen und Eltern in Elternzeit. Fachpresse = Quelle 4 → vor dem Post mit Gesetzestext bzw. Helvetia-Strecke abgleichen (Kosten während der Pause bei Helvetia prüfen).
+- **Umsetzung:** Video: hook („Und wenn ich mal *nicht zahlen kann?*“) → myth („Ich muss jeden Monat zahlen.“ / „Du kannst pausieren. Erhaltene Zulagen bleiben.“) → list („Geld bleibt angelegt“, „Neue Zulagen erst wieder mit Beitrag“, „Kosten können weiterlaufen“) → cta. Oder als Frage im Format T6 („Kann ich pausieren? *Ja.*“). Karussell: Folie „120 € einmal im Jahr reichen für die Grundförderung“ (big „120 €“).
+- **Zielgruppe:** Selbstständige (schwankendes Einkommen), Familien (Elternzeit). **Grenzen:** „bis zu“ bei Zulagen, Kosten in der Pause nicht verschweigen, keine Aussage „kostenlos pausieren“.
 
-### T7 – Anlass: Rentenreform verschoben – das Altersvorsorgedepot kommt trotzdem (alle) – Status: neu
+### T9 – Format: „Zerknüllter Zettel“ – Botschaft entfaltet sich (alle) – Status: neu (braucht V15)
+- **Was:** Ein zerknülltes Papier faltet sich auf, darauf eine handgeschriebene Notiz mit einer Aufforderung („Hör kurz auf zu scrollen und …“), dazwischen schnelle Bilder.
+- **Warum jetzt:** [Your Social Team, Trend Drops Oktober 2026 (05.10.2026)](https://yoursocial.team/blog/trend-drops-october-part-one) führt „Wadded Paper Message Reel“ als aktuellen Reel-Trend – ohne Gesicht machbar, keine bestimmte Musik nötig. Passt zu unserem Problem „Aufmerksamkeit ohne Reaktion“: direkte, persönliche Ansprache.
+- **Umsetzung:** Braucht eine neue video.py-Szene `zettel` (siehe Vorschlag V15 in manager.md). Bis dahin nicht umsetzen. Beispiel: zettel („Hör kurz auf zu scrollen und *rechne nach, was der Staat dir dazulegt.*“) → 2–3 schnelle counter/persona-Szenen → cta „Kommentiere START“. Eigene Musik, 12–18 s.
+- **Zielgruppe:** Einsteiger unter 25 (Instagram/TikTok). **Grenzen:** keine Dringlichkeit („Letzte Chance“), Vorsprung im Zettel oder Folgeszene.
+
+### T8 – Eigener Gewinner: Persona-Video mit Zahl-Hook (Familien + Einsteiger, TikTok/Facebook/Instagram) – Status: neu (aktualisiert 26.10.)
+- **Was:** Kurzvideos mit illustrierter Beispielfigur, kleiner Monatszahl im Hook und Zulagen-Rechnung sind unser stärkstes Format – jetzt mit 2 Beiträgen belegt: „Aylin, 29, alleinerziehend, 50 €“ (20.10.) und „Mia, 20, Studentin, 30 €“ (24.10.).
+- **Warum jetzt:** Eigene Zahlen (iHatePosting, 7 Tage, Stand 26.10.2026): TikTok 1.530 Aufrufe aus 12 Beiträgen (Schnitt ≈ 128) – Aylin 611 (≈ 4,8×), Mia 266 (≈ 2,1×), beide Selbstständigen-Videos 261/226. Mia ist zusätzlich auf Instagram der Top-Beitrag (68 von 108 Aufrufen) und auf Facebook (240 von 267 Aufrufen). Karussells melden auf Instagram keine Insights, daher kein fairer Format-Vergleich dort. Weiter fast keine Reaktionen (TikTok 1 Like, 0 Kommentare; Instagram 0 Speichern/Teilen) → Reichweiten-Signal, noch kein Interaktions-Signal.
+- **Umsetzung:** Pro Woche mind. 2 Videos nach Bauplan: hook mit kleiner Zahl + Irrtum („Nur 30 € übrig?“) → persona (neue Figur, neue Lebenslage) → counter → cta. Einsteiger-Version auch für Facebook ausspielen (Mia lief dort am besten). Gegen die fehlenden Reaktionen: Caption endet mit kurzer, echter Frage (siehe V13).
+- **Zielgruppe:** Familien, Einsteiger unter 25. **Grenzen:** Figur immer als Beispielfigur, Zahlen rechnet video.py, ohne Kursentwicklung.
+
+### T7 – Anlass: Rentenreform-Streit + Frühstartrente – das Altersvorsorgedepot kommt trotzdem (alle) – Status: neu (aktualisiert 26.10.)
 - **Was:** Die große Reform der gesetzlichen Rente (Rentenkommission: Kapitalrente, Nachhaltigkeitsfaktor, Streit um „Rente mit 63“) ist laut Presse auf Frühjahr 2027 verschoben; neuer Arbeitsminister Alexander Schweitzer (SPD) legt erst nach Einigung der Koalition einen Entwurf vor. Das Altersvorsorgedepot dagegen ist schon Gesetz (Bundesrat 08.05.2026) und startet am 01.01.2027.
 - **Warum jetzt:** Viel Unsicherheit („Was wird aus meiner Rente?“), Thema läuft seit 13./14.10. Belege: [inFranken, 13.10.2026](https://www.infranken.de/ratgeber/karriere-geld/rentenreform-csu-bundestag-alexander-schweitzer-rente-63-kapitalrente-nachhaltigkeitsfaktor-rentenalter-tmr-1-art-6402059), [ad-hoc-news, 14.10.2026](https://www.ad-hoc-news.de/wirtschaft/rentenreform-schweitzer-knuepft-gesetzentwurf-an-einigung-in-der-koalition/70320768), AVD-Beschluss: [AssCompact, 11.05.2026](https://www.asscompact.de/nachrichten/altersvorsorgedepot-beschlossen-wo-stehen-die-produktgeber). Passt zu seo.md Nr. 4 („jetzt starten oder warten?“). Vor jedem Post Stand per Websuche prüfen (Kabinett/Entwurf kann kommen).
 - **Umsetzung:** Video: hook („Rentenreform *verschoben*. Und jetzt?“) → text („Gesetzliche Rente: Entscheidung frühestens Frühjahr 2027“) → myth („Dann warte ich erst mal ab.“ / „Das Altersvorsorgedepot ist schon beschlossen – Start 01.01.2027.“) → counter Grundzulage „bis zu 540 €“ → cta mit Vorsprung. Karussell: „Was ist beschlossen – was noch offen?“ (2 Spalten: beschlossen = AVD, Frühstartrente im Bundestag; offen = Rentenalter, Kapitalrente, Rente mit 63).
-- **Zielgruppe:** Riester-Sparer 40+ (Facebook), alternativ Selbstständige (Rentenkommission will sie in die gesetzliche Rente – nur als „Vorschlag“ nennen). **Grenzen:** keine Panik („Rente reicht nicht“), keine Parteipolitik/Wertung, Vorschläge klar als Vorschläge kennzeichnen.
+- **Update 26.10.2026:** Streit läuft weiter – Verdi-Chef Werneke fordert von Schweitzer, die „Rente mit 63“ (abschlagsfrei nach 45 Jahren) nicht abzuschaffen, keine Einigung in der Koalition ([dpa-AFX via ARIVA, 26.10.2026](https://www.ariva.de/news/verdi-pocht-auf-sogenannte-rente-mit-63-12181110)). Ehemals T1 hier eingegliedert: Frühstartrente (10 € pro Monat für Kinder von 6–18) am 16.10. vom Bundestag beschlossen, Bundesrat steht aus, Start laut [cash-online, 16.10.2026](https://www.cash-online.de/a/so-funktioniert-die-neue-fruehstartrente-fuer-kinder-727817/) zum 01.01.2027 geplant ([Bundestag](https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624)). Bei Bundesrats-Zustimmung als eigener Familien-Beitrag umsetzen („Frühstartrente vs. Kinderzulage – was ist was?“).
+- **Zielgruppe:** Riester-Sparer 40+ (Facebook), alternativ Selbstständige (Rentenkommission will sie in die gesetzliche Rente – nur als „Vorschlag“ nennen), Familien (Frühstartrente). **Grenzen:** keine Panik („Rente reicht nicht“), keine Parteipolitik/Wertung, Vorschläge klar als Vorschläge kennzeichnen.
 
 ### T6 – Format: „Antwort in einem Wort“ (Frage → Ein-Wort-Antwort) – Status: neu
 - **Was:** Eine Frage groß als Text, darauf eine Antwort aus genau einem Wort („Nein.“, „Ja.“, „540.“), dann 1 Satz Begründung – 3–4 Fragen schnell hintereinander.
 - **Warum jetzt:** [NewEngen TikTok-Trends (Stand 14.10.2026)](https://newengen.com/insights/tiktok-trends/) führt „Answer in One Word“ als aktuellen Trend und als faceless, ohne lizenzierte Musik, gut für Erklär-Content. Kurze Q&A-Einheiten passen zu „große Untertitel, kurze Einheiten, schnelle Wechsel“ ([Lightreel 10.–17.10.2026](https://lightreel.ai/blogs/whats-trending-on-instagram)).
 - **Umsetzung:** Video ohne KI-Screenrecording (keine erfundenen KI-Antworten): hook „Altersvorsorgedepot – *Antwort in einem Wort.*“ → 3× text-Szene (kick „FRAGE 1/3“, text „Muss ich Riester kündigen?\n*Nein.*“; „Gibt’s 2026 schon Zulagen?\n*Nein.*“; „Bekommen Selbstständige was?\n*Ja.*“) → counter → cta. Alternativ myth-Szenen. Karussell: je Folge eine Frage + großes `big`-Wort, Begründung im body. 15–22 s.
 - **Zielgruppe:** Einsteiger unter 25 / Grundlagen; Riester-Version für 40+. **Grenzen:** „bis zu“ bei Zulagen, keine Ja/Nein-Antworten auf Beratungsfragen („Lohnt sich das für mich?“).
-
-### T1 – Anlass: Frühstartrente beschlossen (Familien) – Status: neu
-- **Was:** Der Bundestag hat am 16.10.2026 die Frühstartrente beschlossen: der Staat zahlt Kindern von 6 bis 18 Jahren 10 € pro Monat in ein kapitalgedecktes Vorsorgedepot; Eltern/Großeltern können bis zu 6.840 € pro Jahr dazulegen.
-- **Warum jetzt:** Große Rentennachricht der Woche, Eltern suchen gerade Erklärungen. Belege: [Bundestag, 16.10.2026](https://www.bundestag.de/dokumente/textarchiv/2026/kw42-de-fruehstartrente-1223624), [Ihre Vorsorge (DRV), 16.10.2026](https://www.ihre-vorsorge.de/altersvorsorge/nachrichten/bundestag-beschliesst-fruehstartrente). Bundesrat muss noch zustimmen, Zahlungen laut Ihre Vorsorge ab 2027 geplant – vor jedem Post per Websuche Stand prüfen.
-- **Umsetzung:** Video: hook („Neu beschlossen: *10 € im Monat* für dein Kind“) → text (was die Frühstartrente ist, „Bundesrat muss noch zustimmen“) → counter Kinderzulage AVD „bis zu 300 € pro Kind und Jahr“ → persona Familie mit 2 Kindern → cta. Karussell: „Frühstartrente vs. Kinderzulage – was ist was?“ (2 Spalten, persona-Folie).
-- **Zielgruppe:** Familien. **Grenzen:** Nicht behaupten, die Frühstartrente laufe über unsere Strecke; keine Zahlungen für 2026; kein „schnell, bevor …“.
 
 ### T2 – Anlass: Weltspartag Fr 30.10.2026 (Einsteiger/Familien) – Status: neu
 - **Was:** Der Weltspartag fällt 2026 auf Freitag, 30. Oktober – Banken und Medien sprechen über Sparen, guter Aufhänger „Sparschwein früher vs. geförderter Sparplan heute“.
@@ -47,17 +54,11 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 - **Umsetzung:** video.py `myth`-Szene als Herzstück, kick „IRRTUM 1/5“ in der hook-Szene; Reihe z. B. „Riester muss ich kündigen“ → „Selbstständige bekommen keine Förderung“ → „Ich bin zu jung dafür“. Danach counter/persona → cta. Pro Woche max. 1 Folge, Zielgruppe wechselt.
 - **Zielgruppe:** je Folge eine (Riester 40+, Selbstständige, Einsteiger). **Grenzen:** nie „kündige Riester“.
 
-### T5 – Format: Problem → Weg → Ergebnis / Vorher-Nachher-Rechnung – Status: neu
-- **Was:** Alltagsproblem als Text-Hook, dann der Weg, dann das sichtbare Ergebnis als Zahl bzw. zwei Figuren im Vergleich.
-- **Warum jetzt:** [Lightreel 10.–17.10.2026](https://lightreel.ai/blogs/whats-trending-on-instagram) nennt „Problem → Weg → Beweis“ und Vorher/Nachher-Vergleich als aktuelle faceless Mechaniken; Karussells holen laut [Metricool-Instagram-Studie 2026 (OnlineMarketing.de, 06.07.2026)](https://onlinemarketing.de/social-media-marketing/instagram-studie-2026-formate-beste-performance) rund 9× mehr Speicherungen als Einzelbilder, Reels die meisten Shares.
-- **Umsetzung:** Hook „Ich spare 100 € im Monat – *und der Staat?*“ → zwei persona-Szenen/-Folien („ohne Förderung“ vs. „mit Zulagen“, bzw. „startet mit 25 vs. 45“) → bars → cta. Als Karussell mit Hinweis „Speichern für später“ auf der vorletzten Folie.
-- **Zielgruppe:** Selbstständige oder Riester-Sparer (Facebook 40+). **Grenzen:** nur Beiträge + Zulagen, keine Kursentwicklung.
-
-### Eigene Zahlen (Stand 22.10.2026, 7 Tage, je 5 Beiträge)
-- TikTok 890 Aufrufe (Familien-Video Aylin 611, Selbstständige 225, Rest ≤ 43), 0 Interaktionen, 0 Follower.
-- Instagram 7 erreichte Konten, 12 Likes, 4 Kommentare, 0 Speichern/Teilen, 3 Follower; Familien-Karussell 7 und Start-Post DEPOT 6 Interaktionen, Riester/Selbst je 1.
-- Threads 172 Aufrufe (Start-Post 118), 0 Interaktionen, 1 Link-Klick. Facebook 25 Aufrufe, 0 Interaktionen.
-- Erster „Eigener Gewinner“ → T8 (nur 1 Beitrag, noch kein Urteil).
+### Eigene Zahlen (Stand 26.10.2026, 7 Tage, je 12 Beiträge)
+- TikTok 1.530 Aufrufe (Aylin 611, Mia 266, Selbstständige 261 + 226, „Antwort in einem Wort“ 61 nach wenigen Stunden), 1 Like, 0 Kommentare, 0 Follower.
+- Instagram 108 Aufrufe / 87 erreichte Konten (Mia-Reel 68), 22 Likes, 5 Kommentare, 0 Speichern/Teilen, 6 Follower (+3).
+- Facebook 267 Aufrufe (Mia 240), 0 Interaktionen. Threads 78 Aufrufe, 0 Interaktionen, 2 Link-Klicks.
+- Gewinner-Format → T8 (Persona-Video, jetzt 2 Belege).
 
 ## Tests dieser und letzter Woche
 (Format: Datum – Beitrag-ID – Trend – Kanal – Ergebnis gegenüber Durchschnitt)
@@ -67,4 +68,9 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 - 2026-11-01 – 2026-11-01-start-einsteigerbonus – T3 „Was ist eigentlich …?“ (Video) – alle 4 Kanäle – offen
 
 ## Verworfen (nicht wieder testen)
-(noch keine)
+- 2026-10-26 – T5 Problem → Weg → Ergebnis / Vorher-Nachher-Rechnung (neu seit 19.10.) – nach einer Woche kein eigener Test, Platz für neue Trends; Vorher/Nachher-Idee lebt im Video 31.10. (bars) weiter. Ursprünglicher Eintrag:
+  ### T5 – Format: Problem → Weg → Ergebnis / Vorher-Nachher-Rechnung – Status: neu
+  - **Was:** Alltagsproblem als Text-Hook, dann der Weg, dann das sichtbare Ergebnis als Zahl bzw. zwei Figuren im Vergleich.
+  - **Warum jetzt:** [Lightreel 10.–17.10.2026](https://lightreel.ai/blogs/whats-trending-on-instagram) nennt „Problem → Weg → Beweis“ und Vorher/Nachher-Vergleich als aktuelle faceless Mechaniken; Karussells holen laut [Metricool-Instagram-Studie 2026 (OnlineMarketing.de, 06.07.2026)](https://onlinemarketing.de/social-media-marketing/instagram-studie-2026-formate-beste-performance) rund 9× mehr Speicherungen als Einzelbilder, Reels die meisten Shares.
+  - **Umsetzung:** Hook „Ich spare 100 € im Monat – *und der Staat?*“ → zwei persona-Szenen/-Folien („ohne Förderung“ vs. „mit Zulagen“, bzw. „startet mit 25 vs. 45“) → bars → cta. Als Karussell mit Hinweis „Speichern für später“ auf der vorletzten Folie.
+  - **Zielgruppe:** Selbstständige oder Riester-Sparer (Facebook 40+). **Grenzen:** nur Beiträge + Zulagen, keine Kursentwicklung.
