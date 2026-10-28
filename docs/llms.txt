@@ -17,3 +17,4 @@
 - [Startseite mit Förderrechner](https://rente-einfach-erledigt.github.io/): Rechner, Erklärung, FAQ
 - [Ratgeber-Übersicht](https://rente-einfach-erledigt.github.io/ratgeber/): alle Artikel zum Altersvorsorgedepot
 - [Altersvorsorgedepot Rechner: So viel Förderung bekommst du](https://rente-einfach-erledigt.github.io/ratgeber/altersvorsorgedepot-rechner.html): Grundzulage-Staffel, Tabelle nach Monatsbeitrag, Kinderzulage, Berufseinsteigerbonus
+- [Kinderzulage im Altersvorsorgedepot: bis zu 300 € pro Kind](https://rente-einfach-erledigt.github.io/ratgeber/altersvorsorgedepot-kinderzulage.html): Höhe und Berechnung (1 € je Euro, voll ab 25 € im Monat), Zuordnung Mutter/Vater, Dauer, Antrag, Unterschied zur Frühstart-Rente
