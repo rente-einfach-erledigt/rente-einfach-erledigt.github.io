@@ -5,21 +5,28 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 
 ## Aktive Trends (max. 8)
 
+### T11 – Anlass: Riester-Jahresend-Check 2026 – Mindestbeitrag prüfen, Wechsel 2027 in Ruhe planen (Riester 40+) – Status: neu
+- **Was:** Wer 2026 noch riestert, bekommt die volle Riester-Zulage 2026 nur, wenn die Eigenbeiträge 2026 den Mindesteigenbeitrag erreichen: 4 % des rentenversicherungspflichtigen Vorjahreseinkommens minus Zulagen, mindestens 60 € im Jahr. Dazu: Dauerzulagenantrag gestellt? Kinder gemeldet? Danach (ab 2027) Wechsel ins Altersvorsorgedepot möglich, bisherige Zulagen bleiben.
+- **Warum jetzt:** Klassisches Jahresend-Thema im November/Dezember, passt zu unserem stärksten Instagram-Beitrag der Woche (Riester-Reel, 110 von 200 Aufrufen, iHatePosting 7 Tage, Stand 29.10.2026). Beleg: [aktienrenterechner.de „Riester 2026 – letzte Einzahlungen“](https://aktienrenterechner.de/ratgeber/riester-letzte-einzahlungen) (Fachpresse = Quelle 4; Rechtsgrundlage § 86 EStG). Vor dem Post mit Zulagenstelle/Gesetzestext abgleichen; Frage „muss bis 31.12. eingezahlt sein?“ beim Anbieter-Wortlaut prüfen, sonst weglassen.
+- **Umsetzung:** Video: hook („Riester 2026: *Ist dein Mindestbeitrag drin?*“, kick „DEIN VORSPRUNG“) → list („4 % vom Vorjahreseinkommen minus Zulagen“, „Zulagenantrag gestellt?“, „Kind gemeldet?“) → myth („Ich wechsle 2027, also ist 2026 egal.“ / „Die Zulage 2026 gibt es nur mit Mindestbeitrag. Danach kannst du in Ruhe wechseln.“) → counter Grundzulage AVD „bis zu 540 €“ ab 2027 → cta. Karussell: Folie „Rechne: Einkommen 2025 × 4 % – Zulagen“ mit Beispiel nur als Formel (keine erfundene Person mit Ergebnis außer über render.py-persona).
+- **Zielgruppe:** Riester-Sparer 40+ (Facebook, Instagram). **Grenzen:** keine falsche Dringlichkeit („Letzte Chance!“ verboten – sachlich „Jahresend-Check“), nie „kündige Riester“, kein Steuer-/Einzelfallrat, Teilen-Zeile („Schick das deinen Eltern.“).
+
+### T12 – Format: „Benannte Stufen“ – Heute → 01.01.2027 → Ende 2027 (alle) – Status: neu
+- **Was:** Große Stufen-Labels führen durch eine Entwicklung, pro Stufe eine kurze Szene („Tag 1 vs. später“-Mechanik) – bei uns: Was passiert, wenn du jetzt startest.
+- **Warum jetzt:** [Postdom, TikTok-Trends 26.10.–01.11.2026](https://postdom.com/blog/tiktok-trends) führt „Day 1 vs later“ als „Peaking“ (große Stufen-Labels, ein kurzer Shot pro Stufe, typ. 25 s, Median 417K Aufrufe; Warnung dort: keine Ergebnisse versprechen). [Lightreel, Instagram 17.–24.10.2026](https://www.lightreel.ai/blogs/whats-trending-on-instagram) nennt „Named-stage system“ und „Compressed numbered tutorial“ als wachsende Lern-Formate. Passt genau zur Vorsprung-Botschaft.
+- **Umsetzung:** Video mit vorhandenen Szenen: hook („Alle warten auf 2027. *So sieht dein Vorsprung aus.*“) → text (kick „STUFE 1 · HEUTE“, „Depot eröffnet. *Sparplan läuft.*“) → text (kick „STUFE 2 · 01.01.2027“, „Förderung startet. *Du bist schon startklar.*“) → counter (label „Stufe 3 · 2027: Grundzulage“, pre „bis zu“, value 540, unit „€“, sub „bei 1.800 € Eigenbeitrag im Jahr“) → optional persona → cta. Eigene Musik, 18–25 s. Karussell-Variante: je Folie eine Stufe (kick „STUFE 1/3“). Ausbau-Option: echte Bildschirmaufnahme unseres Rechners als Stufe (siehe V17).
+- **Zielgruppe:** Einsteiger unter 25 und Grundlagen; Selbstständigen-Version („Stufe 1: bisher keine Zulage“). **Grenzen:** nur Beiträge + Zulagen, keine Kursentwicklung/Depotwert-Stufen, keine Zulagen für 2026, kein Countdown-Druck (Stufen sind Fakten, kein „nur noch X Tage“).
+
 ### T10 – Häufige Frage: „Was, wenn ich mal nicht zahlen kann?“ – Beiträge pausieren (Selbstständige/Familien) – Status: neu
 - **Was:** Viele zögern, weil sie Angst vor einem festen Monatsbeitrag haben. Antwort: Das Altersvorsorgedepot muss ein Ruhenlassen erlauben – das Geld bleibt angelegt, erhaltene Zulagen bleiben, neue Zulagen pausieren mit den Beiträgen; laufende Depotkosten können weiterlaufen. Für die Grundförderung reichen auch einmal im Jahr mind. 120 €.
 - **Warum jetzt:** [Finanztip, 23.10.2026 (Stand 25.10.)](https://finanztip.de/daily/web/av-depot-was-passiert-wenn-du-die-sparrate-nicht-mehr-zahlen-kannst) greift genau diese Frage auf (Rechtsgrundlage dort: § 1 Abs. 1 Nr. 10a AltZertG, Mindestzahlung laut Gesetzesbeschluss). Passt zu Selbstständigen mit schwankendem Einkommen und Eltern in Elternzeit. Fachpresse = Quelle 4 → vor dem Post mit Gesetzestext bzw. Helvetia-Strecke abgleichen (Kosten während der Pause bei Helvetia prüfen).
 - **Umsetzung:** Video: hook („Und wenn ich mal *nicht zahlen kann?*“) → myth („Ich muss jeden Monat zahlen.“ / „Du kannst pausieren. Erhaltene Zulagen bleiben.“) → list („Geld bleibt angelegt“, „Neue Zulagen erst wieder mit Beitrag“, „Kosten können weiterlaufen“) → cta. Oder als Frage im Format T6 („Kann ich pausieren? *Ja.*“). Karussell: Folie „120 € einmal im Jahr reichen für die Grundförderung“ (big „120 €“).
 - **Zielgruppe:** Selbstständige (schwankendes Einkommen), Familien (Elternzeit). **Grenzen:** „bis zu“ bei Zulagen, Kosten in der Pause nicht verschweigen, keine Aussage „kostenlos pausieren“.
 
-### T9 – Format: „Zerknüllter Zettel“ – Botschaft entfaltet sich (alle) – Status: neu (braucht V15)
-- **Was:** Ein zerknülltes Papier faltet sich auf, darauf eine handgeschriebene Notiz mit einer Aufforderung („Hör kurz auf zu scrollen und …“), dazwischen schnelle Bilder.
-- **Warum jetzt:** [Your Social Team, Trend Drops Oktober 2026 (05.10.2026)](https://yoursocial.team/blog/trend-drops-october-part-one) führt „Wadded Paper Message Reel“ als aktuellen Reel-Trend – ohne Gesicht machbar, keine bestimmte Musik nötig. Passt zu unserem Problem „Aufmerksamkeit ohne Reaktion“: direkte, persönliche Ansprache.
-- **Umsetzung:** Braucht eine neue video.py-Szene `zettel` (siehe Vorschlag V15 in manager.md). Bis dahin nicht umsetzen. Beispiel: zettel („Hör kurz auf zu scrollen und *rechne nach, was der Staat dir dazulegt.*“) → 2–3 schnelle counter/persona-Szenen → cta „Kommentiere START“. Eigene Musik, 12–18 s.
-- **Zielgruppe:** Einsteiger unter 25 (Instagram/TikTok). **Grenzen:** keine Dringlichkeit („Letzte Chance“), Vorsprung im Zettel oder Folgeszene.
-
-### T8 – Eigener Gewinner: Persona-Video mit Zahl-Hook (Familien + Einsteiger, TikTok/Facebook/Instagram) – Status: neu (aktualisiert 26.10.)
+### T8 – Eigener Gewinner: Persona-Video mit Zahl-Hook (Familien + Einsteiger, TikTok/Facebook/Instagram) – Status: neu (aktualisiert 29.10.)
 - **Was:** Kurzvideos mit illustrierter Beispielfigur, kleiner Monatszahl im Hook und Zulagen-Rechnung sind unser stärkstes Format – jetzt mit 2 Beiträgen belegt: „Aylin, 29, alleinerziehend, 50 €“ (20.10.) und „Mia, 20, Studentin, 30 €“ (24.10.).
 - **Warum jetzt:** Eigene Zahlen (iHatePosting, 7 Tage, Stand 26.10.2026): TikTok 1.530 Aufrufe aus 12 Beiträgen (Schnitt ≈ 128) – Aylin 611 (≈ 4,8×), Mia 266 (≈ 2,1×), beide Selbstständigen-Videos 261/226. Mia ist zusätzlich auf Instagram der Top-Beitrag (68 von 108 Aufrufen) und auf Facebook (240 von 267 Aufrufen). Karussells melden auf Instagram keine Insights, daher kein fairer Format-Vergleich dort. Weiter fast keine Reaktionen (TikTok 1 Like, 0 Kommentare; Instagram 0 Speichern/Teilen) → Reichweiten-Signal, noch kein Interaktions-Signal.
+- **Update 29.10.2026 (iHatePosting 7 Tage):** TikTok 1.599 Aufrufe aus 11 Beiträgen (Schnitt ≈ 145) – alle Videos klar darüber: Mia 270, Petra/Riester 268, Selbstständige 262 + 224 (≈ 1,5–1,9×); 30 Tage: Aylin 611 bleibt Spitze. Instagram: Riester-Reel (Petra) 110 von 200 Aufrufen, Mia 71. Facebook: Mia 240, Selbstständige 191. Neu: auch die Riester-Persona (40+) läuft – Bauplan gilt für alle 4 Zielgruppen. Reaktionen weiter sehr niedrig (TikTok 5 Likes/3 Shares, Instagram 0 Speichern/Teilen).
 - **Umsetzung:** Pro Woche mind. 2 Videos nach Bauplan: hook mit kleiner Zahl + Irrtum („Nur 30 € übrig?“) → persona (neue Figur, neue Lebenslage) → counter → cta. Einsteiger-Version auch für Facebook ausspielen (Mia lief dort am besten). Gegen die fehlenden Reaktionen: Caption endet mit kurzer, echter Frage (siehe V13).
 - **Zielgruppe:** Familien, Einsteiger unter 25. **Grenzen:** Figur immer als Beispielfigur, Zahlen rechnet video.py, ohne Kursentwicklung.
 
@@ -36,12 +43,6 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 - **Umsetzung:** Video ohne KI-Screenrecording (keine erfundenen KI-Antworten): hook „Altersvorsorgedepot – *Antwort in einem Wort.*“ → 3× text-Szene (kick „FRAGE 1/3“, text „Muss ich Riester kündigen?\n*Nein.*“; „Gibt’s 2026 schon Zulagen?\n*Nein.*“; „Bekommen Selbstständige was?\n*Ja.*“) → counter → cta. Alternativ myth-Szenen. Karussell: je Folge eine Frage + großes `big`-Wort, Begründung im body. 15–22 s.
 - **Zielgruppe:** Einsteiger unter 25 / Grundlagen; Riester-Version für 40+. **Grenzen:** „bis zu“ bei Zulagen, keine Ja/Nein-Antworten auf Beratungsfragen („Lohnt sich das für mich?“).
 
-### T2 – Anlass: Weltspartag Fr 30.10.2026 (Einsteiger/Familien) – Status: neu
-- **Was:** Der Weltspartag fällt 2026 auf Freitag, 30. Oktober – Banken und Medien sprechen über Sparen, guter Aufhänger „Sparschwein früher vs. geförderter Sparplan heute“.
-- **Warum jetzt:** Fester Termin in 11 Tagen. Beleg: [ING Wissen „Ihre Finanzen im Oktober 2026“](https://www.ing.de/wissen/oktober-2026/), [Sparkasse Weltspartag](https://www.sparkasse.de/weltspartag.html).
-- **Umsetzung:** Beitrag am 30.10. (Karussell 07:30 oder 18:00). Hook: „Weltspartag: Früher gab’s ein Sparschwein. *Ab 2027 legt der Staat bis zu 50 Cent pro Euro drauf.*“ Folien/Szenen: bars („Du zahlst“ vs. „Staat legt drauf“) → persona Azubi mit 50 €/Monat (+ Einsteigerbonus) → Vorsprung → cta.
-- **Zielgruppe:** Einsteiger unter 25 (alternativ Familien). **Grenzen:** Keine Zinsbeispiele, Zulagen mit „bis zu“, keine Zulagen für 2026.
-
 ### T3 – Format: „Was ist eigentlich …?“ (Text-Setup + Erklärung) – Status: neu
 - **Was:** Ein Begriff als Frage in großem Text („WTF is …“-Mechanik), danach in 3–4 schnellen Szenen die Auflösung mit eigenem Ton.
 - **Warum jetzt:** Laut [NewEngen Instagram-Trends Oktober 2026 (Stand 01.10.2026)](https://newengen.com/insights/instagram-trends/) wächst „WTF Is…“ (Text-Setup + Gegenbild), ohne Gesicht und mit Originalton auf jedem Kontotyp machbar.
@@ -54,11 +55,11 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 - **Umsetzung:** video.py `myth`-Szene als Herzstück, kick „IRRTUM 1/5“ in der hook-Szene; Reihe z. B. „Riester muss ich kündigen“ → „Selbstständige bekommen keine Förderung“ → „Ich bin zu jung dafür“. Danach counter/persona → cta. Pro Woche max. 1 Folge, Zielgruppe wechselt.
 - **Zielgruppe:** je Folge eine (Riester 40+, Selbstständige, Einsteiger). **Grenzen:** nie „kündige Riester“.
 
-### Eigene Zahlen (Stand 26.10.2026, 7 Tage, je 12 Beiträge)
-- TikTok 1.530 Aufrufe (Aylin 611, Mia 266, Selbstständige 261 + 226, „Antwort in einem Wort“ 61 nach wenigen Stunden), 1 Like, 0 Kommentare, 0 Follower.
-- Instagram 108 Aufrufe / 87 erreichte Konten (Mia-Reel 68), 22 Likes, 5 Kommentare, 0 Speichern/Teilen, 6 Follower (+3).
-- Facebook 267 Aufrufe (Mia 240), 0 Interaktionen. Threads 78 Aufrufe, 0 Interaktionen, 2 Link-Klicks.
-- Gewinner-Format → T8 (Persona-Video, jetzt 2 Belege).
+### Eigene Zahlen (Stand 29.10.2026, 7 Tage)
+- TikTok 1.599 Aufrufe / 11 Beiträge (Mia 270, Riester/Petra 268, Selbstständige 262 + 224, „Antwort in einem Wort“ 212), 5 Likes, 3 Shares, 0 Kommentare, 1 Follower. Zeit-Muster laut iHatePosting (30 Tage): Mittag 12–17 Uhr schlägt den Rest ~9 von 10 Mal (nur 4 Posts – schwacher Beleg).
+- Instagram 200 Aufrufe / 185 erreichte Konten (Riester-Reel 110, Mia 71), 15 Likes, 4 Kommentare, 0 Speichern/Teilen, 6 Follower (+2), 32 Profilbesuche.
+- Facebook 557 Aufrufe (Mia 240, Selbstständige 191, Riester 125), 0 Interaktionen. Threads 34 Aufrufe, 0 Interaktionen, 2 Link-Klicks.
+- Gewinner-Format → T8 (Persona-Video, jetzt auch Riester 40+ belegt).
 
 ## Tests dieser und letzter Woche
 (Format: Datum – Beitrag-ID – Trend – Kanal – Ergebnis gegenüber Durchschnitt)
@@ -68,6 +69,18 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 - 2026-11-01 – 2026-11-01-start-einsteigerbonus – T3 „Was ist eigentlich …?“ (Video) – alle 4 Kanäle – offen
 
 ## Verworfen (nicht wieder testen)
+- 2026-10-29 – T2 Weltspartag 30.10.2026 – einmaliger Anlass, Termin morgen vorbei; Test-Beitrag 30.10. bleibt unter „Tests“ zur Auswertung. Ursprünglicher Eintrag:
+  ### T2 – Anlass: Weltspartag Fr 30.10.2026 (Einsteiger/Familien) – Status: neu
+  - **Was:** Der Weltspartag fällt 2026 auf Freitag, 30. Oktober – Banken und Medien sprechen über Sparen, guter Aufhänger „Sparschwein früher vs. geförderter Sparplan heute“.
+  - **Warum jetzt:** Fester Termin in 11 Tagen. Beleg: [ING Wissen „Ihre Finanzen im Oktober 2026“](https://www.ing.de/wissen/oktober-2026/), [Sparkasse Weltspartag](https://www.sparkasse.de/weltspartag.html).
+  - **Umsetzung:** Beitrag am 30.10. (Karussell 07:30 oder 18:00). Hook: „Weltspartag: Früher gab’s ein Sparschwein. *Ab 2027 legt der Staat bis zu 50 Cent pro Euro drauf.*“ Folien/Szenen: bars („Du zahlst“ vs. „Staat legt drauf“) → persona Azubi mit 50 €/Monat (+ Einsteigerbonus) → Vorsprung → cta.
+  - **Zielgruppe:** Einsteiger unter 25 (alternativ Familien). **Grenzen:** Keine Zinsbeispiele, Zulagen mit „bis zu“, keine Zulagen für 2026.
+- 2026-10-29 – T9 „Zerknüllter Zettel“ (neu seit 26.10.) – seit Eintrag blockiert (braucht V15), kein Test möglich, Platz für neue Trends. V15 bleibt in manager.md offen; wird V15 umgesetzt, darf der Trend-Agent ihn mit neuem Beleg neu prüfen. Ursprünglicher Eintrag:
+  ### T9 – Format: „Zerknüllter Zettel“ – Botschaft entfaltet sich (alle) – Status: neu (braucht V15)
+  - **Was:** Ein zerknülltes Papier faltet sich auf, darauf eine handgeschriebene Notiz mit einer Aufforderung („Hör kurz auf zu scrollen und …“), dazwischen schnelle Bilder.
+  - **Warum jetzt:** [Your Social Team, Trend Drops Oktober 2026 (05.10.2026)](https://yoursocial.team/blog/trend-drops-october-part-one) führt „Wadded Paper Message Reel“ als aktuellen Reel-Trend – ohne Gesicht machbar, keine bestimmte Musik nötig. Passt zu unserem Problem „Aufmerksamkeit ohne Reaktion“: direkte, persönliche Ansprache.
+  - **Umsetzung:** Braucht eine neue video.py-Szene `zettel` (siehe Vorschlag V15 in manager.md). Bis dahin nicht umsetzen. Beispiel: zettel („Hör kurz auf zu scrollen und *rechne nach, was der Staat dir dazulegt.*“) → 2–3 schnelle counter/persona-Szenen → cta „Kommentiere START“. Eigene Musik, 12–18 s.
+  - **Zielgruppe:** Einsteiger unter 25 (Instagram/TikTok). **Grenzen:** keine Dringlichkeit („Letzte Chance“), Vorsprung im Zettel oder Folgeszene.
 - 2026-10-26 – T5 Problem → Weg → Ergebnis / Vorher-Nachher-Rechnung (neu seit 19.10.) – nach einer Woche kein eigener Test, Platz für neue Trends; Vorher/Nachher-Idee lebt im Video 31.10. (bars) weiter. Ursprünglicher Eintrag:
   ### T5 – Format: Problem → Weg → Ergebnis / Vorher-Nachher-Rechnung – Status: neu
   - **Was:** Alltagsproblem als Text-Hook, dann der Weg, dann das sichtbare Ergebnis als Zahl bzw. zwei Figuren im Vergleich.
