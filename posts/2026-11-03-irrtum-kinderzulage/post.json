@@ -1,0 +1,68 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung · Irrtum 1/3",
+   "head": "„Für die Kinderzulage muss ich viel einzahlen.“",
+   "body": "Falsch. Familien, die jetzt starten, sind im Januar startklar.",
+   "swipe": true,
+   "theme": "creme"
+  },
+  {
+   "kick": "Die Wahrheit",
+   "head": "Volle Kinderzulage schon ab 25 € im Monat.",
+   "body": "Bis zu 300 € pro Kind und Jahr – ab 2027."
+  },
+  {
+   "persona": {
+    "name": "Nina",
+    "alter": 34,
+    "kinder": [
+     3,
+     7
+    ],
+    "beitrag": 50,
+    "rente": 67,
+    "job": "Pflegekraft im Schichtdienst",
+    "figur": {
+     "haut": "hell",
+     "haar": "dutt",
+     "haarfarbe": "rot",
+     "kleidung": "petrol",
+     "ohrringe": true,
+     "kinder": [
+      {
+       "haut": "hell",
+       "haar": "locken",
+       "haarfarbe": "rot",
+       "kleidung": "gold"
+      },
+      {
+       "haut": "hell",
+       "haar": "kurz",
+       "haarfarbe": "braun",
+       "kleidung": "blau"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "kick": "Pro Kind",
+   "big": "bis zu 300 €",
+   "body": "Kinderzulage im Jahr – zusätzlich zur Grundzulage."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "KIND",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "creme"
+  }
+ ]
+}

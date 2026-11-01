@@ -1,0 +1,39 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Was kostet das Altersvorsorgedepot?",
+   "body": "Der 1-%-Deckel in 3 Folien erklärt.",
+   "swipe": true,
+   "theme": "creme"
+  },
+  {
+   "kick": "Standarddepot",
+   "big": "max. 1 %",
+   "body": "Effektivkosten pro Jahr – gesetzlich gedeckelt."
+  },
+  {
+   "kick": "Achtung",
+   "head": "Der Deckel gilt nur fürs Standarddepot.",
+   "body": "Frei gestaltete Depots dürfen mehr kosten. Ein Blick auf die Effektivkosten lohnt sich."
+  },
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Kosten in Ruhe ansehen.",
+   "body": "Bevor im Januar der Ansturm beginnt – dann ist dein Depot schon startklar."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "DEPOT",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "creme"
+  }
+ ]
+}

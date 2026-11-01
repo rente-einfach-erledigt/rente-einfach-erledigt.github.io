@@ -1,0 +1,51 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung · Irrtum 2/3",
+   "head": "„Mein Einkommen schwankt – das passt nicht.“",
+   "body": "Doch. Selbstständige, die jetzt starten, sind im Januar dabei.",
+   "swipe": true,
+   "theme": "gruen"
+  },
+  {
+   "kick": "Neu ab 2027",
+   "head": "Mindestbeitrag: fest 120 € im Jahr.",
+   "body": "Bei Riester hing er am Einkommen. Jetzt nicht mehr."
+  },
+  {
+   "persona": {
+    "name": "Carla",
+    "alter": 31,
+    "kinder": [],
+    "beitrag": 50,
+    "rente": 67,
+    "job": "Fotografin, selbstständig",
+    "figur": {
+     "haut": "oliv",
+     "haar": "lang",
+     "haarfarbe": "schwarz",
+     "kleidung": "lila",
+     "brille": true
+    }
+   }
+  },
+  {
+   "kick": "Erstmals gefördert",
+   "head": "Selbstständige bekommen eigene Zulagen.",
+   "body": "Bis zu 540 € Grundzulage im Jahr – ohne Umweg über den Ehepartner."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "SELBST",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "gruen"
+  }
+ ]
+}

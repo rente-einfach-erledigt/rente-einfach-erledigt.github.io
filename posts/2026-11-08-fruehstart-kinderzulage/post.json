@@ -1,0 +1,44 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Frühstart-Rente oder Kinderzulage – was ist was?",
+   "body": "Zwei Förderungen, oft verwechselt.",
+   "swipe": true,
+   "theme": "creme"
+  },
+  {
+   "kick": "Kinderzulage",
+   "big": "bis zu 300 €",
+   "body": "Pro Kind und Jahr in DEIN Altersvorsorgedepot – ab 2027."
+  },
+  {
+   "kick": "Frühstart-Rente",
+   "big": "10 €",
+   "body": "Im Monat vom Staat ins Depot deines Kindes – für Kinder von 6 bis 18."
+  },
+  {
+   "kick": "Stand heute",
+   "head": "Frühstart-Rente: Bundestag hat zugestimmt.",
+   "body": "Der Bundesrat entscheidet noch. Die Kinderzulage ist schon Gesetz."
+  },
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Dein Depot steht schon im Januar.",
+   "body": "Die Kinderzulage gibt es für deine Beiträge ab 2027."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "KIND",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "creme"
+  }
+ ]
+}

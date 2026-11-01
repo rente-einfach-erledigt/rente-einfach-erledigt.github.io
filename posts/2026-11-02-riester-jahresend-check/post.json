@@ -1,0 +1,44 @@
+{
+ "slides": [
+  {
+   "kick": "Dein Vorsprung",
+   "head": "Riester 2026: Ist dein Mindestbeitrag drin?",
+   "body": "Jahresend-Check – und danach den Wechsel 2027 in Ruhe planen.",
+   "swipe": true,
+   "theme": "gruen"
+  },
+  {
+   "kick": "Check 1/3",
+   "head": "Mindestbeitrag erreicht?",
+   "body": "4 % vom Vorjahres-Brutto minus Zulagen, mindestens 60 € im Jahr. Sonst wird die Zulage gekürzt."
+  },
+  {
+   "kick": "Check 2/3",
+   "head": "Zulagenantrag gestellt?",
+   "body": "Mit Dauerzulagenantrag kümmert sich dein Anbieter jedes Jahr darum."
+  },
+  {
+   "kick": "Check 3/3",
+   "head": "Kinder gemeldet?",
+   "body": "Neues Baby oder Kindergeld geändert? Sag es deinem Anbieter."
+  },
+  {
+   "kick": "Ab 2027",
+   "big": "bis zu 540 €",
+   "body": "Grundzulage im Altersvorsorgedepot. Wechsel möglich, bisherige Förderung bleibt."
+  },
+  {
+   "kick": "Wichtig",
+   "head": "Keine Beitragsgarantie.",
+   "body": "Der Wert kann schwanken. Kündigen kann Förderung kosten. Keine Anlageberatung."
+  },
+  {
+   "kick": "Sichere dir den Vorsprung",
+   "pre": "Kommentiere",
+   "big": "RIESTER",
+   "cta": true,
+   "body": "und du bekommst den Link per DM.",
+   "theme": "gruen"
+  }
+ ]
+}
