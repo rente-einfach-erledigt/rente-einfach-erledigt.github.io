@@ -63,6 +63,8 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 
 ## Tests dieser und letzter Woche
 (Format: Datum – Beitrag-ID – Trend – Kanal – Ergebnis gegenüber Durchschnitt)
+- 2026-11-02 – 2026-11-02-riester-jahresend-check – T11 Riester-Jahresend-Check (Karussell) – alle 4 Kanäle – offen
+- 2026-11-04 – 2026-11-04-vorsprung-stufen – T12 Benannte Stufen (Karussell) – alle 4 Kanäle – offen
 - 2026-10-26 – 2026-10-26-antwort-ein-wort – T6 Antwort in einem Wort (Karussell) – alle 4 Kanäle – offen
 - 2026-10-30 – 2026-10-30-weltspartag – T2 Weltspartag (Karussell) – alle 4 Kanäle – offen
 - 2026-10-29 – 2026-10-29-riester-zurueckzahlen – T4 Mythos „ein Irrtum pro Clip“ (Video) – alle 4 Kanäle – offen

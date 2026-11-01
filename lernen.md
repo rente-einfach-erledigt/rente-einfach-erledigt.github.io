@@ -27,6 +27,13 @@ Der Wochen-Agent liest sie, bevor er neue Posts plant.
 - 2026-10-29 – Video – Riester-Sparer 40+ – Birgit, 48, Verwaltung, Riester seit 2011, 1 Kind (15), 100 € (myth, Trend-Test T4) – Hook: „Riester-Wechsel: Muss ich Zulagen zurückzahlen?“ (Irrtum) – RIESTER
 - 2026-10-31 – Video – Selbstständige – Yusuf, 29, Gründer Foodtruck, 100 € (bars Vorher/Nachher, Trial-Reel) – Hook: „Bisher ohne Zulage? Ab 2027: bis zu 540 € für Selbstständige.“ (Vorher/Nachher) – SELBST
 - 2026-11-01 – Video – Einsteiger unter 25 – Jule, 21, Azubi Mediengestalterin, 40 € (counter + list, Trend-Test T3) – Hook: „Einsteiger-Bonus: Was ist das eigentlich?“ (Frage) – START
+- 2026-11-02 – Riester-Jahresend-Check 2026: Mindestbeitrag, Zulagenantrag, Kinder (Trend-Test T11) – RIESTER
+- 2026-11-03 – Irrtum 1/3: „Für die Kinderzulage muss ich viel einzahlen“, Beispiel Nina, 34, Pflegekraft, 2 Kinder, 50 € – KIND
+- 2026-11-04 – 3 Stufen: Heute → 01.01.2027 → erste Zulage (Trend-Test T12) – START
+- 2026-11-05 – Irrtum 2/3: „Mein Einkommen schwankt“ – fester Mindestbeitrag 120 €, Beispiel Carla, 31, Fotografin, 50 € – SELBST
+- 2026-11-06 – Was kostet das Altersvorsorgedepot? 1-%-Kostendeckel – DEPOT
+- 2026-11-07 – Irrtum 3/3: „Wechsle ich, ist meine Riester-Förderung weg“, Beispiel Andreas, 49, 1 Kind, 125 € – RIESTER
+- 2026-11-08 – Frühstart-Rente oder Kinderzulage – was ist was? (Bundesrat offen) – KIND
 
 ## Erkenntnisse
 - 2026-10-21 (SEO-Agent, Quelle cash-online 09.10.2026): Helvetia startet vor dem AVD-Start eine Investmentplattform mit Oddo BHF und Xaver; vor dem Start abgeschlossene „Brückenprodukte“ wechseln am 01.01.2027 automatisch ins regulierte Format. Zusätzlich plant Helvetia zum Start eine fondsgebundene Rentenversicherung.
