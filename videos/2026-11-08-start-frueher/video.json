@@ -1,0 +1,52 @@
+{
+ "zielgruppe": "einsteiger",
+ "wort": "START",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "UNTER 25 · DEIN VORSPRUNG",
+   "text": "Start mit 22\noder mit 32?\n*Wer bekommt mehr Zulage?*"
+  },
+  {
+   "type": "persona",
+   "name": "Ben",
+   "alter": 22,
+   "kinder": [],
+   "beitrag": 50,
+   "rente": 67,
+   "job": "Start mit 22",
+   "figur": {
+    "haut": "dunkel",
+    "haar": "kurz",
+    "haarfarbe": "schwarz",
+    "kleidung": "gruen"
+   }
+  },
+  {
+   "type": "persona",
+   "name": "Ben",
+   "alter": 32,
+   "kinder": [],
+   "beitrag": 50,
+   "rente": 67,
+   "job": "Start mit 32",
+   "figur": {
+    "haut": "dunkel",
+    "haar": "kurz",
+    "haarfarbe": "schwarz",
+    "kleidung": "gruen",
+    "bart": "kurz"
+   }
+  },
+  {
+   "type": "text",
+   "kick": "DER UNTERSCHIED",
+   "text": "Früher starten heißt:\n*mehr Jahre Zulage.*\nVor 25 zusätzlich:\nEinsteiger-Bonus."
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Alle warten auf 2027.\n*Du startest jetzt.*"
+  }
+ ]
+}

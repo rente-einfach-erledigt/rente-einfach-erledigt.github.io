@@ -1,0 +1,43 @@
+{
+ "zielgruppe": "riester",
+ "wort": "RIESTER",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "RIESTER 40+ · DEIN VORSPRUNG",
+   "text": "Rentenstreit in Berlin.\n*Was heißt das für deinen Riester?*"
+  },
+  {
+   "type": "myth",
+   "myth": "Ich warte die Rentenreform ab.",
+   "fact": "Das Depot hängt nicht daran. *Es ist beschlossen und startet am 01.01.2027.*"
+  },
+  {
+   "type": "text",
+   "kick": "WAS DU JETZT TUN KANNST",
+   "text": "Riester weiterlaufen lassen\noder den Wechsel\n*in Ruhe vorbereiten.*"
+  },
+  {
+   "type": "persona",
+   "name": "Gabi",
+   "alter": 57,
+   "kinder": [],
+   "beitrag": 120,
+   "rente": 67,
+   "job": "Arzthelferin, Riester seit 2005",
+   "figur": {
+    "haut": "mittel",
+    "haar": "kurz",
+    "haarfarbe": "grau",
+    "kleidung": "petrol",
+    "brille": true,
+    "ohrringe": true
+   }
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Andere warten auf die Reform.\n*Du bist im Januar startklar.*"
+  }
+ ]
+}

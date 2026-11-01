@@ -1,0 +1,8 @@
+{"zielgruppe":"selbststaendige","wort":"SELBST","scenes":[
+ {"type":"hook","kick":"SELBSTSTÄNDIG · DEIN VORSPRUNG","text":"3 Fragen zum Depot.\n*Antwort in einem Wort.*"},
+ {"type":"text","kick":"FRAGE 1/3","text":"Bekomme ich ab 2027 Zulagen?\n*Ja.*\nBis zu 540 € im Jahr."},
+ {"type":"text","kick":"FRAGE 2/3","text":"Brauche ich dafür meinen Ehepartner?\n*Nein.*\nDu hast einen eigenen Anspruch."},
+ {"type":"text","kick":"FRAGE 3/3","text":"Gibt es eine Garantie?\n*Nein.*\nFonds und ETFs können schwanken."},
+ {"type":"persona","name":"Svenja","alter":46,"kinder":[],"beitrag":125,"rente":67,"job":"Freie Übersetzerin","figur":{"haut":"oliv","haar":"lang","haarfarbe":"schwarz","kleidung":"senf","brille":true}},
+ {"type":"cta","kick":"SICHERE DIR DEN VORSPRUNG","text":"Alle warten auf Januar.\n*Dein Depot steht dann schon.*"}
+]}

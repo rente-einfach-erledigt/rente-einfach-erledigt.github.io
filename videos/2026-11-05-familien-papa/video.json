@@ -1,0 +1,91 @@
+{
+ "zielgruppe": "familien",
+ "wort": "KIND",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "FAMILIEN · DEIN VORSPRUNG",
+   "text": "Papa, 2 Kinder,\n100 € Beitrag.\n*Bis zu 990 € vom Staat.*"
+  },
+  {
+   "type": "bars",
+   "title": "Im Jahr 2027",
+   "items": [
+    {
+     "label": "Markus zahlt",
+     "value": 1200
+    },
+    {
+     "label": "Staat legt drauf: bis zu",
+     "value": 990,
+     "gold": true
+    }
+   ]
+  },
+  {
+   "type": "story",
+   "name": "Markus, 43",
+   "rolle": "Alleinerziehend, 2 Kinder",
+   "zitat": "Ich dachte, Vorsorge ist erst dran, wenn die Kinder groß sind. *Dabei gibt es bis zu 300 € pro Kind und Jahr.*",
+   "figur": {
+    "haut": "hell",
+    "haar": "seitenscheitel",
+    "haarfarbe": "braun",
+    "kleidung": "blau",
+    "bart": "kurz",
+    "kinder": [
+     {
+      "haut": "hell",
+      "haar": "zopf",
+      "haarfarbe": "braun",
+      "kleidung": "gold"
+     },
+     {
+      "haut": "hell",
+      "haar": "kurz",
+      "haarfarbe": "blond",
+      "kleidung": "rot"
+     }
+    ]
+   }
+  },
+  {
+   "type": "persona",
+   "name": "Markus",
+   "alter": 43,
+   "kinder": [
+    7,
+    11
+   ],
+   "beitrag": 100,
+   "rente": 67,
+   "job": "Kfz-Mechatroniker",
+   "figur": {
+    "haut": "hell",
+    "haar": "seitenscheitel",
+    "haarfarbe": "braun",
+    "kleidung": "blau",
+    "bart": "kurz",
+    "kinder": [
+     {
+      "haut": "hell",
+      "haar": "zopf",
+      "haarfarbe": "braun",
+      "kleidung": "gold"
+     },
+     {
+      "haut": "hell",
+      "haar": "kurz",
+      "haarfarbe": "blond",
+      "kleidung": "rot"
+     }
+    ]
+   }
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Alle warten auf 2027.\n*Euer Depot steht dann schon.*"
+  }
+ ]
+}
