@@ -1,61 +1,61 @@
 {
- "slides": [
-  {
-   "kick": "Dein Vorsprung · Irrtum 3/3",
-   "head": "„Wechsle ich, ist meine Riester-Förderung weg.“",
-   "body": "Nein. Wer jetzt plant, wechselt 2027 in Ruhe.",
-   "swipe": true,
-   "theme": "gruen"
-  },
-  {
-   "kick": "Die Wahrheit",
-   "head": "Wechsel ab 2027 ohne Rückzahlung.",
-   "body": "Die bisherige Förderung bleibt, wenn du ins Altersvorsorgedepot überträgst."
-  },
-  {
-   "kick": "Kein Muss",
-   "head": "Dein Riester-Vertrag darf weiterlaufen.",
-   "body": "Wechseln ist freiwillig. Kündigen kann Förderung kosten."
-  },
-  {
-   "persona": {
-    "name": "Andreas",
-    "alter": 49,
-    "kinder": [
-     14
-    ],
-    "beitrag": 125,
-    "rente": 67,
-    "job": "Lagerlogistiker, Riester seit 2008",
-    "figur": {
-     "haut": "mittel",
-     "haar": "seitenscheitel",
-     "haarfarbe": "grau",
-     "bart": "kurz",
-     "kleidung": "blau",
-     "kinder": [
-      {
-       "haut": "mittel",
-       "haar": "kurz",
-       "haarfarbe": "braun",
-       "kleidung": "rot"
+  "slides": [
+    {
+      "kick": "Dein Vorsprung · Irrtum 3/3",
+      "head": "„Wechsle ich, ist meine Riester-Förderung weg.“",
+      "body": "Nein. Wer jetzt plant, wechselt 2027 in Ruhe.",
+      "swipe": true,
+      "theme": "gold"
+    },
+    {
+      "kick": "Die Wahrheit",
+      "head": "Wechsel ab 2027 ohne Rückzahlung.",
+      "body": "Die bisherige Förderung bleibt, wenn du ins Altersvorsorgedepot überträgst."
+    },
+    {
+      "kick": "Kein Muss",
+      "head": "Dein Riester-Vertrag darf weiterlaufen.",
+      "body": "Wechseln ist freiwillig. Kündigen kann Förderung kosten."
+    },
+    {
+      "persona": {
+        "name": "Andreas",
+        "alter": 49,
+        "kinder": [
+          14
+        ],
+        "beitrag": 125,
+        "rente": 67,
+        "job": "Lagerlogistiker, Riester seit 2008",
+        "figur": {
+          "haut": "mittel",
+          "haar": "seitenscheitel",
+          "haarfarbe": "grau",
+          "bart": "kurz",
+          "kleidung": "blau",
+          "kinder": [
+            {
+              "haut": "mittel",
+              "haar": "kurz",
+              "haarfarbe": "braun",
+              "kleidung": "rot"
+            }
+          ]
+        }
       }
-     ]
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "RIESTER",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "gold"
     }
-   }
-  },
-  {
-   "kick": "Wichtig",
-   "head": "Keine Beitragsgarantie.",
-   "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
-  },
-  {
-   "kick": "Sichere dir den Vorsprung",
-   "pre": "Kommentiere",
-   "big": "RIESTER",
-   "cta": true,
-   "body": "und du bekommst den Link per DM.",
-   "theme": "gruen"
-  }
- ]
+  ]
 }
