@@ -34,6 +34,10 @@ Der Wochen-Agent liest sie, bevor er neue Posts plant.
 - 2026-11-06 – Was kostet das Altersvorsorgedepot? 1-%-Kostendeckel – DEPOT
 - 2026-11-07 – Irrtum 3/3: „Wechsle ich, ist meine Riester-Förderung weg“, Beispiel Andreas, 49, 1 Kind, 125 € – RIESTER
 - 2026-11-08 – Frühstart-Rente oder Kinderzulage – was ist was? (Bundesrat offen) – KIND
+- 2026-11-03 – Video – Riester-Sparer 40+ – Gabi, 57, Arzthelferin, Riester seit 2005, 120 € (myth + text + persona, Trend-Test T7) – Hook: „Rentenstreit in Berlin. Was heißt das für deinen Riester?“ (Anlass/Frage) – RIESTER
+- 2026-11-05 – Video – Familien – Markus, 43, alleinerziehend, Kfz-Mechatroniker, 2 Kinder (7, 11), 100 € (bars + story + persona) – Hook: „Papa, 2 Kinder, 100 € Beitrag. Bis zu 990 € vom Staat.“ (Persona-Story) – KIND
+- 2026-11-07 – Video – Selbstständige – Svenja, 46, freie Übersetzerin, 125 € (3× text-Frage + persona, Trend-Test T6) – Hook: „3 Fragen zum Depot. Antwort in einem Wort.“ (Frage) – SELBST
+- 2026-11-08 – Video – Einsteiger unter 25 – Vergleich Ben mit 22 vs. 32, 50 € (2× persona + text) – Hook: „Start mit 22 oder mit 32? Wer bekommt mehr Zulage?“ (überraschende Zahl/Vergleich) – START
 
 ## Erkenntnisse
 - 2026-10-21 (SEO-Agent, Quelle cash-online 09.10.2026): Helvetia startet vor dem AVD-Start eine Investmentplattform mit Oddo BHF und Xaver; vor dem Start abgeschlossene „Brückenprodukte“ wechseln am 01.01.2027 automatisch ins regulierte Format. Zusätzlich plant Helvetia zum Start eine fondsgebundene Rentenversicherung.
