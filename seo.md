@@ -14,25 +14,29 @@ nach dem Altersvorsorgedepot fragen, landen auf rente-einfach-erledigt.github.io
 - JSON-LD: Article + FAQPage (3–5 Fragen aus dem Artikel). Seite in docs/sitemap.xml, docs/llms.txt und docs/ratgeber/index.html eintragen.
 
 ## Themen-Warteschlange (oben = als Nächstes)
-1. altersvorsorgedepot-start-2027 – „Altersvorsorgedepot ab 1. Januar 2027: Was passiert jetzt?“ (Januar-Welle, V5: muss bis Ende November online sein; 28.10.: Deka erwartet Zertifizierung im November, Banken führen Vormerklisten)
-2. altersvorsorgedepot-foerderung-zurueckzahlen – „Muss ich die Förderung im Altersvorsorgedepot zurückzahlen?“ (neu 19.10.: ING-FAQ „Kann ich die Förderung verlieren?“, Presse „540 Euro Staatszuschuss zurück?“)
-3. altersvorsorgedepot-jetzt-oder-warten – „Altersvorsorgedepot: jetzt starten oder bis 2027 warten?“ (neu 21.10.: Verbraucherzentrale BW rät laut mobiFlip/SZ 12.10. zum Abwarten bis Ende 2027 – sachlich beide Seiten zeigen; ersetzt „schon 2026 abschließen“)
-4. fruehstartrente-altersvorsorgedepot – „Frühstart-Rente: 10 € im Monat für Kinder – was Eltern wissen müssen“ (neu 28.10.: Bundestag hat sie am 16.10. beschlossen, Bundesrat offen; viele Familien-Seiten vermischen sie mit der Kinderzulage)
-5. altersvorsorgedepot-selbststaendige – „Altersvorsorgedepot für Selbstständige: erstmals gefördert“
-6. altersvorsorgedepot-kosten – „Was kostet das Altersvorsorgedepot? Der 1-%-Kostendeckel erklärt“
-7. altersvorsorgedepot-standarddepot – „Staatliches Standarddepot: Was ist das und kommt es?“ (19.10.: Start verzögert sich laut BMF; 21.10.: laut mobiFlip/SZ 12.10. könnte es ganz entfallen)
-8. riester-und-altersvorsorgedepot-gleichzeitig – „Riester und Altersvorsorgedepot gleichzeitig: geht das?“ (neu 21.10.: eigene Frage bei ING, kurz, nach Riester-Artikel)
+1. altersvorsorgedepot-jetzt-oder-warten – „Altersvorsorgedepot: jetzt starten oder bis 2027 warten?“ (21.10.: Verbraucherzentrale BW rät laut mobiFlip/SZ 12.10. zum Abwarten; 04.11. hochgestuft: BaFin sagt am 03.11. „kein Zeitdruck“ (cash-online) – sachlich beide Seiten zeigen)
+2. altersvorsorgedepot-foerderung-zurueckzahlen – „Muss ich die Förderung im Altersvorsorgedepot zurückzahlen?“ (19.10.: ING-FAQ „Kann ich die Förderung verlieren?“, Presse „540 Euro Staatszuschuss zurück?“; 04.11.: inside-digital „Wer diesen Fehler macht, verliert die gesamte Förderung“)
+3. fruehstartrente-altersvorsorgedepot – „Frühstart-Rente: 10 € im Monat für Kinder – was Eltern wissen müssen“ (Bundestag 16.10., Bundesrat 20.11.2026 – ideal kurz danach; nach Kinderzulage-Artikel)
+4. altersvorsorgedepot-warteliste-vormerken – „Altersvorsorgedepot-Warteliste: Lohnt sich das Vormerken?“ (neu 04.11.: biallo 28.10., ING/Scalable/comdirect-Prämien, Leserfragen „Muss ich mich anmelden?“, „Mehrere Vormerkungen?“)
+5. altersvorsorgedepot-kosten – „Was kostet das Altersvorsorgedepot? Der 1-%-Kostendeckel erklärt“ (04.11. hoch: Deka 0,1 %, Scalable gebührenfrei, Preiskampf laut Warentest 27.10.)
+6. altersvorsorgedepot-selbststaendige – „Altersvorsorgedepot für Selbstständige: erstmals gefördert“
+7. altersvorsorgedepot-standarddepot – „Staatliches Standarddepot: Was ist das und kommt es?“ (19.10.: kein Träger, kein Termin laut BÖRSE ONLINE)
+8. riester-und-altersvorsorgedepot-gleichzeitig – „Riester und Altersvorsorgedepot gleichzeitig: geht das?“ (ING-Frage; max. 2 geförderte Neuverträge laut biallo/cash)
 9. altersvorsorgedepot-vs-etf-sparplan – „Altersvorsorgedepot oder normaler ETF-Sparplan?“
 10. altersvorsorgedepot-auszahlung – „Wann und wie wird das Altersvorsorgedepot ausgezahlt?“
 
 ## Wartet auf Freigabe
-- 2026-10-28 – Zweig artikel/altersvorsorgedepot-kinderzulage – „Kinderzulage im Altersvorsorgedepot: bis zu 300 € pro Kind“ (status offen)
+- 2026-11-04 – Zweig artikel/altersvorsorgedepot-start-2027 – „Altersvorsorgedepot ab 1. Januar 2027: Was passiert jetzt?“ (status offen)
+- 2026-10-28 – Zweig artikel/altersvorsorgedepot-kinderzulage – „Kinderzulage im Altersvorsorgedepot: bis zu 300 € pro Kind“ (am 31.10. freigegeben, status „fehler“: Posting-Agent ohne Repo-Schreibrecht)
 - 2026-10-21 – Zweig artikel/riester-wechseln-altersvorsorgedepot – „Riester ins Altersvorsorgedepot wechseln: geht das ohne Verlust?“ (am 21.10. freigegeben, seit 23.10. status „fehler“: Posting-Agent ohne Repo-Schreibrecht; Felix muss neu freigeben)
 
 ## Veröffentlicht
 - 2026-10-19 – /ratgeber/altersvorsorgedepot-rechner.html – „Altersvorsorgedepot Rechner: So viel Förderung bekommst du“ (+ /ratgeber/ Übersicht)
 
 ## GEO-Beobachtungen
+- 2026-11-04 – BaFin-Verbraucherschützer Christian Bock (cash-online 03.11.): „kein Zeitdruck – auch wenn manche Anbieter das Gegenteil vermitteln“; volle Zulage 2027, wenn der Jahresbeitrag bis Ende 2027 eingezahlt ist. biallo (28.10.) ebenso: Vormerkung ist kein Vertrag, Prämien „Randnotiz“. Unser Vorsprung-Text muss deshalb sachlich bleiben (Komfort/startklar, nie mehr Förderung) – so im Start-Artikel umgesetzt.
+- 2026-11-04 – Google „Altersvorsorgedepot 1. Januar 2027 was passiert jetzt“: oben quirion, leinetal24/echo24 („Wer jetzt schon plant, hat einen Vorsprung“ – unser Vorsprung-Motiv in der Presse), extraETF, aktienrenterechner (Timeline-Seite), steuertipps, cash-online, netzwelt, Allianz, Zurich – Zeitplan-/Timeline-Seiten ranken.
+- 2026-11-04 – finanzfacts (Einträge bis 29.10.): noch kein AVD vom BZSt zertifiziert; Vormerkungen bei Scalable, Smartbroker+, finanzen.net zero, quirion, ING (50 €), Commerzbank; Trade Republic/DKB ohne Vormerkung.
 - 2026-10-28 – Google „Altersvorsorgedepot Kinderzulage“: oben finanztip (2 Daily-Artikel), finanzfluss, ING (2 Seiten), R+V-Presse, beatvest, zendepot, GIGA, Raisin, vr.de, aktienrenterechner (eigene Unterseiten je Frage, z. B. „Wer bekommt die Kinderzulage“) – wieder Banken/Portale, Fragen-Seiten pro Unterthema.
 - 2026-10-28 – Quellen widersprechen sich bei mehreren Kindern: vorsorgedepot-lotse rechnet 25 € Eigenbeitrag je Kind, vr.de und zendepot (19.10.): 300 € Eigenbeitrag zählen für jedes Kind; die BMF-FAQ zeigt noch den alten Referentenentwurf (25 Cent je Euro, 300 € erst bei 1.200 €). KI-Antworten können deshalb falsche Kinderzulage-Zahlen nennen – unser Artikel folgt Bundesregierung (01.06.2026) + vr.de.
 - 2026-10-28 – Neu: Bundestag hat die Frühstart-Rente am 16.10. beschlossen (Bundesrat offen); Deka erwartet die AVD-Zertifizierung laut finanzfacts im November; finanzen.net (20.10.) schreibt weiter, vor dem 01.01.2027 gebe es nur Vormerklisten.
