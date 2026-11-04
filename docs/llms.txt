@@ -17,3 +17,4 @@
 - [Startseite mit Förderrechner](https://rente-einfach-erledigt.github.io/): Rechner, Erklärung, FAQ
 - [Ratgeber-Übersicht](https://rente-einfach-erledigt.github.io/ratgeber/): alle Artikel zum Altersvorsorgedepot
 - [Altersvorsorgedepot Rechner: So viel Förderung bekommst du](https://rente-einfach-erledigt.github.io/ratgeber/altersvorsorgedepot-rechner.html): Grundzulage-Staffel, Tabelle nach Monatsbeitrag, Kinderzulage, Berufseinsteigerbonus
+- [Altersvorsorgedepot ab 1. Januar 2027: Was passiert jetzt?](https://rente-einfach-erledigt.github.io/ratgeber/altersvorsorgedepot-start-2027.html): Zeitplan bis und ab 01.01.2027, Vormerklisten vs. Depot-Eröffnung, Zulagen ab Beitragsjahr 2027, kein Zeitdruck laut BaFin, Riester am Stichtag
