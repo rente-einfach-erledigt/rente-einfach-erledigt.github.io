@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung · Förder-Frage 2/3",
+      "head": "Muss ich die Förderung zurückzahlen?",
+      "body": "Kurz: Nein – wenn das Geld bis zur Rente im Depot bleibt.",
+      "swipe": true,
+      "theme": "gruen"
+    },
+    {
+      "kick": "Nein",
+      "head": "Bleibt das Geld bis zur Rente drin, bleiben die Zulagen.",
+      "body": "Dafür ist die Förderung da: für deine Rente."
+    },
+    {
+      "kick": "Ja",
+      "head": "Lässt du dir vorher alles auszahlen, gehen die Zulagen zurück.",
+      "body": "Das nennt sich schädliche Verwendung."
+    },
+    {
+      "kick": "Riester-Wechsel",
+      "head": "Wechsel ab 2027: keine Rückzahlung.",
+      "body": "Die bisherige Förderung bleibt, wenn du ins Altersvorsorgedepot überträgst."
+    },
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Wer die Regeln jetzt kennt, startet im Januar entspannt.",
+      "body": "Das Depot steht, bevor der Ansturm beginnt."
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "DEPOT",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "gruen"
+    }
+  ]
+}

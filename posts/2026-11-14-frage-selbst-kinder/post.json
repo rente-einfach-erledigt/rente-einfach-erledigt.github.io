@@ -1,0 +1,67 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung · Förder-Frage 3/3",
+      "head": "Selbstständig mit Kindern: Gibt's die Kinderzulage auch?",
+      "body": "Ja, ab 2027. Wer jetzt startet, ist im Januar startklar.",
+      "swipe": true,
+      "theme": "gruen"
+    },
+    {
+      "kick": "Neu ab 2027",
+      "head": "Selbstständige sind erstmals förderberechtigt.",
+      "body": "Damit gibt es auch die Kinderzulage: bis zu 300 € pro Kind und Jahr."
+    },
+    {
+      "kick": "Voraussetzung",
+      "head": "Du bekommst für das Kind Kindergeld.",
+      "body": "Dazu die Grundzulage für dich – volle Kinderzulage schon ab 25 € im Monat."
+    },
+    {
+      "persona": {
+        "name": "Hanna",
+        "alter": 33,
+        "kinder": [
+          1,
+          4
+        ],
+        "beitrag": 100,
+        "rente": 67,
+        "job": "Freelancerin, UX-Design",
+        "figur": {
+          "haut": "hell",
+          "haar": "locken",
+          "haarfarbe": "rot",
+          "kleidung": "gruen",
+          "kinder": [
+            {
+              "haut": "hell",
+              "haar": "locken",
+              "haarfarbe": "rot",
+              "kleidung": "gold"
+            },
+            {
+              "haut": "hell",
+              "haar": "kurz",
+              "haarfarbe": "blond",
+              "kleidung": "blau"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "SELBST",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "gruen"
+    }
+  ]
+}

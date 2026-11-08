@@ -1,0 +1,52 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Mit 55 noch ins Altersvorsorgedepot?",
+      "body": "Rechne selbst nach. Wer jetzt plant, wechselt 2027 in Ruhe.",
+      "swipe": true,
+      "theme": "creme"
+    },
+    {
+      "kick": "Gut zu wissen",
+      "head": "Zulagen gibt es jedes Jahr bis zur Rente.",
+      "body": "Auch mit 55 sind das noch über 10 Jahre Förderung."
+    },
+    {
+      "kick": "Dein Riester-Vertrag",
+      "head": "Wechseln oder weiterlaufen lassen – beides geht.",
+      "body": "Ab 2027 ohne Rückzahlung der bisherigen Förderung. Kündigen kann Förderung kosten."
+    },
+    {
+      "persona": {
+        "name": "Monika",
+        "alter": 55,
+        "kinder": [],
+        "beitrag": 150,
+        "rente": 67,
+        "job": "Bürokauffrau, Riester seit 2006",
+        "figur": {
+          "haut": "hell",
+          "haar": "dutt",
+          "haarfarbe": "grau",
+          "brille": true,
+          "kleidung": "lila",
+          "ohrringe": true
+        }
+      }
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "RIESTER",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "creme"
+    }
+  ]
+}

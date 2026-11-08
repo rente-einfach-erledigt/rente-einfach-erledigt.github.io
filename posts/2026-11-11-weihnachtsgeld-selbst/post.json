@@ -1,0 +1,57 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Kein Weihnachtsgeld vom Chef?",
+      "body": "Selbstständige kennen das. Die Zulage ab 2027 hängt nicht vom Chef ab.",
+      "swipe": true,
+      "theme": "gold"
+    },
+    {
+      "kick": "Laut WSI-Befragung",
+      "big": "51 %",
+      "head": "der Beschäftigten bekommen Weihnachtsgeld.",
+      "body": "Ohne Tarifvertrag nur 41 %. Selbstständige: kein Chef, kein Weihnachtsgeld."
+    },
+    {
+      "kick": "Neu ab 2027",
+      "head": "Selbstständige sind erstmals förderberechtigt.",
+      "body": "Grundzulage bis zu 540 € im Jahr – vom Staat, nicht vom Chef."
+    },
+    {
+      "persona": {
+        "name": "Tarek",
+        "alter": 44,
+        "kinder": [],
+        "beitrag": 100,
+        "rente": 67,
+        "job": "Friseurmeister, eigener Salon",
+        "figur": {
+          "haut": "braun",
+          "haar": "kurz",
+          "haarfarbe": "schwarz",
+          "bart": "voll",
+          "kleidung": "grau"
+        }
+      }
+    },
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Wer jetzt startet, ist im Januar startklar.",
+      "body": "Das Depot steht, bevor die Förderung 2027 fließt."
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "SELBST",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "gold"
+    }
+  ]
+}

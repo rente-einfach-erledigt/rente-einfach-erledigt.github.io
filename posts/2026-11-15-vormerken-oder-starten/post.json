@@ -1,0 +1,39 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Vormerken oder schon starten?",
+      "body": "Alle warten auf 2027. Du kannst jetzt schon loslegen.",
+      "swipe": true,
+      "theme": "creme"
+    },
+    {
+      "kick": "Vormerken",
+      "head": "Eine Vormerkung ist noch kein Vertrag.",
+      "body": "Du stehst auf einer Liste. Das Depot kommt später."
+    },
+    {
+      "kick": "Schon starten",
+      "head": "Über unseren Link ist das Depot schon jetzt abschließbar.",
+      "body": "Der Sparplan läuft früher. Startklar, sobald die Förderung 2027 fließt."
+    },
+    {
+      "kick": "Fair gesagt",
+      "head": "Kein Zeitdruck: Die Zulage 2027 gibt es auch bei späterem Start.",
+      "body": "Wer jetzt startet, hat nur alles fertig, bevor der Ansturm beginnt."
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "START",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "creme"
+    }
+  ]
+}

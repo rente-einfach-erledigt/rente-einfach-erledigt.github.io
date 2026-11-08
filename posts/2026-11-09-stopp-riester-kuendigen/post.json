@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Stopp, bevor du deinen Riester-Vertrag kündigst.",
+      "body": "3 Dinge, die du jetzt in Ruhe prüfst.",
+      "swipe": true,
+      "theme": "gruen"
+    },
+    {
+      "kick": "1 · Förderung",
+      "head": "Kündigen kann Förderung kosten.",
+      "body": "Bisherige Zulagen können dann zurückgefordert werden."
+    },
+    {
+      "kick": "2 · Wechsel",
+      "head": "Ab 2027 kannst du wechseln.",
+      "body": "Ins Altersvorsorgedepot – ohne die bisherige Förderung zurückzuzahlen."
+    },
+    {
+      "kick": "3 · Weiterlaufen",
+      "head": "Dein Vertrag darf auch einfach weiterlaufen.",
+      "body": "Beides ist möglich. Vor einem Wechsel hilft ein Blick auf Garantie und Kosten deines Vertrags."
+    },
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Wer jetzt prüft, wechselt im Januar ohne Hektik.",
+      "body": "Das Depot steht schon, bevor der Ansturm beginnt."
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "RIESTER",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "gruen"
+    }
+  ]
+}

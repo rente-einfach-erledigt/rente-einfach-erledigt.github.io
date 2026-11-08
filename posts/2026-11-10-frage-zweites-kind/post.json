@@ -1,0 +1,69 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung · Förder-Frage 1/3",
+      "head": "Zweites Kind = zweite Zulage?",
+      "body": "Ja. Und wer jetzt startet, ist im Januar schon startklar.",
+      "swipe": true,
+      "theme": "creme"
+    },
+    {
+      "kick": "Die Antwort",
+      "big": "bis zu 300 €",
+      "head": "pro Kind und Jahr.",
+      "body": "Für jedes Kind, für das du Kindergeld bekommst. Ab 2027."
+    },
+    {
+      "kick": "Gut zu wissen",
+      "head": "Volle Kinderzulage schon ab 25 € im Monat.",
+      "body": "Das gilt für jedes Kind – auch für das zweite und dritte."
+    },
+    {
+      "persona": {
+        "name": "Selin",
+        "alter": 36,
+        "kinder": [
+          3,
+          8
+        ],
+        "beitrag": 75,
+        "rente": 67,
+        "job": "Erzieherin, alleinerziehend",
+        "figur": {
+          "haut": "oliv",
+          "haar": "lang",
+          "haarfarbe": "schwarz",
+          "kleidung": "petrol",
+          "ohrringe": true,
+          "kinder": [
+            {
+              "haut": "oliv",
+              "haar": "zopf",
+              "haarfarbe": "schwarz",
+              "kleidung": "gold"
+            },
+            {
+              "haut": "oliv",
+              "haar": "kurz",
+              "haarfarbe": "schwarz",
+              "kleidung": "rot"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "KIND",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "creme"
+    }
+  ]
+}
