@@ -1,0 +1,43 @@
+{
+ "zielgruppe": "einsteiger",
+ "wort": "START",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "UNTER 25 · DEIN VORSPRUNG",
+   "text": "Weihnachtsgeld?\n*Nur gut jeder 2. bekommt es.*"
+  },
+  {
+   "type": "counter",
+   "label": "Weihnachtsgeld bekommen",
+   "value": 51,
+   "unit": "%",
+   "sub": "der Beschäftigten (WSI)"
+  },
+  {
+   "type": "text",
+   "kick": "DER UNTERSCHIED",
+   "text": "Die Zulage ab 2027\n*hängt nicht\nvom Chef ab.*\nNur von dir."
+  },
+  {
+   "type": "persona",
+   "name": "Leon",
+   "alter": 19,
+   "kinder": [],
+   "beitrag": 25,
+   "rente": 67,
+   "job": "Azubi Anlagenmechaniker",
+   "figur": {
+    "haut": "oliv",
+    "haar": "seitenscheitel",
+    "haarfarbe": "schwarz",
+    "kleidung": "rot"
+   }
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Alle warten ab.\n*Du bist mit 19\nschon startklar.*"
+  }
+ ]
+}

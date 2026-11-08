@@ -1,0 +1,53 @@
+{
+ "zielgruppe": "selbststaendige",
+ "wort": "SELBST",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "SELBSTSTÄNDIG · DEIN VORSPRUNG",
+   "text": "20 Jahre selbstständig.\n*Nie gefördert?*"
+  },
+  {
+   "type": "story",
+   "name": "Ines, 52",
+   "rolle": "Physiotherapeutin",
+   "zitat": "Ich dachte, Zulagen gibt es nur für Angestellte. *Ab 2027 habe ich einen eigenen Anspruch.*",
+   "figur": {
+    "haut": "braun",
+    "haar": "locken",
+    "haarfarbe": "grau",
+    "kleidung": "lila",
+    "ohrringe": true
+   }
+  },
+  {
+   "type": "counter",
+   "label": "Grundzulage ab 2027",
+   "pre": "bis zu",
+   "value": 540,
+   "unit": "€",
+   "sub": "pro Jahr – auch für Selbstständige"
+  },
+  {
+   "type": "persona",
+   "name": "Ines",
+   "alter": 52,
+   "kinder": [],
+   "beitrag": 150,
+   "rente": 67,
+   "job": "Physiotherapeutin",
+   "figur": {
+    "haut": "braun",
+    "haar": "locken",
+    "haarfarbe": "grau",
+    "kleidung": "lila",
+    "ohrringe": true
+   }
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Andere warten ab.\n*Du bist im Januar\nschon vorbereitet.*"
+  }
+ ]
+}

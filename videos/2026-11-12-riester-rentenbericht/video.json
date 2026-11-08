@@ -1,0 +1,7 @@
+{"zielgruppe":"riester","wort":"RIESTER","scenes":[
+ {"type":"hook","kick":"RIESTER 40+ · DEIN VORSPRUNG","text":"Die Rente soll 2027 steigen.\n*Und dein Riester?*"},
+ {"type":"text","kick":"LAUT BUNDESREGIERUNG","text":"Juli 2027: voraussichtlich *+4,1 %*.\nDie genaue Zahl kommt im März."},
+ {"type":"myth","myth":"Mit dem neuen Depot ist mein Riester verloren.","fact":"Er darf weiterlaufen. Oder du wechselst ab 2027 – bisherige Zulagen bleiben."},
+ {"type":"persona","name":"Ralf","alter":51,"kinder":[],"beitrag":140,"rente":67,"job":"Industriemechaniker","figur":{"haut":"hell","haar":"glatze","haarfarbe":"grau","kleidung":"blau","bart":"voll"}},
+ {"type":"cta","kick":"SICHERE DIR DEN VORSPRUNG","text":"Bereite den Wechsel in Ruhe vor.\n*Im Januar bist du startklar.*"}
+]}
