@@ -60,6 +60,8 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 - Auffällig: seit 03.11. auf allen Kanälen ≈ 0 neue Aufrufe – es ging nichts Neues live (Beiträge 02.–08.11. nicht freigegeben, siehe manager.md). Gewinner-Format weiter → T8; Interaktion kommt nur über Instagram-Karussells mit Beispielfigur (Malik, Sven).
 ## Tests dieser und letzter Woche
 (Format: Datum – Beitrag-ID – Trend – Kanal – Ergebnis gegenüber Durchschnitt)
+- 2026-11-09 – 2026-11-09-stopp-riester-kuendigen – T14 „Stopp, bevor du …“ (Karussell) – alle 4 Kanäle – offen
+- 2026-11-11 – 2026-11-11-weihnachtsgeld-selbst – T17 Weihnachtsgeld (Karussell) – alle 4 Kanäle – offen
 - 2026-11-03 – 2026-11-03-riester-rentenstreit – T7 Anlass Rentenreform-Streit (Video) – alle 4 Kanäle – offen
 - 2026-11-07 – 2026-11-07-selbst-ein-wort – T6 Antwort in einem Wort (Video) – alle 4 Kanäle – offen
 - 2026-11-02 – 2026-11-02-riester-jahresend-check – T11 Riester-Jahresend-Check (Karussell) – alle 4 Kanäle – offen

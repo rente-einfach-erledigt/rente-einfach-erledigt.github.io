@@ -34,6 +34,13 @@ Der Wochen-Agent liest sie, bevor er neue Posts plant.
 - 2026-11-06 – Was kostet das Altersvorsorgedepot? 1-%-Kostendeckel – DEPOT
 - 2026-11-07 – Irrtum 3/3: „Wechsle ich, ist meine Riester-Förderung weg“, Beispiel Andreas, 49, 1 Kind, 125 € – RIESTER
 - 2026-11-08 – Frühstart-Rente oder Kinderzulage – was ist was? (Bundesrat offen) – KIND
+- 2026-11-09 – Stopp, bevor du deinen Riester kündigst: 3 Dinge in Ruhe prüfen (Trend-Test T14) – RIESTER
+- 2026-11-10 – Förder-Frage 1/3: Zweites Kind = zweite Zulage? Beispiel Selin, 36, Erzieherin, alleinerziehend, 2 Kinder, 75 € – KIND
+- 2026-11-11 – Kein Weihnachtsgeld als Selbstständige – Zulage hängt nicht vom Chef ab, Beispiel Tarek, 44, Friseurmeister, 100 € (Trend-Test T17) – SELBST
+- 2026-11-12 – Förder-Frage 2/3: Muss ich die Förderung zurückzahlen? – DEPOT
+- 2026-11-13 – Mit 55 noch ins Altersvorsorgedepot? Beispiel Monika, 55, Bürokauffrau, Riester seit 2006, 150 € – RIESTER
+- 2026-11-14 – Förder-Frage 3/3: Selbstständig mit Kindern – Kinderzulage? Beispiel Hanna, 33, Freelancerin, 2 Kinder, 100 € – SELBST
+- 2026-11-15 – Vormerken oder schon starten? Warteliste vs. Depot jetzt (beide Seiten) – START
 - 2026-11-03 – Video – Riester-Sparer 40+ – Gabi, 57, Arzthelferin, Riester seit 2005, 120 € (myth + text + persona, Trend-Test T7) – Hook: „Rentenstreit in Berlin. Was heißt das für deinen Riester?“ (Anlass/Frage) – RIESTER
 - 2026-11-05 – Video – Familien – Markus, 43, alleinerziehend, Kfz-Mechatroniker, 2 Kinder (7, 11), 100 € (bars + story + persona) – Hook: „Papa, 2 Kinder, 100 € Beitrag. Bis zu 990 € vom Staat.“ (Persona-Story) – KIND
 - 2026-11-07 – Video – Selbstständige – Svenja, 46, freie Übersetzerin, 125 € (3× text-Frage + persona, Trend-Test T6) – Hook: „3 Fragen zum Depot. Antwort in einem Wort.“ (Frage) – SELBST
