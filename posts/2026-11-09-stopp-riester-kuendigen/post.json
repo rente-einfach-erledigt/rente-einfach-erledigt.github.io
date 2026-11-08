@@ -5,7 +5,7 @@
       "head": "Stopp, bevor du deinen Riester-Vertrag kündigst.",
       "body": "3 Dinge, die du jetzt in Ruhe prüfst.",
       "swipe": true,
-      "theme": "gruen"
+      "theme": "creme"
     },
     {
       "kick": "1 · Förderung",
@@ -38,7 +38,7 @@
       "big": "RIESTER",
       "cta": true,
       "body": "und du bekommst den Link per DM.",
-      "theme": "gruen"
+      "theme": "creme"
     }
   ]
 }
