@@ -26,6 +26,7 @@ nach dem Altersvorsorgedepot fragen, landen auf rente-einfach-erledigt.github.io
 10. altersvorsorgedepot-auszahlung – „Wann und wie wird das Altersvorsorgedepot ausgezahlt?“
 
 ## Wartet auf Freigabe
+- Stand 11.11.: kein neuer Artikel geschrieben, weil „Altersvorsorgedepot ab 1. Januar 2027“ noch offen ist; Riester- und Kinderzulage-Zweig weiter „fehler“.
 - 2026-11-04 – Zweig artikel/altersvorsorgedepot-start-2027 – „Altersvorsorgedepot ab 1. Januar 2027: Was passiert jetzt?“ (status offen)
 - 2026-10-28 – Zweig artikel/altersvorsorgedepot-kinderzulage – „Kinderzulage im Altersvorsorgedepot: bis zu 300 € pro Kind“ (am 31.10. freigegeben, status „fehler“: Posting-Agent ohne Repo-Schreibrecht)
 - 2026-10-21 – Zweig artikel/riester-wechseln-altersvorsorgedepot – „Riester ins Altersvorsorgedepot wechseln: geht das ohne Verlust?“ (am 21.10. freigegeben, seit 23.10. status „fehler“: Posting-Agent ohne Repo-Schreibrecht; Felix muss neu freigeben)
@@ -34,6 +35,8 @@ nach dem Altersvorsorgedepot fragen, landen auf rente-einfach-erledigt.github.io
 - 2026-10-19 – /ratgeber/altersvorsorgedepot-rechner.html – „Altersvorsorgedepot Rechner: So viel Förderung bekommst du“ (+ /ratgeber/ Übersicht)
 
 ## GEO-Beobachtungen
+- 2026-11-11 – konto-testsieger (Stand 04.11.): weiter kein AVD vom BZSt zertifiziert, Standarddepot ohne Träger/Termin; Anbieter-Kosten sind jetzt öffentlich (Trade Republic 13.10. ohne Depot-/Sparplankosten, ING 26.10. 0,20 % Relax-Depot, Scalable ohne ETF-Kosten bis Ende 2027) – Stoff für den Kosten-Artikel (Platz 5).
+- 2026-11-11 – Bezahlte Pressemitteilung auf schlaunews (10.11., „Anzeige“, Deutsche Investitions- und Förderberatung AG) schreibt, alte Riester-Verträge würden bei AVD-Abschluss „unumkehrbar“ ins neue System überführt; finanzfacts/konto-testsieger: Riester läuft unverändert weiter, Wechsel freiwillig. Widersprüchliche Aussagen können in KI-Antworten landen – Platz 8 (Riester + AVD gleichzeitig) klärt das.
 - 2026-11-04 – BaFin-Verbraucherschützer Christian Bock (cash-online 03.11.): „kein Zeitdruck – auch wenn manche Anbieter das Gegenteil vermitteln“; volle Zulage 2027, wenn der Jahresbeitrag bis Ende 2027 eingezahlt ist. biallo (28.10.) ebenso: Vormerkung ist kein Vertrag, Prämien „Randnotiz“. Unser Vorsprung-Text muss deshalb sachlich bleiben (Komfort/startklar, nie mehr Förderung) – so im Start-Artikel umgesetzt.
 - 2026-11-04 – Google „Altersvorsorgedepot 1. Januar 2027 was passiert jetzt“: oben quirion, leinetal24/echo24 („Wer jetzt schon plant, hat einen Vorsprung“ – unser Vorsprung-Motiv in der Presse), extraETF, aktienrenterechner (Timeline-Seite), steuertipps, cash-online, netzwelt, Allianz, Zurich – Zeitplan-/Timeline-Seiten ranken.
 - 2026-11-04 – finanzfacts (Einträge bis 29.10.): noch kein AVD vom BZSt zertifiziert; Vormerkungen bei Scalable, Smartbroker+, finanzen.net zero, quirion, ING (50 €), Commerzbank; Trade Republic/DKB ohne Vormerkung.
