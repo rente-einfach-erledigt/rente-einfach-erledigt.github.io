@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung · Klartext 1/3",
+      "head": "Wird mein Riester 2027 automatisch umgestellt?",
+      "body": "Nein. Wer das jetzt weiß, geht im Januar entspannt rein.",
+      "swipe": true,
+      "theme": "gruen"
+    },
+    {
+      "kick": "Das Gerücht",
+      "head": "„Dein Riester landet unumkehrbar im neuen System.“",
+      "body": "So liest man es gerade im Netz. Das stimmt so nicht."
+    },
+    {
+      "kick": "Fakt",
+      "head": "Dein Riester-Vertrag läuft weiter – mit Förderung.",
+      "body": "Der Wechsel ins Altersvorsorgedepot ist freiwillig. Niemand stellt ihn automatisch um."
+    },
+    {
+      "kick": "Wenn du wechselst",
+      "head": "Bisherige Zulagen musst du nicht zurückzahlen.",
+      "body": "Anbieterkosten können anfallen. Kündigen dagegen kann Förderung kosten."
+    },
+    {
+      "kick": "Gut zu wissen",
+      "head": "Eine gesetzliche Wechsel-Frist gibt es nicht.",
+      "body": "Ab 2027 gibt es keine neuen Riester-Verträge. Bestehende bleiben."
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "RIESTER",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "gruen"
+    }
+  ]
+}

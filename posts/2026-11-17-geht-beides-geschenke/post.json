@@ -1,0 +1,66 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Geschenke kaufen oder fürs Kind vorsorgen?",
+      "body": "Familien, die jetzt planen, sind im Januar startklar.",
+      "swipe": true,
+      "theme": "creme"
+    },
+    {
+      "kick": "Geschenke",
+      "big": "Ja.",
+      "body": "Unterm Baum liegt, was ihr euch vorgenommen habt."
+    },
+    {
+      "kick": "Kinderzulage ab 2027",
+      "big": "bis zu 300 €",
+      "body": "pro Kind und Jahr – im Altersvorsorgedepot von Mama oder Papa."
+    },
+    {
+      "kick": "Geht beides",
+      "head": "25 € im Monat reichen für die volle Kinderzulage.",
+      "body": "Voraussetzung: Du bekommst für das Kind Kindergeld."
+    },
+    {
+      "persona": {
+        "name": "Esra",
+        "alter": 30,
+        "kinder": [
+          2
+        ],
+        "beitrag": 25,
+        "rente": 67,
+        "job": "Verkäuferin",
+        "figur": {
+          "haut": "oliv",
+          "haar": "lang",
+          "haarfarbe": "schwarz",
+          "kleidung": "rot",
+          "ohrringe": true,
+          "kinder": [
+            {
+              "haut": "oliv",
+              "haar": "locken",
+              "haarfarbe": "schwarz",
+              "kleidung": "gold"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "KIND",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "creme"
+    }
+  ]
+}

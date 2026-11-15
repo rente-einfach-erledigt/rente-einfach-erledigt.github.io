@@ -1,0 +1,39 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung · Klartext 3/3",
+      "head": "Wie kommt das Geld später zu dir zurück?",
+      "body": "Wer das jetzt weiß, ist im Januar startklar.",
+      "swipe": true,
+      "theme": "gruen"
+    },
+    {
+      "kick": "Wann",
+      "head": "Die Auszahlung beginnt in der Regel zwischen 65 und 70.",
+      "body": "Bis dahin bleibt das Geld im Depot angelegt."
+    },
+    {
+      "kick": "Auf einmal",
+      "big": "bis zu 30 %",
+      "body": "kannst du dir zu Beginn als Einmalbetrag auszahlen lassen."
+    },
+    {
+      "kick": "Der Rest",
+      "head": "Als lebenslange Rente oder als Auszahlungsplan.",
+      "body": "Ein Auszahlungsplan läuft mindestens bis 85."
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "START",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "gruen"
+    }
+  ]
+}

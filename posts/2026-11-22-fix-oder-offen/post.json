@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Rente: Was ist fix – was ist noch offen?",
+      "body": "Das Altersvorsorgedepot steht. Wer das weiß, ist im Januar startklar.",
+      "swipe": true,
+      "theme": "creme"
+    },
+    {
+      "kick": "Fix",
+      "head": "Altersvorsorgedepot: Start am 1. Januar 2027.",
+      "body": "Beschlossen. Bis zu 540 € Grundzulage und bis zu 300 € pro Kind im Jahr."
+    },
+    {
+      "kick": "Fix",
+      "head": "Dein Riester darf weiterlaufen.",
+      "body": "Neue Riester-Verträge gibt es ab 2027 nicht mehr. Bestehende bleiben."
+    },
+    {
+      "kick": "Noch offen",
+      "head": "Die große Rentenreform.",
+      "body": "Geplant: Kabinett vor Weihnachten, danach der Bundestag."
+    },
+    {
+      "kick": "Noch offen",
+      "head": "Wie stark die Rente im Juli 2027 steigt.",
+      "body": "Voraussichtlich +4,1 %. Die genaue Zahl kommt erst im März."
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "RIESTER",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "creme"
+    }
+  ]
+}

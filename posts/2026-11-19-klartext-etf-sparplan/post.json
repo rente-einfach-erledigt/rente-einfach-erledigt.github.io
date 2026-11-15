@@ -1,0 +1,44 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung · Klartext 2/3",
+      "head": "Altersvorsorgedepot oder normaler ETF-Sparplan?",
+      "body": "Wer den Unterschied jetzt kennt, entscheidet im Januar in Ruhe.",
+      "swipe": true,
+      "theme": "gruen"
+    },
+    {
+      "kick": "Altersvorsorgedepot",
+      "head": "Zulagen vom Staat ab 2027.",
+      "body": "Bis zu 540 € Grundzulage im Jahr, bis zu 300 € pro Kind. Dafür ist das Geld fürs Alter gebunden."
+    },
+    {
+      "kick": "Normaler ETF-Sparplan",
+      "head": "Keine Zulagen.",
+      "body": "Dafür kommst du jederzeit an dein Geld."
+    },
+    {
+      "kick": "Auszahlung",
+      "head": "Das Depot zahlt erst im Alter aus.",
+      "body": "In der Regel ab 65 – als Rente oder Auszahlungsplan."
+    },
+    {
+      "kick": "Fair gesagt",
+      "head": "Es geht auch beides.",
+      "body": "Was zu dir passt, hängt davon ab, wie lange du auf das Geld verzichten kannst."
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "DEPOT",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "gruen"
+    }
+  ]
+}

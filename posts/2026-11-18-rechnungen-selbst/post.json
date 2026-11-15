@@ -1,0 +1,56 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Manche Rechnungen sind nicht verhandelbar.",
+      "body": "Selbstständige, die das jetzt klären, sind im Januar startklar.",
+      "swipe": true,
+      "theme": "gold"
+    },
+    {
+      "kick": "Meine Rechnungen",
+      "head": "Miete. Krankenkasse. Steuer-Rücklage.",
+      "body": "Und ab 2027: 100 € im Monat an mich mit 67."
+    },
+    {
+      "kick": "Neu ab 2027",
+      "head": "Selbstständige sind erstmals förderberechtigt.",
+      "body": "Keine Firma zahlt dir das. Der Staat legt bis zu 540 € Grundzulage im Jahr drauf."
+    },
+    {
+      "kick": "Volle Grundzulage",
+      "big": "150 €",
+      "body": "im Monat. Weniger wird auch gefördert – schon ab 10 € im Monat."
+    },
+    {
+      "persona": {
+        "name": "Kemal",
+        "alter": 38,
+        "kinder": [],
+        "beitrag": 100,
+        "rente": 67,
+        "job": "Selbstständiger Maler",
+        "figur": {
+          "haut": "mittel",
+          "haar": "kurz",
+          "haarfarbe": "schwarz",
+          "kleidung": "weiss",
+          "bart": "voll"
+        }
+      }
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "SELBST",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "gold"
+    }
+  ]
+}

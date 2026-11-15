@@ -1,0 +1,68 @@
+{
+  "slides": [
+    {
+      "kick": "Dein Vorsprung",
+      "head": "Kinder schon Teenager – gibt's noch Kinderzulage?",
+      "body": "Ja. Familien, die jetzt planen, sind im Januar startklar.",
+      "swipe": true,
+      "theme": "creme"
+    },
+    {
+      "kick": "Die Regel",
+      "head": "Kinderzulage gibt es, solange du Kindergeld bekommst.",
+      "body": "Ab 2027 bis zu 300 € pro Kind und Jahr."
+    },
+    {
+      "kick": "Gut zu wissen",
+      "head": "Kindergeld gibt es oft bis 25.",
+      "body": "Zum Beispiel in Ausbildung oder Studium. Unsere Beispielrechnung zählt vorsichtig nur bis 18."
+    },
+    {
+      "persona": {
+        "name": "Tanja",
+        "alter": 45,
+        "kinder": [
+          12,
+          16
+        ],
+        "beitrag": 75,
+        "rente": 67,
+        "job": "Pflegefachfrau",
+        "figur": {
+          "haut": "hell",
+          "haar": "zopf",
+          "haarfarbe": "blond",
+          "kleidung": "blau",
+          "brille": true,
+          "kinder": [
+            {
+              "haut": "hell",
+              "haar": "kurz",
+              "haarfarbe": "blond",
+              "kleidung": "gruen"
+            },
+            {
+              "haut": "hell",
+              "haar": "lang",
+              "haarfarbe": "braun",
+              "kleidung": "gold"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "kick": "Wichtig",
+      "head": "Keine Beitragsgarantie.",
+      "body": "Der Wert kann schwanken – nach oben wie nach unten. Keine Anlageberatung."
+    },
+    {
+      "kick": "Sichere dir den Vorsprung",
+      "pre": "Kommentiere",
+      "big": "KIND",
+      "cta": true,
+      "body": "und du bekommst den Link per DM.",
+      "theme": "creme"
+    }
+  ]
+}
