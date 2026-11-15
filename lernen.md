@@ -41,6 +41,13 @@ Der Wochen-Agent liest sie, bevor er neue Posts plant.
 - 2026-11-13 – Mit 55 noch ins Altersvorsorgedepot? Beispiel Monika, 55, Bürokauffrau, Riester seit 2006, 150 € – RIESTER
 - 2026-11-14 – Förder-Frage 3/3: Selbstständig mit Kindern – Kinderzulage? Beispiel Hanna, 33, Freelancerin, 2 Kinder, 100 € – SELBST
 - 2026-11-15 – Vormerken oder schon starten? Warteliste vs. Depot jetzt (beide Seiten) – START
+- 2026-11-16 – Klartext 1/3: Wird mein Riester 2027 automatisch umgestellt? Nein – Wechsel freiwillig – RIESTER
+- 2026-11-17 – Geht beides: Geschenke UND Kinderzulage, Beispiel Esra, 30, Verkäuferin, 1 Kind, 25 € (Trend-Test T22) – KIND
+- 2026-11-18 – Manche Rechnungen sind nicht verhandelbar, Beispiel Kemal, 38, selbstständiger Maler, 100 € (Trend-Test T20) – SELBST
+- 2026-11-19 – Klartext 2/3: Altersvorsorgedepot oder normaler ETF-Sparplan? – DEPOT
+- 2026-11-20 – Kinder schon Teenager – Kinderzulage solange Kindergeld, Beispiel Tanja, 45, Pflegefachfrau, 2 Kinder (12, 16), 75 € – KIND
+- 2026-11-21 – Klartext 3/3: Wie wird ausgezahlt? (65–70, bis zu 30 % Einmalbetrag, Auszahlungsplan bis 85) – START
+- 2026-11-22 – Rente: Was ist fix – was ist offen? (AVD-Start fix, Rentenreform/Rentenerhöhung offen) – RIESTER
 - 2026-11-03 – Video – Riester-Sparer 40+ – Gabi, 57, Arzthelferin, Riester seit 2005, 120 € (myth + text + persona, Trend-Test T7) – Hook: „Rentenstreit in Berlin. Was heißt das für deinen Riester?“ (Anlass/Frage) – RIESTER
 - 2026-11-05 – Video – Familien – Markus, 43, alleinerziehend, Kfz-Mechatroniker, 2 Kinder (7, 11), 100 € (bars + story + persona) – Hook: „Papa, 2 Kinder, 100 € Beitrag. Bis zu 990 € vom Staat.“ (Persona-Story) – KIND
 - 2026-11-07 – Video – Selbstständige – Svenja, 46, freie Übersetzerin, 125 € (3× text-Frage + persona, Trend-Test T6) – Hook: „3 Fragen zum Depot. Antwort in einem Wort.“ (Frage) – SELBST

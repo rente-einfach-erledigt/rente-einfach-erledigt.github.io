@@ -64,6 +64,8 @@ Status je Trend: neu → im Test → behalten | verworfen (entscheidet der Auswe
 - Fazit: kein neuer Gewinner (seit 03.11. ging außer Instagram-Nachholern nichts live – Engpass Freigabe, V21), T8 Persona-Video bleibt bestes Format; Interaktion nur bei Instagram-Karussells mit Beispielfigur.
 ## Tests dieser und letzter Woche
 (Format: Datum – Beitrag-ID – Trend – Kanal – Ergebnis gegenüber Durchschnitt)
+- 2026-11-17 – 2026-11-17-geht-beides-geschenke – T22 „Geht beides“ (Karussell) – alle 4 Kanäle – offen
+- 2026-11-18 – 2026-11-18-rechnungen-selbst – T20 „Manche Rechnungen sind nicht verhandelbar“ (Karussell) – alle 4 Kanäle – offen
 - 2026-11-10 – 2026-11-10-familien-ohne-sagen – T16 „Sag mir, dass du … hast“ (Video) – alle 4 Kanäle – offen
 - 2026-11-15 – 2026-11-15-start-weihnachtsgeld – T17 Weihnachtsgeld (Video) – alle 4 Kanäle – offen
 - 2026-11-09 – 2026-11-09-stopp-riester-kuendigen – T14 „Stopp, bevor du …“ (Karussell) – alle 4 Kanäle – offen
