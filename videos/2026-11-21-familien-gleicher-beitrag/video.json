@@ -1,0 +1,68 @@
+{
+ "zielgruppe": "familien",
+ "wort": "KIND",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "FAMILIEN · DEIN VORSPRUNG",
+   "text": "50 € Beitrag.\n*Sie bekommt\n600 € mehr.*\nWarum?"
+  },
+  {
+   "type": "persona",
+   "name": "Jana",
+   "alter": 35,
+   "kinder": [],
+   "beitrag": 50,
+   "rente": 67,
+   "job": "Bürokauffrau",
+   "figur": {
+    "haut": "hell",
+    "haar": "dutt",
+    "haarfarbe": "braun",
+    "kleidung": "grau"
+   }
+  },
+  {
+   "type": "persona",
+   "name": "Katrin",
+   "alter": 35,
+   "kinder": [
+    3,
+    6
+   ],
+   "beitrag": 50,
+   "rente": 67,
+   "job": "Verkäuferin, Teilzeit",
+   "figur": {
+    "haut": "dunkel",
+    "haar": "zopf",
+    "haarfarbe": "schwarz",
+    "kleidung": "gold",
+    "kinder": [
+     {
+      "haut": "dunkel",
+      "haar": "kurz",
+      "haarfarbe": "schwarz",
+      "kleidung": "rot"
+     },
+     {
+      "haut": "dunkel",
+      "haar": "locken",
+      "haarfarbe": "schwarz",
+      "kleidung": "gruen"
+     }
+    ]
+   }
+  },
+  {
+   "type": "text",
+   "kick": "DER UNTERSCHIED",
+   "text": "Kinderzulage:\n*bis zu 300 €*\npro Kind und Jahr.\nVoll ab 25 €/Monat."
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Familien, die jetzt rechnen,\n*sind im Januar startklar.*"
+  }
+ ]
+}

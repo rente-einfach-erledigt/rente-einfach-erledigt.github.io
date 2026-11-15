@@ -1,0 +1,52 @@
+{
+ "zielgruppe": "einsteiger",
+ "wort": "START",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "UNTER 25 · DEIN VORSPRUNG",
+   "text": "Black Week?\n*Dieser Rabatt\nkommt jedes\nJahr wieder.*"
+  },
+  {
+   "type": "myth",
+   "myth": "Sparen lohnt sich nur mit Rabatt.",
+   "fact": "Ab 2027 legt der Staat bis zu 50 Cent pro Euro drauf – jedes Jahr."
+  },
+  {
+   "type": "bars",
+   "title": "Im Jahr 2027 · 30 € im Monat",
+   "items": [
+    {
+     "label": "Du zahlst",
+     "value": 360
+    },
+    {
+     "label": "Staat legt drauf",
+     "value": 180,
+     "gold": true
+    }
+   ]
+  },
+  {
+   "type": "persona",
+   "name": "Lara",
+   "alter": 23,
+   "kinder": [],
+   "beitrag": 30,
+   "rente": 67,
+   "job": "Bürokauffrau, 1. Job",
+   "figur": {
+    "haut": "oliv",
+    "haar": "locken",
+    "haarfarbe": "braun",
+    "kleidung": "lila",
+    "ohrringe": true
+   }
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Alle shoppen.\n*Du bist für 2027\nschon startklar.*"
+  }
+ ]
+}

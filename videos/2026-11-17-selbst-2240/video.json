@@ -1,0 +1,46 @@
+{
+ "zielgruppe": "selbststaendige",
+ "wort": "SELBST",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "22:40 · DEIN VORSPRUNG",
+   "text": "Kunde bezahlt.\n*Jetzt zahle\nich an mich.*"
+  },
+  {
+   "type": "counter",
+   "label": "Grundzulage ab 2027",
+   "pre": "bis zu",
+   "value": 540,
+   "unit": "€",
+   "sub": "im Jahr bei 150 € im Monat"
+  },
+  {
+   "type": "text",
+   "kick": "22:41",
+   "text": "Erstmals auch für\n*Selbstständige.*\nAb Januar\nbin ich startklar."
+  },
+  {
+   "type": "persona",
+   "name": "Patrick",
+   "alter": 37,
+   "kinder": [],
+   "beitrag": 150,
+   "rente": 67,
+   "job": "IT-Berater, selbstständig",
+   "figur": {
+    "haut": "hell",
+    "haar": "kurz",
+    "haarfarbe": "rot",
+    "kleidung": "petrol",
+    "brille": true,
+    "bart": "voll"
+   }
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Andere warten auf Januar.\n*Du weißt jetzt schon,\nwas dir zusteht.*"
+  }
+ ]
+}

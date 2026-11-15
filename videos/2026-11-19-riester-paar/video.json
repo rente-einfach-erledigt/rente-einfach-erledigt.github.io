@@ -1,0 +1,57 @@
+{
+ "zielgruppe": "riester",
+ "wort": "RIESTER",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "RIESTER-PAAR · DEIN VORSPRUNG",
+   "text": "Ihr spart beide fürs Alter?\n*Ab 2027 bis zu 1.080 €\nZulage zu zweit.*"
+  },
+  {
+   "type": "bars",
+   "title": "Je 150 € im Monat",
+   "items": [
+    {
+     "label": "Ihr zahlt zusammen",
+     "value": 3600
+    },
+    {
+     "label": "Staat legt drauf",
+     "value": 1080,
+     "gold": true
+    }
+   ]
+  },
+  {
+   "type": "myth",
+   "myth": "Die Zulage gibt es nur einmal pro Paar.",
+   "fact": "Jeder mit eigenem Vertrag bekommt seine eigene Grundzulage."
+  },
+  {
+   "type": "text",
+   "kick": "EUER RIESTER",
+   "text": "Darf weiterlaufen.\nOder ihr wechselt –\n*ohne Förderung\nzurückzuzahlen.*"
+  },
+  {
+   "type": "persona",
+   "name": "Claudia",
+   "alter": 49,
+   "kinder": [],
+   "beitrag": 150,
+   "rente": 67,
+   "job": "Bankkauffrau",
+   "figur": {
+    "haut": "mittel",
+    "haar": "dutt",
+    "haarfarbe": "blond",
+    "kleidung": "blau",
+    "ohrringe": true
+   }
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Ihr wartet nicht auf Januar.\n*Ihr seid schon startklar.*"
+  }
+ ]
+}
