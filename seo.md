@@ -14,20 +14,21 @@ nach dem Altersvorsorgedepot fragen, landen auf rente-einfach-erledigt.github.io
 - JSON-LD: Article + FAQPage (3–5 Fragen aus dem Artikel). Seite in docs/sitemap.xml, docs/llms.txt und docs/ratgeber/index.html eintragen.
 
 ## Themen-Warteschlange (oben = als Nächstes)
-1. altersvorsorgedepot-jetzt-oder-warten – „Altersvorsorgedepot: jetzt starten oder bis 2027 warten?“ (21.10.: Verbraucherzentrale BW rät laut mobiFlip/SZ 12.10. zum Abwarten; 04.11. hochgestuft: BaFin sagt am 03.11. „kein Zeitdruck“ (cash-online) – sachlich beide Seiten zeigen)
-2. altersvorsorgedepot-foerderung-zurueckzahlen – „Muss ich die Förderung im Altersvorsorgedepot zurückzahlen?“ (19.10.: ING-FAQ „Kann ich die Förderung verlieren?“, Presse „540 Euro Staatszuschuss zurück?“; 04.11.: inside-digital „Wer diesen Fehler macht, verliert die gesamte Förderung“)
-3. fruehstartrente-altersvorsorgedepot – „Frühstart-Rente: 10 € im Monat für Kinder – was Eltern wissen müssen“ (Bundestag 16.10., Bundesrat 20.11.2026 – ideal kurz danach; nach Kinderzulage-Artikel)
-4. altersvorsorgedepot-warteliste-vormerken – „Altersvorsorgedepot-Warteliste: Lohnt sich das Vormerken?“ (neu 04.11.: biallo 28.10., ING/Scalable/comdirect-Prämien, Leserfragen „Muss ich mich anmelden?“, „Mehrere Vormerkungen?“)
-5. altersvorsorgedepot-kosten – „Was kostet das Altersvorsorgedepot? Der 1-%-Kostendeckel erklärt“ (04.11. hoch: Deka 0,1 %, Scalable gebührenfrei, Preiskampf laut Warentest 27.10.)
-6. altersvorsorgedepot-selbststaendige – „Altersvorsorgedepot für Selbstständige: erstmals gefördert“
-7. altersvorsorgedepot-standarddepot – „Staatliches Standarddepot: Was ist das und kommt es?“ (19.10.: kein Träger, kein Termin laut BÖRSE ONLINE)
-8. riester-und-altersvorsorgedepot-gleichzeitig – „Riester und Altersvorsorgedepot gleichzeitig: geht das?“ (ING-Frage; max. 2 geförderte Neuverträge laut biallo/cash)
-9. altersvorsorgedepot-vs-etf-sparplan – „Altersvorsorgedepot oder normaler ETF-Sparplan?“
-10. altersvorsorgedepot-auszahlung – „Wann und wie wird das Altersvorsorgedepot ausgezahlt?“
+1. altersvorsorgedepot-foerderung-zurueckzahlen – „Muss ich die Förderung im Altersvorsorgedepot zurückzahlen?“ (19.10.: ING-FAQ „Kann ich die Förderung verlieren?“, Presse „540 Euro Staatszuschuss zurück?“; 04.11.: inside-digital „Wer diesen Fehler macht, verliert die gesamte Förderung“)
+2. fruehstartrente-altersvorsorgedepot – „Frühstart-Rente: 10 € im Monat für Kinder – was Eltern wissen müssen“ (Bundestag 16.10., Bundesrat 20.11.2026 – ideal kurz danach; nach Kinderzulage-Artikel; 18.11. auf 2: Termin rückt näher)
+3. altersvorsorgedepot-warteliste-vormerken – „Altersvorsorgedepot-Warteliste: Lohnt sich das Vormerken?“ (18.11.: BaFin warnt vor Lockangeboten, cash-online 13.11.; ING-Bonus nur bis 31.12.2026 – vor Jahresende schreiben; neu 04.11.: biallo 28.10., ING/Scalable/comdirect-Prämien, Leserfragen „Muss ich mich anmelden?“, „Mehrere Vormerkungen?“)
+4. altersvorsorgedepot-kosten – „Was kostet das Altersvorsorgedepot? Der 1-%-Kostendeckel erklärt“ (18.11.: N26 0,1 % ab 07/2027, Consorsbank übernimmt ETF-Kosten 2027–2030; 04.11. hoch: Deka 0,1 %, Scalable gebührenfrei, Preiskampf laut Warentest 27.10.)
+5. altersvorsorgedepot-selbststaendige – „Altersvorsorgedepot für Selbstständige: erstmals gefördert“
+6. altersvorsorgedepot-standarddepot – „Staatliches Standarddepot: Was ist das und kommt es?“ (19.10.: kein Träger, kein Termin laut BÖRSE ONLINE)
+7. riester-und-altersvorsorgedepot-gleichzeitig – „Riester und Altersvorsorgedepot gleichzeitig: geht das?“ (ING-Frage; max. 2 geförderte Neuverträge laut biallo/cash)
+8. altersvorsorgedepot-vs-etf-sparplan – „Altersvorsorgedepot oder normaler ETF-Sparplan?“
+9. altersvorsorgedepot-auszahlung – „Wann und wie wird das Altersvorsorgedepot ausgezahlt?“
+10. riester-mindestbeitrag-2026 – „Riester 2026: Was bis 31.12. erledigt sein muss“ (neu 18.11.: inside-digital 17.11. – Mindestbeitrag 2026, letzte Riester-Neuabschlüsse; zeitkritisch, nur bis Dezember sinnvoll)
 
 ## Wartet auf Freigabe
+- 2026-11-18 – Zweig artikel/altersvorsorgedepot-jetzt-oder-warten – „Altersvorsorgedepot: jetzt abschließen oder warten?“ (status offen). Hinweis: Push auf Zweige klappt im SEO-Lauf; die 3 „fehler“-Artikel scheitern nur am Posting-Agenten.
 - Stand 11.11.: kein neuer Artikel geschrieben, weil „Altersvorsorgedepot ab 1. Januar 2027“ noch offen ist; Riester- und Kinderzulage-Zweig weiter „fehler“.
-- 2026-11-04 – Zweig artikel/altersvorsorgedepot-start-2027 – „Altersvorsorgedepot ab 1. Januar 2027: Was passiert jetzt?“ (status offen)
+- 2026-11-04 – Zweig artikel/altersvorsorgedepot-start-2027 – „Altersvorsorgedepot ab 1. Januar 2027: Was passiert jetzt?“ (am 15.11. freigegeben, seit 16.11. status „fehler“: Posting-Agent ohne Repo-Schreibrecht)
 - 2026-10-28 – Zweig artikel/altersvorsorgedepot-kinderzulage – „Kinderzulage im Altersvorsorgedepot: bis zu 300 € pro Kind“ (am 31.10. freigegeben, status „fehler“: Posting-Agent ohne Repo-Schreibrecht)
 - 2026-10-21 – Zweig artikel/riester-wechseln-altersvorsorgedepot – „Riester ins Altersvorsorgedepot wechseln: geht das ohne Verlust?“ (am 21.10. freigegeben, seit 23.10. status „fehler“: Posting-Agent ohne Repo-Schreibrecht; Felix muss neu freigeben)
 
@@ -35,6 +36,9 @@ nach dem Altersvorsorgedepot fragen, landen auf rente-einfach-erledigt.github.io
 - 2026-10-19 – /ratgeber/altersvorsorgedepot-rechner.html – „Altersvorsorgedepot Rechner: So viel Förderung bekommst du“ (+ /ratgeber/ Übersicht)
 
 ## GEO-Beobachtungen
+- 2026-11-18 – Suche „Altersvorsorgedepot jetzt abschließen oder warten“: oben test.de, inside-digital (15./17.11., „Wann abschließen und für wen es sich lohnt“), volksstimme/ihre-vorsorge/leinetal24 („Warum sich Geduld auszahlt“, Finanztip-Zitat), lv1871 – die Presse rät überwiegend zu Gelassenheit; unser Artikel zeigt deshalb beide Seiten und den Monatsbeitrag je Startmonat.
+- 2026-11-18 – BMF (laut biallo): „Eine nachträgliche Zertifizierung sieht das Gesetz nicht vor“, Vertrieb neuer Verträge erst ab 01.01.2027, vorhandene Wertpapiere nicht übertragbar; cash-online (03.11.): Verträge „frühestens ab dem 1. Januar 2027“. Widerspricht „schon jetzt abschließbar“ in index.html/llms.txt – Klärung über V25 (Felix).
+- 2026-11-18 – Neue Lockangebote im Netz: N26 (12.11.) Servicegebühr dauerhaft frei bei Eröffnung bis Ende Juni 2027, Boni bis März 2027; BaFin (13.11.) warnt vor Lockangeboten, Verbraucherzentrale Brandenburg: Vormerkung = kein Förderanspruch.
 - 2026-11-11 – konto-testsieger (Stand 04.11.): weiter kein AVD vom BZSt zertifiziert, Standarddepot ohne Träger/Termin; Anbieter-Kosten sind jetzt öffentlich (Trade Republic 13.10. ohne Depot-/Sparplankosten, ING 26.10. 0,20 % Relax-Depot, Scalable ohne ETF-Kosten bis Ende 2027) – Stoff für den Kosten-Artikel (Platz 5).
 - 2026-11-11 – Bezahlte Pressemitteilung auf schlaunews (10.11., „Anzeige“, Deutsche Investitions- und Förderberatung AG) schreibt, alte Riester-Verträge würden bei AVD-Abschluss „unumkehrbar“ ins neue System überführt; finanzfacts/konto-testsieger: Riester läuft unverändert weiter, Wechsel freiwillig. Widersprüchliche Aussagen können in KI-Antworten landen – Platz 8 (Riester + AVD gleichzeitig) klärt das.
 - 2026-11-04 – BaFin-Verbraucherschützer Christian Bock (cash-online 03.11.): „kein Zeitdruck – auch wenn manche Anbieter das Gegenteil vermitteln“; volle Zulage 2027, wenn der Jahresbeitrag bis Ende 2027 eingezahlt ist. biallo (28.10.) ebenso: Vormerkung ist kein Vertrag, Prämien „Randnotiz“. Unser Vorsprung-Text muss deshalb sachlich bleiben (Komfort/startklar, nie mehr Förderung) – so im Start-Artikel umgesetzt.
