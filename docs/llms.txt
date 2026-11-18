@@ -18,3 +18,4 @@
 - [Startseite mit Förderrechner](https://rente-einfach-erledigt.github.io/): Rechner, Erklärung, FAQ
 - [Ratgeber-Übersicht](https://rente-einfach-erledigt.github.io/ratgeber/): alle Artikel zum Altersvorsorgedepot
 - [Altersvorsorgedepot Rechner: So viel Förderung bekommst du](https://rente-einfach-erledigt.github.io/ratgeber/altersvorsorgedepot-rechner.html): Grundzulage-Staffel, Tabelle nach Monatsbeitrag, Kinderzulage, Berufseinsteigerbonus
+- [Altersvorsorgedepot: jetzt abschließen oder warten?](https://rente-einfach-erledigt.github.io/ratgeber/altersvorsorgedepot-jetzt-oder-warten.html): volle Zulage 2027 auch bei Start im Laufe des Jahres, Gründe fürs Warten und Vorbereiten, Fristen bis Ende 2027
