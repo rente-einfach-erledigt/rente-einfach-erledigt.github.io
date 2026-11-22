@@ -1,0 +1,46 @@
+{
+ "zielgruppe": "selbststaendige",
+ "wort": "SELBST",
+ "scenes": [
+  {
+   "type": "hook",
+   "kick": "SELBSTSTÄNDIG · DEIN VORSPRUNG",
+   "text": "41 Jahre.\nEigenes Studio.\nNie gefördert?\n*Ab 2027\nändert sich das.*"
+  },
+  {
+   "type": "list",
+   "title": "Ab 2027 für dich",
+   "items": [
+    "Eigener Anspruch",
+    "Zulage ab 10 € im Monat",
+    "Bis zu 540 € im Jahr"
+   ]
+  },
+  {
+   "type": "persona",
+   "name": "Dilara",
+   "alter": 41,
+   "kinder": [],
+   "beitrag": 60,
+   "rente": 67,
+   "job": "Kosmetikerin, eigenes Studio",
+   "figur": {
+    "haut": "oliv",
+    "haar": "lang",
+    "haarfarbe": "schwarz",
+    "kleidung": "rot",
+    "ohrringe": true
+   }
+  },
+  {
+   "type": "text",
+   "kick": "STARTKLAR VOR JANUAR",
+   "text": "Andere suchen\nim Januar.\n*Du hast dann\nschon gerechnet.*"
+  },
+  {
+   "type": "cta",
+   "kick": "SICHERE DIR DEN VORSPRUNG",
+   "text": "Rechne in 30 Sekunden aus,\n*was dir ab 2027 zusteht.*"
+  }
+ ]
+}
