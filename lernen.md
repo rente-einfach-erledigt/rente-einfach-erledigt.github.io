@@ -60,6 +60,7 @@ Der Wochen-Agent liest sie, bevor er neue Posts plant.
 - 2026-11-19 – Video – Riester-Sparer 40+ – Riester-Paar, Claudia, 49, Bankkauffrau, je 150 € (bars + myth + text + persona) – Hook: „Ihr spart beide fürs Alter? Ab 2027 bis zu 1.080 € Zulage zu zweit.“ (überraschende Zahl) – RIESTER
 - 2026-11-21 – Video – Familien – Vergleich Jana, 35, Bürokauffrau, ohne Kinder vs. Katrin, 35, Verkäuferin, 2 Kinder (3, 6), je 50 € (2× persona + text) – Hook: „50 € Beitrag. Sie bekommt 600 € mehr. Warum?“ (Frage/Vergleich) – KIND
 - 2026-11-22 – Video – Einsteiger unter 25 – Lara, 23, Bürokauffrau im 1. Job, 30 € (myth + bars + persona, Trend-Test T13 Black Week) – Hook: „Black Week? Dieser Rabatt kommt jedes Jahr wieder.“ (Irrtum/Anlass) – START
+- 2026-11-29 – Video – Selbstständige – Dilara, 41, Kosmetikerin mit eigenem Studio, 60 € (hook + list + persona + text, Trend T25 genaues Alter) – Hook: „41 Jahre. Eigenes Studio. Nie gefördert?“ (Frage/Alter) – SELBST
 
 ## Erkenntnisse
 - 2026-11-08 (Video-Agent, Quelle finanztip 26.10.2026): Helvetia verfolgt die angekündigte Brückenlösung zum AV-Depot laut eigener Aussage NICHT weiter („Die ursprünglich vorgesehene Brückenlösung werden wir daher nicht weiterverfolgen“). BaFin: Verträge nach den neuen Regeln erst ab 2027. Die Notiz vom 21.10. (Brückenprodukte wechseln automatisch) ist damit überholt – Vorsprung-Texte bis zur Klärung nur als „informiert/startklar“ formulieren, nicht als „Depot schon jetzt abschließen“.
